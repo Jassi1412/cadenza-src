@@ -1,0 +1,11 @@
+
+* text=auto
+
+*.sh    text eol=lf
+gradlew text eol=lf
+
+vendor/rml-compiler/bin/rml-compiler text eol=lf
+vendor/rml-compiler/**/*.sh       text eol=lf
+
+*.rml   text eol=lf
+*.pl    text eol=lf

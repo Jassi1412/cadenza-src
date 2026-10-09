@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: cadenza
+    runtime: docker
+    dockerfilePath: ./server/Dockerfile
+    dockerContext: .
+    plan: free
+    # Frankfurt: risposta piu' immediata dopo l'esecuzione.
+    region: frankfurt
+    branch: main
+    healthCheckPath: /
+    autoDeployTrigger: commit
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"

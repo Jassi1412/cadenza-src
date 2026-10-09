@@ -1,0 +1,17 @@
+
+notePedal matches {type:'noteon', expected:{pedal:true}};
+
+
+plainNote matches {type:'noteon', expected:{pedal:false}};
+
+
+anyNoteOff matches {type:'noteoff'};
+
+pedalPress matches {type:'controlchange', controller:64, value:127};
+pedalRelease matches {type:'controlchange', controller:64, value:0};
+
+
+Region = notePedal+ pedalPress (notePedal \/ anyNoteOff)*;
+
+
+Main = (plainNote \/ anyNoteOff \/ pedalRelease \/ Region)*;

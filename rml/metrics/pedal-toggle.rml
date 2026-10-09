@@ -1,0 +1,27 @@
+
+
+// Pressione: 64 a 127, entro 0,25 dall'apertura.
+pedalPressSpan(b, s) matches
+    {type:'controlchange', controller:64, value:127,
+     position:{beat:b}, expected:{spanExplicit:true, spanStart:s}};
+pedalPress matches pedalPressSpan(b, s) with abs(b - s) <= 0.25;
+
+// Rilascio: 64 a 0, entro 0,25 dalla chiusura.
+pedalReleaseSpan(b, e) matches
+    {type:'controlchange', controller:64, value:0,
+     position:{beat:b}, expected:{spanExplicit:true, spanEnd:e}};
+pedalRelease matches pedalReleaseSpan(b, e) with abs(b - e) <= 0.25;
+
+
+anyCC64(ctrl, val) matches {type:'controlchange', controller:64, value:val};
+anyCC64 matches anyCC64(_, _);
+
+other not matches anyCC64;
+
+
+filler matches {type:'noteon'};
+filler matches {type:'noteoff'};
+
+Toggle = pedalPress filler* pedalRelease;
+
+Main = (other \/ Toggle)*;

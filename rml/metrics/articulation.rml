@@ -1,0 +1,24 @@
+staccatoOk(num, vel, d, g) matches
+    {type:'noteon', note:{number:num, rawAttack:vel},
+     durMs:d, gapMs:g, expected:{art:'staccato'}} with d <= 0.75 * g;
+staccatoOk matches staccatoOk(_, _, _, _);
+
+tenutoOk(num, vel, d, g) matches
+    {type:'noteon', note:{number:num, rawAttack:vel},
+     durMs:d, gapMs:g, expected:{art:'tenuto'}} with d >= 0.75 * g;
+tenutoOk matches tenutoOk(_, _, _, _);
+
+legatoOk(num, vel, d, g) matches
+    {type:'noteon', note:{number:num, rawAttack:vel},
+     durMs:d, gapMs:g, expected:{art:'legato'}} with d >= 0.75 * g;
+legatoOk matches legatoOk(_, _, _, _);
+
+noMark matches {type:'noteon', expected:{art:null}};
+noMark matches noMark(_);
+
+noGap matches {type:'noteon', gapMs:null};
+noGap matches noGap(_);
+
+anyNoteOn matches {type:'noteon'};
+
+Main = anyNoteOn >> (staccatoOk \/ tenutoOk \/ legatoOk \/ noMark \/ noGap)*;

@@ -1,0 +1,257 @@
+.score-page {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  /* Padding per non finire sotto la barra fixed. */
+  padding-bottom: 7rem;
+}
+
+/* Header: solo titolo e pulsante indietro */
+.score-page .score-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 4rem; /* margin per evitare override del padding di .container */
+  padding-bottom: 2rem;
+}
+
+.back-btn {
+  background: none;
+  border: 1px solid rgba(197, 168, 128, 0.3);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.back-btn:hover {
+  background-color: var(--bg-secondary);
+  color: var(--accent-secondary);
+  border-color: var(--accent-primary);
+}
+
+.score-container {
+  flex: 1;
+  position: relative;
+  overflow: auto;
+  padding: 1rem 0;
+  /* Spazio in fondo per la barra di riproduzione flottante */
+  padding-bottom: 8rem;
+}
+
+.sheet-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Verdetti: calcolati da RML, qui si mostra solo la risposta. */
+
+.verdict-panel {
+  margin: 2rem auto;
+  padding: 1.5rem 2rem;
+  max-width: 46rem;
+  background: var(--surface, #fff);
+  border: 1px solid var(--border, #e5e5e5);
+  border-radius: 12px;
+  /* scroll-margin in fondo alla barra dei comandi per scrollIntoView. */
+  scroll-margin-bottom: 7rem;
+}
+
+.verdict-panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.verdict-note { color: #6b6b6b; font-size: 0.9rem; margin: 0.25rem 0 1rem; }
+.verdict-error { color: #b3261e; }
+
+.verdict-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.verdict-list li {
+  display: grid;
+  grid-template-columns: 1.5rem 1fr auto;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 0.95rem;
+}
+
+.verdict-ok { background: rgba(76, 175, 80, 0.10); border-color: rgba(76, 175, 80, 0.4); }
+.verdict-bad { background: rgba(179, 38, 30, 0.10); border-color: rgba(179, 38, 30, 0.4); }
+
+.verdict-mark { font-weight: 700; }
+.verdict-ok .verdict-mark { color: #2e7d32; }
+.verdict-bad .verdict-mark { color: #b3261e; }
+
+.verdict-detail { color: #6b6b6b; font-size: 0.85rem; }
+
+/* Forced colors: la distinzione OK/KO la portano segno e testo. */
+@media (forced-colors: active) {
+  .verdict-list li { border-color: CanvasText; background: Canvas; }
+  .verdict-ok .verdict-mark { color: CanvasText; }
+  .verdict-bad .verdict-mark { color: CanvasText; }
+}
+
+/* Override musicxml-player default styles to match our theme */
+.sheet-container .player-sheet {
+  background: transparent;
+}
+
+.loading-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 2rem;
+}
+
+.loading-spinner {
+  width: 48px;
+  height: 48px;
+  border: 2px solid var(--bg-secondary);
+  border-top: 2px solid var(--accent-primary);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 2rem;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.loading-text {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.05em;
+}
+
+.score-error {
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+.score-error h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.score-error p {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+.score-error .btn {
+  gap: 0.5rem;
+}
+
+.practice-status {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: auto;
+  padding: 0.35rem 0.75rem;
+  border-radius: 9999px;
+  background: rgba(197, 168, 128, 0.12);
+  border: 1px solid rgba(197, 168, 128, 0.25);
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--accent-secondary);
+  letter-spacing: 0.04em;
+  animation: badge-pop 0.3s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Countdown overlay: il musicista guarda le mani, non la pagina. */
+.countdown-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  background: rgba(252, 251, 248, 0.82);
+  backdrop-filter: blur(8px);
+  /* Sopra la barra: nel countdown i pulsanti sono disabilitati. */
+  z-index: 1100;
+  animation: fade-in 0.25s ease both;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* key={count} rimonta .countdown-value: l'animazione riparte a ogni numero. */
+.countdown-value {
+  font-family: var(--font-heading);
+  font-size: clamp(5rem, 18vw, 11rem);
+  font-weight: 600;
+  line-height: 1;
+  color: var(--accent-secondary);
+  animation: countdown-pop 0.75s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes countdown-pop {
+  from { opacity: 0; transform: scale(1.6); }
+  60%  { opacity: 1; transform: scale(1); }
+  to   { opacity: 0.35; transform: scale(0.92); }
+}
+
+.countdown-hint {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.03em;
+}
+
+@keyframes badge-pop {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.practice-status-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #4CAF50;
+  animation: pulse-dot 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+@media (max-width: 768px) {
+  .sheet-container {
+    /* Evita che OSMD comprima note e testi su schermi piccoli */
+    min-width: 800px;
+    padding: 0;
+  }
+  
+  .score-page .score-header {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
