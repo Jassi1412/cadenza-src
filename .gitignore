@@ -18,3 +18,12 @@ desktop.ini
 *.log
 *.tmp
 *.bak
+
+# Local backups, Python caches and agent/runtime configuration.
+*.zip
+*.pyc
+__pycache__/
+.venv/
+/.aws/
+/.codex/
+/.agents/

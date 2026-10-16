@@ -1,0 +1,3051 @@
+{
+  "notes": [
+    {
+      "id": "p0n1",
+      "pitch": 46,
+      "onset": 0.0,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 0,
+      "chordMates": [
+        93
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n0",
+      "pitch": 93,
+      "onset": 0.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 0,
+      "chordMates": [
+        46
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n3",
+      "pitch": 46,
+      "onset": 0.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 1,
+      "chordMates": [
+        86
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n2",
+      "pitch": 86,
+      "onset": 0.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 1,
+      "chordMates": [
+        46
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n5",
+      "pitch": 53,
+      "onset": 0.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 2,
+      "chordMates": [
+        82
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n4",
+      "pitch": 82,
+      "onset": 0.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 2,
+      "chordMates": [
+        53
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n7",
+      "pitch": 57,
+      "onset": 0.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 3,
+      "chordMates": [
+        79
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n6",
+      "pitch": 79,
+      "onset": 0.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 3,
+      "chordMates": [
+        57
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n8",
+      "pitch": 91,
+      "onset": 1.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 4,
+      "chordMates": [],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n10",
+      "pitch": 86,
+      "onset": 1.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 5,
+      "chordMates": [],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n11",
+      "pitch": 82,
+      "onset": 1.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 6,
+      "chordMates": [],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n12",
+      "pitch": 79,
+      "onset": 1.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 7,
+      "chordMates": [],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n13",
+      "pitch": 90,
+      "onset": 2.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 8,
+      "chordMates": [],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n16",
+      "pitch": 53,
+      "onset": 2.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 9,
+      "chordMates": [
+        86
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n15",
+      "pitch": 86,
+      "onset": 2.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 9,
+      "chordMates": [
+        53
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n18",
+      "pitch": 55,
+      "onset": 2.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 10,
+      "chordMates": [
+        82
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n17",
+      "pitch": 82,
+      "onset": 2.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 10,
+      "chordMates": [
+        55
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n20",
+      "pitch": 53,
+      "onset": 2.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 11,
+      "chordMates": [
+        79
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n19",
+      "pitch": 79,
+      "onset": 2.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 11,
+      "chordMates": [
+        53
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n22",
+      "pitch": 60,
+      "onset": 3.0,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 12,
+      "chordMates": [
+        91
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n21",
+      "pitch": 91,
+      "onset": 3.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 12,
+      "chordMates": [
+        60
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n24",
+      "pitch": 55,
+      "onset": 3.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 13,
+      "chordMates": [
+        86
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n23",
+      "pitch": 86,
+      "onset": 3.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 13,
+      "chordMates": [
+        55
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n26",
+      "pitch": 53,
+      "onset": 3.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 14,
+      "chordMates": [
+        82
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n25",
+      "pitch": 82,
+      "onset": 3.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 14,
+      "chordMates": [
+        53
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n28",
+      "pitch": 48,
+      "onset": 3.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 15,
+      "chordMates": [
+        79
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n27",
+      "pitch": 79,
+      "onset": 3.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 15,
+      "chordMates": [
+        48
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n30",
+      "pitch": 45,
+      "onset": 4.0,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 16,
+      "chordMates": [
+        91
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n29",
+      "pitch": 91,
+      "onset": 4.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 16,
+      "chordMates": [
+        45
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n32",
+      "pitch": 45,
+      "onset": 4.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 17,
+      "chordMates": [
+        84
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n31",
+      "pitch": 84,
+      "onset": 4.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 17,
+      "chordMates": [
+        45
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n34",
+      "pitch": 53,
+      "onset": 4.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 18,
+      "chordMates": [
+        81
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n33",
+      "pitch": 81,
+      "onset": 4.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 18,
+      "chordMates": [
+        53
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n36",
+      "pitch": 55,
+      "onset": 4.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 19,
+      "chordMates": [
+        77
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n35",
+      "pitch": 77,
+      "onset": 4.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 19,
+      "chordMates": [
+        55
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n37",
+      "pitch": 89,
+      "onset": 5.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 20,
+      "chordMates": [],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n39",
+      "pitch": 84,
+      "onset": 5.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 21,
+      "chordMates": [],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n40",
+      "pitch": 81,
+      "onset": 5.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 22,
+      "chordMates": [],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n41",
+      "pitch": 77,
+      "onset": 5.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 23,
+      "chordMates": [],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n42",
+      "pitch": 88,
+      "onset": 6.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 24,
+      "chordMates": [],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n45",
+      "pitch": 53,
+      "onset": 6.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 25,
+      "chordMates": [
+        84
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n44",
+      "pitch": 84,
+      "onset": 6.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 25,
+      "chordMates": [
+        53
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n47",
+      "pitch": 55,
+      "onset": 6.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 26,
+      "chordMates": [
+        81
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n46",
+      "pitch": 81,
+      "onset": 6.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 26,
+      "chordMates": [
+        55
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n49",
+      "pitch": 53,
+      "onset": 6.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 27,
+      "chordMates": [
+        77
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n48",
+      "pitch": 77,
+      "onset": 6.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 27,
+      "chordMates": [
+        53
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n51",
+      "pitch": 60,
+      "onset": 7.0,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 28,
+      "chordMates": [
+        89
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n50",
+      "pitch": 89,
+      "onset": 7.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 28,
+      "chordMates": [
+        60
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n53",
+      "pitch": 55,
+      "onset": 7.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 29,
+      "chordMates": [
+        84
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n52",
+      "pitch": 84,
+      "onset": 7.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 29,
+      "chordMates": [
+        55
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n55",
+      "pitch": 53,
+      "onset": 7.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 30,
+      "chordMates": [
+        81
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n54",
+      "pitch": 81,
+      "onset": 7.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 30,
+      "chordMates": [
+        53
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n57",
+      "pitch": 48,
+      "onset": 7.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 31,
+      "chordMates": [
+        77
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n56",
+      "pitch": 77,
+      "onset": 7.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 31,
+      "chordMates": [
+        48
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n59",
+      "pitch": 43,
+      "onset": 8.0,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 32,
+      "chordMates": [
+        89
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n58",
+      "pitch": 89,
+      "onset": 8.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 32,
+      "chordMates": [
+        43
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n61",
+      "pitch": 43,
+      "onset": 8.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 33,
+      "chordMates": [
+        82
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n60",
+      "pitch": 82,
+      "onset": 8.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 33,
+      "chordMates": [
+        43
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n63",
+      "pitch": 46,
+      "onset": 8.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 34,
+      "chordMates": [
+        79
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n62",
+      "pitch": 79,
+      "onset": 8.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 34,
+      "chordMates": [
+        46
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n65",
+      "pitch": 53,
+      "onset": 8.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 35,
+      "chordMates": [
+        76
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n64",
+      "pitch": 76,
+      "onset": 8.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 35,
+      "chordMates": [
+        53
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n66",
+      "pitch": 88,
+      "onset": 9.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 36,
+      "chordMates": [],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n68",
+      "pitch": 82,
+      "onset": 9.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 37,
+      "chordMates": [],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n69",
+      "pitch": 79,
+      "onset": 9.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 38,
+      "chordMates": [],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n70",
+      "pitch": 76,
+      "onset": 9.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 39,
+      "chordMates": [],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n71",
+      "pitch": 87,
+      "onset": 10.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 40,
+      "chordMates": [],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n74",
+      "pitch": 52,
+      "onset": 10.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 41,
+      "chordMates": [
+        82
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n73",
+      "pitch": 82,
+      "onset": 10.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 41,
+      "chordMates": [
+        52
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n76",
+      "pitch": 53,
+      "onset": 10.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 42,
+      "chordMates": [
+        79
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n75",
+      "pitch": 79,
+      "onset": 10.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 42,
+      "chordMates": [
+        53
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n78",
+      "pitch": 52,
+      "onset": 10.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 43,
+      "chordMates": [
+        76
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n77",
+      "pitch": 76,
+      "onset": 10.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 43,
+      "chordMates": [
+        52
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n80",
+      "pitch": 55,
+      "onset": 11.0,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 44,
+      "chordMates": [
+        88
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n79",
+      "pitch": 88,
+      "onset": 11.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 44,
+      "chordMates": [
+        55
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n82",
+      "pitch": 52,
+      "onset": 11.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 45,
+      "chordMates": [
+        82
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n81",
+      "pitch": 82,
+      "onset": 11.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 45,
+      "chordMates": [
+        52
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n84",
+      "pitch": 48,
+      "onset": 11.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 46,
+      "chordMates": [
+        79
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n83",
+      "pitch": 79,
+      "onset": 11.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 46,
+      "chordMates": [
+        48
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n86",
+      "pitch": 43,
+      "onset": 11.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 47,
+      "chordMates": [
+        76
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n85",
+      "pitch": 76,
+      "onset": 11.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 47,
+      "chordMates": [
+        43
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n88",
+      "pitch": 41,
+      "onset": 12.0,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 48,
+      "chordMates": [
+        88
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n87",
+      "pitch": 88,
+      "onset": 12.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 48,
+      "chordMates": [
+        41
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n90",
+      "pitch": 41,
+      "onset": 12.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 49,
+      "chordMates": [
+        81
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n89",
+      "pitch": 81,
+      "onset": 12.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 49,
+      "chordMates": [
+        41
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n92",
+      "pitch": 45,
+      "onset": 12.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 50,
+      "chordMates": [
+        77
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n91",
+      "pitch": 77,
+      "onset": 12.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 50,
+      "chordMates": [
+        45
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n94",
+      "pitch": 50,
+      "onset": 12.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 51,
+      "chordMates": [
+        74
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n93",
+      "pitch": 74,
+      "onset": 12.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 51,
+      "chordMates": [
+        50
+      ],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n95",
+      "pitch": 86,
+      "onset": 13.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 52,
+      "chordMates": [],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n97",
+      "pitch": 81,
+      "onset": 13.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 53,
+      "chordMates": [],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n98",
+      "pitch": 77,
+      "onset": 13.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 54,
+      "chordMates": [],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n99",
+      "pitch": 74,
+      "onset": 13.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 55,
+      "chordMates": [],
+      "expected_dyn": 55.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n100",
+      "pitch": 85,
+      "onset": 14.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 56,
+      "chordMates": [],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n103",
+      "pitch": 49,
+      "onset": 14.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 57,
+      "chordMates": [
+        81
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n102",
+      "pitch": 81,
+      "onset": 14.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 57,
+      "chordMates": [
+        49
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n105",
+      "pitch": 50,
+      "onset": 14.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 58,
+      "chordMates": [
+        77
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n104",
+      "pitch": 77,
+      "onset": 14.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 58,
+      "chordMates": [
+        50
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n107",
+      "pitch": 49,
+      "onset": 14.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 59,
+      "chordMates": [
+        74
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n106",
+      "pitch": 74,
+      "onset": 14.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 59,
+      "chordMates": [
+        49
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n109",
+      "pitch": 52,
+      "onset": 15.0,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 60,
+      "chordMates": [
+        86
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n108",
+      "pitch": 86,
+      "onset": 15.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 60,
+      "chordMates": [
+        52
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n111",
+      "pitch": 50,
+      "onset": 15.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 61,
+      "chordMates": [
+        81
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n110",
+      "pitch": 81,
+      "onset": 15.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 61,
+      "chordMates": [
+        50
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n113",
+      "pitch": 49,
+      "onset": 15.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 62,
+      "chordMates": [
+        77
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n112",
+      "pitch": 77,
+      "onset": 15.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 62,
+      "chordMates": [
+        49
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n115",
+      "pitch": 45,
+      "onset": 15.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 63,
+      "chordMates": [
+        74
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n114",
+      "pitch": 74,
+      "onset": 15.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 63,
+      "chordMates": [
+        45
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n117",
+      "pitch": 46,
+      "onset": 16.0,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 64,
+      "chordMates": [
+        93
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n116",
+      "pitch": 93,
+      "onset": 16.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 64,
+      "chordMates": [
+        46
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n119",
+      "pitch": 46,
+      "onset": 16.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 65,
+      "chordMates": [
+        86
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n118",
+      "pitch": 86,
+      "onset": 16.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 65,
+      "chordMates": [
+        46
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n121",
+      "pitch": 53,
+      "onset": 16.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 66,
+      "chordMates": [
+        82
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n120",
+      "pitch": 82,
+      "onset": 16.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 66,
+      "chordMates": [
+        53
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n123",
+      "pitch": 57,
+      "onset": 16.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 67,
+      "chordMates": [
+        79
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n122",
+      "pitch": 79,
+      "onset": 16.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 67,
+      "chordMates": [
+        57
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n124",
+      "pitch": 91,
+      "onset": 17.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 68,
+      "chordMates": [],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n126",
+      "pitch": 86,
+      "onset": 17.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 69,
+      "chordMates": [],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n127",
+      "pitch": 82,
+      "onset": 17.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 70,
+      "chordMates": [],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n128",
+      "pitch": 79,
+      "onset": 17.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 71,
+      "chordMates": [],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n129",
+      "pitch": 90,
+      "onset": 18.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 72,
+      "chordMates": [],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n132",
+      "pitch": 53,
+      "onset": 18.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 73,
+      "chordMates": [
+        86
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n131",
+      "pitch": 86,
+      "onset": 18.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 73,
+      "chordMates": [
+        53
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n134",
+      "pitch": 55,
+      "onset": 18.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 74,
+      "chordMates": [
+        82
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n133",
+      "pitch": 82,
+      "onset": 18.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 74,
+      "chordMates": [
+        55
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n136",
+      "pitch": 53,
+      "onset": 18.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 75,
+      "chordMates": [
+        79
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n135",
+      "pitch": 79,
+      "onset": 18.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 75,
+      "chordMates": [
+        53
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n138",
+      "pitch": 60,
+      "onset": 19.0,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 76,
+      "chordMates": [
+        91
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n137",
+      "pitch": 91,
+      "onset": 19.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 76,
+      "chordMates": [
+        60
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n140",
+      "pitch": 55,
+      "onset": 19.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 77,
+      "chordMates": [
+        86
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n139",
+      "pitch": 86,
+      "onset": 19.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 77,
+      "chordMates": [
+        55
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n142",
+      "pitch": 53,
+      "onset": 19.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 78,
+      "chordMates": [
+        82
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n141",
+      "pitch": 82,
+      "onset": 19.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 78,
+      "chordMates": [
+        53
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n144",
+      "pitch": 48,
+      "onset": 19.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 79,
+      "chordMates": [
+        79
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n143",
+      "pitch": 79,
+      "onset": 19.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 79,
+      "chordMates": [
+        48
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n146",
+      "pitch": 45,
+      "onset": 20.0,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 80,
+      "chordMates": [
+        94
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n145",
+      "pitch": 94,
+      "onset": 20.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 80,
+      "chordMates": [
+        45
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n148",
+      "pitch": 45,
+      "onset": 20.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 81,
+      "chordMates": [
+        87
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n147",
+      "pitch": 87,
+      "onset": 20.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 81,
+      "chordMates": [
+        45
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n150",
+      "pitch": 48,
+      "onset": 20.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 82,
+      "chordMates": [
+        84
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n149",
+      "pitch": 84,
+      "onset": 20.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 82,
+      "chordMates": [
+        48
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n152",
+      "pitch": 60,
+      "onset": 20.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 83,
+      "chordMates": [
+        81
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n151",
+      "pitch": 81,
+      "onset": 20.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 83,
+      "chordMates": [
+        60
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n153",
+      "pitch": 93,
+      "onset": 21.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 84,
+      "chordMates": [],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n155",
+      "pitch": 87,
+      "onset": 21.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 85,
+      "chordMates": [],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n156",
+      "pitch": 84,
+      "onset": 21.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 86,
+      "chordMates": [],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n157",
+      "pitch": 81,
+      "onset": 21.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 87,
+      "chordMates": [],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n158",
+      "pitch": 92,
+      "onset": 22.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 88,
+      "chordMates": [],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n161",
+      "pitch": 57,
+      "onset": 22.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 89,
+      "chordMates": [
+        87
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n160",
+      "pitch": 87,
+      "onset": 22.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 89,
+      "chordMates": [
+        57
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n163",
+      "pitch": 60,
+      "onset": 22.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 90,
+      "chordMates": [
+        84
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n162",
+      "pitch": 84,
+      "onset": 22.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 90,
+      "chordMates": [
+        60
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n165",
+      "pitch": 57,
+      "onset": 22.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 91,
+      "chordMates": [
+        81
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n164",
+      "pitch": 81,
+      "onset": 22.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 91,
+      "chordMates": [
+        57
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n167",
+      "pitch": 63,
+      "onset": 23.0,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 92,
+      "chordMates": [
+        93
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n166",
+      "pitch": 93,
+      "onset": 23.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 92,
+      "chordMates": [
+        63
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n169",
+      "pitch": 62,
+      "onset": 23.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 93,
+      "chordMates": [
+        87
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n168",
+      "pitch": 87,
+      "onset": 23.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 93,
+      "chordMates": [
+        62
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n171",
+      "pitch": 60,
+      "onset": 23.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 94,
+      "chordMates": [
+        84
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n170",
+      "pitch": 84,
+      "onset": 23.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 94,
+      "chordMates": [
+        60
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n173",
+      "pitch": 57,
+      "onset": 23.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 95,
+      "chordMates": [
+        81
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n172",
+      "pitch": 81,
+      "onset": 23.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 95,
+      "chordMates": [
+        57
+      ],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n175",
+      "pitch": 46,
+      "onset": 24.0,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 96,
+      "chordMates": [
+        96
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n174",
+      "pitch": 96,
+      "onset": 24.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 96,
+      "chordMates": [
+        46
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n177",
+      "pitch": 46,
+      "onset": 24.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 97,
+      "chordMates": [
+        86
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n176",
+      "pitch": 86,
+      "onset": 24.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 97,
+      "chordMates": [
+        46
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n179",
+      "pitch": 53,
+      "onset": 24.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 98,
+      "chordMates": [
+        82
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n178",
+      "pitch": 82,
+      "onset": 24.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 98,
+      "chordMates": [
+        53
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n181",
+      "pitch": 58,
+      "onset": 24.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 99,
+      "chordMates": [
+        79
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n180",
+      "pitch": 79,
+      "onset": 24.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 99,
+      "chordMates": [
+        58
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n182",
+      "pitch": 94,
+      "onset": 25.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 100,
+      "chordMates": [],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n184",
+      "pitch": 86,
+      "onset": 25.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 101,
+      "chordMates": [],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n185",
+      "pitch": 82,
+      "onset": 25.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 102,
+      "chordMates": [],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n186",
+      "pitch": 79,
+      "onset": 25.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 103,
+      "chordMates": [],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n187",
+      "pitch": 93,
+      "onset": 26.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 104,
+      "chordMates": [],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n190",
+      "pitch": 57,
+      "onset": 26.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 105,
+      "chordMates": [
+        86
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n189",
+      "pitch": 86,
+      "onset": 26.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 105,
+      "chordMates": [
+        57
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n192",
+      "pitch": 58,
+      "onset": 26.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 106,
+      "chordMates": [
+        82
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n191",
+      "pitch": 82,
+      "onset": 26.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 106,
+      "chordMates": [
+        58
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n194",
+      "pitch": 57,
+      "onset": 26.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 107,
+      "chordMates": [
+        79
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n193",
+      "pitch": 79,
+      "onset": 26.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 107,
+      "chordMates": [
+        57
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n196",
+      "pitch": 60,
+      "onset": 27.0,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 108,
+      "chordMates": [
+        94
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n195",
+      "pitch": 94,
+      "onset": 27.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 108,
+      "chordMates": [
+        60
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n198",
+      "pitch": 58,
+      "onset": 27.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 109,
+      "chordMates": [
+        86
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n197",
+      "pitch": 86,
+      "onset": 27.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 109,
+      "chordMates": [
+        58
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n200",
+      "pitch": 55,
+      "onset": 27.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 110,
+      "chordMates": [
+        82
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n199",
+      "pitch": 82,
+      "onset": 27.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 110,
+      "chordMates": [
+        55
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n202",
+      "pitch": 52,
+      "onset": 27.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 111,
+      "chordMates": [
+        79
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n201",
+      "pitch": 79,
+      "onset": 27.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 111,
+      "chordMates": [
+        52
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n204",
+      "pitch": 43,
+      "onset": 28.0,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 112,
+      "chordMates": [
+        93
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n203",
+      "pitch": 93,
+      "onset": 28.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 112,
+      "chordMates": [
+        43
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n206",
+      "pitch": 43,
+      "onset": 28.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 113,
+      "chordMates": [
+        82
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n205",
+      "pitch": 82,
+      "onset": 28.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 113,
+      "chordMates": [
+        43
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n208",
+      "pitch": 46,
+      "onset": 28.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 114,
+      "chordMates": [
+        79
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n207",
+      "pitch": 79,
+      "onset": 28.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 114,
+      "chordMates": [
+        46
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n210",
+      "pitch": 53,
+      "onset": 28.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 115,
+      "chordMates": [
+        76
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n209",
+      "pitch": 76,
+      "onset": 28.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 115,
+      "chordMates": [
+        53
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n211",
+      "pitch": 91,
+      "onset": 29.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 116,
+      "chordMates": [],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n213",
+      "pitch": 82,
+      "onset": 29.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 117,
+      "chordMates": [],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n214",
+      "pitch": 79,
+      "onset": 29.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 118,
+      "chordMates": [],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n215",
+      "pitch": 76,
+      "onset": 29.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 119,
+      "chordMates": [],
+      "expected_dyn": 87.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n216",
+      "pitch": 89,
+      "onset": 30.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 120,
+      "chordMates": [],
+      "expected_dyn": 39.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n219",
+      "pitch": 52,
+      "onset": 30.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 121,
+      "chordMates": [
+        82
+      ],
+      "expected_dyn": 39.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n218",
+      "pitch": 82,
+      "onset": 30.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 121,
+      "chordMates": [
+        52
+      ],
+      "expected_dyn": 39.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n221",
+      "pitch": 53,
+      "onset": 30.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 122,
+      "chordMates": [
+        79
+      ],
+      "expected_dyn": 39.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n220",
+      "pitch": 79,
+      "onset": 30.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 122,
+      "chordMates": [
+        53
+      ],
+      "expected_dyn": 39.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n223",
+      "pitch": 52,
+      "onset": 30.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 123,
+      "chordMates": [
+        76
+      ],
+      "expected_dyn": 39.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n222",
+      "pitch": 76,
+      "onset": 30.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 123,
+      "chordMates": [
+        52
+      ],
+      "expected_dyn": 39.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n225",
+      "pitch": 55,
+      "onset": 31.0,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 124,
+      "chordMates": [
+        88
+      ],
+      "expected_dyn": 39.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n224",
+      "pitch": 88,
+      "onset": 31.0,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 124,
+      "chordMates": [
+        55
+      ],
+      "expected_dyn": 39.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n227",
+      "pitch": 52,
+      "onset": 31.25,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 125,
+      "chordMates": [
+        82
+      ],
+      "expected_dyn": 39.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n226",
+      "pitch": 82,
+      "onset": 31.25,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 125,
+      "chordMates": [
+        52
+      ],
+      "expected_dyn": 39.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n229",
+      "pitch": 48,
+      "onset": 31.5,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 126,
+      "chordMates": [
+        79
+      ],
+      "expected_dyn": 39.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n228",
+      "pitch": 79,
+      "onset": 31.5,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 126,
+      "chordMates": [
+        48
+      ],
+      "expected_dyn": 39.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n231",
+      "pitch": 43,
+      "onset": 31.75,
+      "duration": 0.25,
+      "voice": 5,
+      "articulation": null,
+      "chordId": 127,
+      "chordMates": [
+        76
+      ],
+      "expected_dyn": 39.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "p0n230",
+      "pitch": 76,
+      "onset": 31.75,
+      "duration": 0.25,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 127,
+      "chordMates": [
+        43
+      ],
+      "expected_dyn": 39.5,
+      "expected_pedal": true
+    }
+  ],
+  "dynamics": [
+    {
+      "start": 0.0,
+      "end": 14.0,
+      "text": "mp",
+      "velocity": 55.5
+    },
+    {
+      "start": 14.0,
+      "end": 24.0,
+      "text": "mf",
+      "velocity": 71.5
+    },
+    {
+      "start": 24.0,
+      "end": 30.0,
+      "text": "f",
+      "velocity": 87.5
+    },
+    {
+      "start": 30.0,
+      "end": 32.0,
+      "text": "p",
+      "velocity": 39.5
+    }
+  ],
+  "pedals": [
+    {
+      "start": 0.0,
+      "end": 2.0
+    },
+    {
+      "start": 2.0,
+      "end": 4.0
+    },
+    {
+      "start": 4.0,
+      "end": 6.0
+    },
+    {
+      "start": 6.0,
+      "end": 8.0
+    },
+    {
+      "start": 8.0,
+      "end": 10.0
+    },
+    {
+      "start": 10.0,
+      "end": 12.0
+    },
+    {
+      "start": 12.0,
+      "end": 14.0
+    },
+    {
+      "start": 14.0,
+      "end": 16.0
+    },
+    {
+      "start": 16.0,
+      "end": 18.0
+    },
+    {
+      "start": 18.0,
+      "end": 20.0
+    },
+    {
+      "start": 20.0,
+      "end": 22.0
+    },
+    {
+      "start": 22.0,
+      "end": 24.0
+    },
+    {
+      "start": 24.0,
+      "end": 26.0
+    },
+    {
+      "start": 26.0,
+      "end": 28.0
+    },
+    {
+      "start": 28.0,
+      "end": 30.0
+    },
+    {
+      "start": 30.0,
+      "end": 32.0
+    }
+  ],
+  "beat_grad": 0.25,
+  "time_anchors": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      32.0,
+      24774.1935483871
+    ]
+  ]
+}

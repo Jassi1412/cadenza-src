@@ -1,0 +1,873 @@
+{
+  "cases": [
+    {
+      "name": "baseline",
+      "teacher_error": false,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/baseline",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "wrong_pitch",
+      "teacher_error": true,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 1,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 1,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/wrong_pitch",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "outside_range",
+      "teacher_error": true,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 1,
+        "pitch-range": 1,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 1,
+        "pitch-range": 1,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/outside_range",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "bad_velocity",
+      "teacher_error": true,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 1,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 1,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/bad_velocity",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "bad_articulation",
+      "teacher_error": true,
+      "expected": {
+        "articulation": 1,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 1,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/bad_articulation",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "chord_spread_29ms",
+      "teacher_error": false,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/chord_spread_29ms",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "chord_spread_30ms",
+      "teacher_error": true,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 1,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 1,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/chord_spread_30ms",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "chord_spread_31ms",
+      "teacher_error": true,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 1,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 1,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/chord_spread_31ms",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "pedal_press_24ms",
+      "teacher_error": false,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/pedal_press_24ms",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "pedal_press_25ms",
+      "teacher_error": false,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/pedal_press_25ms",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "pedal_press_26ms",
+      "teacher_error": false,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 1,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 1,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/pedal_press_26ms",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "pedal_press_124ms",
+      "teacher_error": false,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 1,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 1,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/pedal_press_124ms",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "pedal_press_125ms",
+      "teacher_error": false,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 1,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 1,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/pedal_press_125ms",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "pedal_press_126ms",
+      "teacher_error": true,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 1,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 1,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/pedal_press_126ms",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "pedal_release_late_25ms",
+      "teacher_error": false,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/pedal_release_late_25ms",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "pedal_release_late_26ms",
+      "teacher_error": false,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 1,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 1,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/pedal_release_late_26ms",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "missing_note",
+      "teacher_error": true,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/missing_note",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "duplicate_note",
+      "teacher_error": true,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/duplicate_note",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "missing_release",
+      "teacher_error": true,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 1,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 1,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/missing_release",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "pre_attack",
+      "teacher_error": true,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 1
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 1
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/pre_attack",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "pedal_all_absent",
+      "teacher_error": true,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 1
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 1
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/pedal_all_absent",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "late_press_300ms",
+      "teacher_error": true,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 1,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 1,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/late_press_300ms",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "staccato_375ms",
+      "teacher_error": false,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/staccato_375ms",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "tenuto_374ms",
+      "teacher_error": true,
+      "expected": {
+        "articulation": 1,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 1,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/tenuto_374ms",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "tenuto_375ms",
+      "teacher_error": false,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/tenuto_375ms",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "mf_velocity_64",
+      "teacher_error": false,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/mf_velocity_64",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "mf_velocity_80",
+      "teacher_error": true,
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 1,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 1,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/mf_velocity_80",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    },
+    {
+      "name": "final_marked_note",
+      "teacher_error": false,
+      "expected": {
+        "articulation": 2,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "actual": {
+        "articulation": 2,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "discrepancies": {},
+      "success": true,
+      "artifact_directory": "artifacts/behaviour/final_marked_note",
+      "warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ]
+    }
+  ],
+  "discrepancy_case_count": 0
+}

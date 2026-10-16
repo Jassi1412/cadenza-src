@@ -1,0 +1,6 @@
+{
+  "ok": true,
+  "artefacts_checked": 157,
+  "changed": [],
+  "method": "Run generation again after retaining hashes; compare MIDI, browser events/payloads, service inputs, score models, manifests and unchanged frozen ledger byte-for-byte. Actual verdict and timing raw files are untouched."
+}

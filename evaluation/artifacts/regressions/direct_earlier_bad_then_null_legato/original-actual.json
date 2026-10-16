@@ -1,0 +1,26 @@
+{
+  "version": "original",
+  "started_utc": "2026-10-14T13:44:01.920804+00:00",
+  "command": [
+    "swipl",
+    "-O",
+    "-p",
+    "monitor=/media/angelo/WorkData/git/cadenza-src-main/rml/monitor",
+    "/media/angelo/WorkData/git/cadenza-src-main/server/batch.pl",
+    "--",
+    "/media/angelo/WorkData/git/cadenza-src-main/evaluation/fixtures/regressions/direct/direct_earlier_bad_then_null_legato.jsonl",
+    "articulation",
+    "/media/angelo/WorkData/git/cadenza-src-main/evaluation/archive/v1-original/evaluation/compiled/articulation.pl"
+  ],
+  "specification_sha256": "e905cff6dcc7e365f268877f039cb3f2f8bee7ebe8c17cb0808f196b8bbe28a2",
+  "total_seconds": 0.294320576,
+  "process": {
+    "returncode": 0,
+    "stdout": "articulation 1\n",
+    "stderr": ""
+  },
+  "actual": {
+    "articulation": 1
+  },
+  "trace_sha256": "3d79116d805fce1a0a52c81b3d51fceb8c6b925f1c99b8a02722c8762dd485ac"
+}

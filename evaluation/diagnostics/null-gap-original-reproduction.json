@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "verdicts": {
+    "articulation": {
+      "ok": false,
+      "exit": 2,
+      "diagnostic": ""
+    },
+    "chord-jitter": {
+      "ok": true,
+      "exit": 0,
+      "diagnostic": ""
+    },
+    "dynamics-adherence": {
+      "ok": true,
+      "exit": 0,
+      "diagnostic": ""
+    },
+    "pedal-toggle": {
+      "ok": true,
+      "exit": 0,
+      "diagnostic": ""
+    },
+    "pitch-agreement": {
+      "ok": true,
+      "exit": 0,
+      "diagnostic": ""
+    },
+    "pitch-range": {
+      "ok": true,
+      "exit": 0,
+      "diagnostic": ""
+    },
+    "syncopated-pedal": {
+      "ok": true,
+      "exit": 0,
+      "diagnostic": ""
+    }
+  },
+  "enriched_event_count": 18,
+  "total_seconds": 0.35314631,
+  "stages_seconds": {
+    "score_parse": 0.019385436,
+    "join": 0.000740628,
+    "trace_serialise": 0.000395542,
+    "prolog_process": 0.330967663
+  },
+  "process": {
+    "returncode": 0,
+    "stdout": "articulation 2\nchord-jitter 0\ndynamics-adherence 0\npedal-toggle 0\npitch-agreement 0\npitch-range 0\nsyncopated-pedal 0\n",
+    "stderr": "ERROR: Type error: `clpr_expression' expected, found `null' (an atom)\nWarning: /media/angelo/WorkData/git/cadenza-src-main/evaluation/archive/v1-original/evaluation/compiled/pedal-toggle.pl:10:\nWarning:    Singleton variables: [Ctrl]\n"
+  },
+  "warnings": [
+    {
+      "category": "UserWarning",
+      "message": "ignoring direction type: metronome {}"
+    }
+  ],
+  "python_stderr": "",
+  "python_stdout": "",
+  "started_utc": "2026-10-14T13:40:42.228714+00:00",
+  "input": "archive/v1-original/evaluation/artifacts/behaviour/final_marked_note/service-input.json",
+  "input_sha256": "d60437ee36f937351313898ae21ef7919e50986ebc516d56b044b0f650f08432",
+  "original_rml_sha256": "d6e63ac2bfc4fe8917494518683076bf56f1b2874fde992813fa9c7cb77bcf59",
+  "original_compiled_sha256": "e905cff6dcc7e365f268877f039cb3f2f8bee7ebe8c17cb0808f196b8bbe28a2",
+  "interpretation": "Original numeric marked-note branch structurally matches gapMs:null; CLP(R) raises before the later noGap alternative. Compiler preserves RML ordering."
+}

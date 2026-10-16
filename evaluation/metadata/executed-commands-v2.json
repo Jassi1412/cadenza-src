@@ -1,0 +1,156 @@
+{
+  "recorded_utc": "2026-10-14T13:51:21.254437+00:00",
+  "working_directory": "/media/angelo/WorkData/git/cadenza-src-main",
+  "commands": [
+    {
+      "argv": [
+        "python3",
+        "-"
+      ],
+      "purpose": "Archive the previous evaluation and project snapshot before any overwrite; verify 421 SHA-256 manifest entries.",
+      "evidence": "archive/v1-original/provenance.json",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "evaluation/.venv/bin/python",
+        "evaluation/scripts/reproduce_original.py"
+      ],
+      "purpose": "Reproduce original failure against archived specifications before applying repair.",
+      "evidence": "diagnostics/null-gap-original-reproduction.json",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "evaluation/.venv/bin/python",
+        "evaluation/scripts/prepare.py"
+      ],
+      "stdout_stderr": "metadata/prepare-v2.log",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "evaluation/.venv/bin/python",
+        "evaluation/scripts/generate.py"
+      ],
+      "stdout_stderr": "metadata/generation-v2.log",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "evaluation/.venv/bin/python",
+        "evaluation/scripts/compare.py",
+        "--prepare"
+      ],
+      "stdout_stderr": "metadata/input-verification-v2.log",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "evaluation/.venv/bin/python",
+        "evaluation/scripts/regressions.py",
+        "--generate-only"
+      ],
+      "stdout_stderr": "metadata/regression-generation-v2.log",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "evaluation/.venv/bin/python",
+        "evaluation/scripts/regressions.py",
+        "--run"
+      ],
+      "stdout_stderr": "metadata/regressions-v2.log",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "evaluation/.venv/bin/python",
+        "evaluation/scripts/validate.py"
+      ],
+      "stdout_stderr": "metadata/validation-v2.log",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "evaluation/.venv/bin/python",
+        "evaluation/scripts/compare.py"
+      ],
+      "stdout_stderr": "metadata/comparison-v2.log",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "evaluation/.venv/bin/python",
+        "evaluation/scripts/benchmark.py"
+      ],
+      "stdout_stderr": "metadata/benchmark-v2.log",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "evaluation/.venv/bin/python",
+        "evaluation/scripts/diagnose.py"
+      ],
+      "stdout_stderr": "metadata/early-rejection-v2.log",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "evaluation/.venv/bin/python",
+        "evaluation/scripts/summarise.py"
+      ],
+      "stdout_stderr": "metadata/summary-v2.log",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "evaluation/.venv/bin/python",
+        "evaluation/scripts/paper.py"
+      ],
+      "evidence": "results/report-inputs.json",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "evaluation/.venv/bin/python",
+        "evaluation/scripts/check.py"
+      ],
+      "stdout_stderr": "metadata/check-v2.log",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "evaluation/.venv/bin/python",
+        "evaluation/scripts/compare.py",
+        "--prepare"
+      ],
+      "returncode": 0,
+      "stdout_stderr": "metadata/input-verification-v2-final.log",
+      "purpose": "Reconfirm source parse counts and archive/input identity after final check-script refinement."
+    },
+    {
+      "argv": [
+        "evaluation/.venv/bin/python",
+        "evaluation/scripts/regression_report.py"
+      ],
+      "returncode": 0,
+      "evidence": "REGRESSIONS.md"
+    },
+    {
+      "argv": [
+        "bash",
+        "evaluation/scripts/build-paper.sh"
+      ],
+      "returncode": 0,
+      "evidence": "artifacts/paper/paper-preview.pdf"
+    }
+  ],
+  "environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "numerical_library_threads": "common.py enforces OMP_NUM_THREADS=OPENBLAS_NUM_THREADS=MKL_NUM_THREADS=NUMBA_NUM_THREADS=1 before imports; prepare.py was explicitly run with all four equal to1."
+  },
+  "archive_method": "Initial stdlib shutil copy of all evaluation evidence except dependency environments/caches and all project files, followed by SHA-256 verification. Full snapshot and initial Git state are retained. archive.py preserves future reruns.",
+  "repair_operation": "Applied only the RML reorder and explanatory comment recorded in metadata/repair.diff; compiled with the unchanged vendored compiler.",
+  "note": "Commands transcribed from this executed session. Initial failure reproduction preceded repair. Both manual ledgers were frozen before repaired monitor execution. No previous timings reused."
+}

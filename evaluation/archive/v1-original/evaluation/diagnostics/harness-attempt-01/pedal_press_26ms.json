@@ -1,0 +1,22 @@
+{
+  "success": false,
+  "exception": "AttributeError",
+  "exception_message": "'types.SimpleNamespace' object has no attribute 'PIPE'",
+  "traceback": "Traceback (most recent call last):\n  File \"/media/angelo/WorkData/git/cadenza-src-main/evaluation/scripts/common.py\", line 110, in analyse\n    verdicts, events = service.analyse(body)\n                       ^^^^^^^^^^^^^^^^^^^^^\n  File \"/media/angelo/WorkData/git/cadenza-src-main/evaluation/runtime/server.py\", line 81, in analyse\n    stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=120)\n           ^^^^^^^^^^^^^^^\nAttributeError: 'types.SimpleNamespace' object has no attribute 'PIPE'\n",
+  "total_seconds": 0.062260711,
+  "stages_seconds": {
+    "score_parse": 0.051620769,
+    "join": 0.006514375,
+    "trace_serialise": 0.00025923
+  },
+  "process": {},
+  "warnings": [
+    {
+      "category": "UserWarning",
+      "message": "ignoring direction type: metronome {}"
+    }
+  ],
+  "python_stderr": "",
+  "python_stdout": "",
+  "started_utc": "2026-10-14T07:33:54.555274+00:00"
+}

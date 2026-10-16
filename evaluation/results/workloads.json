@@ -1,0 +1,148 @@
+{
+  "seed": null,
+  "randomness": "none",
+  "workloads": [
+    {
+      "name": "score-2324",
+      "score_file": "scores/Merry-Go-Round of Life_ Howl's Moving Castle Piano Tutorial (3).musicxml",
+      "score_sha256": "8bdc72bfdadcdca1730567ad8cd606fac323c588cac6548bb845b5754e4f92fd",
+      "parsed_note_count": 2324,
+      "generation_warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {'parentheses': 'no', 'default-x': '-36.00', 'default-y': '68.80', 'relative-x': '-22.50', 'relative-y': '20.00'}"
+        },
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {'parentheses': 'no', 'relative-y': '25.00'}"
+        },
+        {
+          "category": "UserWarning",
+          "message": "unhandled: mezzo movimento"
+        },
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {'parentheses': 'no', 'relative-y': '25.00'}"
+        },
+        {
+          "category": "UserWarning",
+          "message": "error parsing \"rubarto\" (UnexpectedCharacters)"
+        },
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {'parentheses': 'no', 'relative-y': '30.00'}"
+        },
+        {
+          "category": "UserWarning",
+          "message": "unhandled: doppio movimento"
+        },
+        {
+          "category": "UserWarning",
+          "message": "Did not find a pedal start element for pedal stop!"
+        },
+        {
+          "category": "UserWarning",
+          "message": "error parsing \"giocoso\" (UnexpectedCharacters)"
+        },
+        {
+          "category": "UserWarning",
+          "message": "unhandled: mezzo movimento"
+        },
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {'parentheses': 'no', 'relative-y': '20.00'}"
+        },
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {'parentheses': 'no', 'relative-y': '10.00'}"
+        },
+        {
+          "category": "UserWarning",
+          "message": "unhandled: mezzo movimento"
+        },
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {'parentheses': 'no', 'default-x': '-29.38', 'default-y': '66.70', 'relative-x': '-7.44', 'relative-y': '10.00'}"
+        },
+        {
+          "category": "UserWarning",
+          "message": "error parsing \"giocoso\" (UnexpectedCharacters)"
+        },
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {'parentheses': 'no', 'relative-y': '30.00'}"
+        },
+        {
+          "category": "UserWarning",
+          "message": "error parsing \"poco rapido\" (UnexpectedCharacters)"
+        },
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {'parentheses': 'no', 'relative-y': '25.00'}"
+        },
+        {
+          "category": "UserWarning",
+          "message": "unhandled: doppio movimento"
+        },
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {'parentheses': 'no', 'relative-x': '-5.00', 'relative-y': '15.00'}"
+        },
+        {
+          "category": "UserWarning",
+          "message": "unhandled: mezzo movimento"
+        },
+        {
+          "category": "UserWarning",
+          "message": "error parsing \"rapido accel\" (UnexpectedCharacters)"
+        },
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {'parentheses': 'no', 'relative-y': '25.00'}"
+        },
+        {
+          "category": "UserWarning",
+          "message": "unhandled: mezzo movimento"
+        }
+      ],
+      "input": "artifacts/workloads/score-2324/service-input.json",
+      "input_sha256": "8a588f87fe8e4845629baea655caaad9eb6d5eeee3d719033eefc81af08fc6b9",
+      "midi_sha256": "2956fcda12c8930cce25591e140fb599d36b009f717b2c47ed8189a1faac2cb4",
+      "note_count": 2324,
+      "midi_event_count": 4946,
+      "control_change_count": 298,
+      "xml_counts": {
+        "pitched_notes": 2418,
+        "rests": 69,
+        "tie_starts": 94,
+        "tie_stops": 94,
+        "parts": 1
+      }
+    },
+    {
+      "name": "score-216",
+      "score_file": "scores/The Legend of Zelda_ Great Fairy Fountain (Piano Cover) - con dinamiche.musicxml",
+      "score_sha256": "ace12e07d937988ef2e7a1e5b35618d73d5ba763bbc9de153af979eadc24c6fe",
+      "parsed_note_count": 216,
+      "generation_warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {'parentheses': 'no', 'default-x': '-68.04', 'default-y': '29.02', 'relative-y': '20.00'}"
+        }
+      ],
+      "input": "artifacts/workloads/score-216/service-input.json",
+      "input_sha256": "68247bcac51e81ee9067946b54d6b7e2ca7d806c25bf5bef1aba713dfd693d81",
+      "midi_sha256": "49301b5b5c9fffd678cc7267cced72fc04096f493e6b00f974df990d6ea85e70",
+      "note_count": 216,
+      "midi_event_count": 464,
+      "control_change_count": 32,
+      "xml_counts": {
+        "pitched_notes": 216,
+        "rests": 16,
+        "tie_starts": 0,
+        "tie_stops": 0,
+        "parts": 1
+      }
+    }
+  ]
+}

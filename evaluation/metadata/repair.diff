@@ -1,0 +1,19 @@
+--- before/rml/metrics/articulation.rml
++++ after/rml/metrics/articulation.rml
+@@ -21,4 +21,5 @@
+ 
+ anyNoteOn matches {type:'noteon'};
+ 
+-Main = anyNoteOn >> (staccatoOk \/ tenutoOk \/ legatoOk \/ noMark \/ noGap)*;
+\ No newline at end of file
++// Without a successor gap the duration requirement is inapplicable.
++Main = anyNoteOn >> (noGap \/ staccatoOk \/ tenutoOk \/ legatoOk \/ noMark)*;
+
+--- before/compiled/articulation.pl
++++ after/compiled/articulation.pl
+@@ -17,4 +17,4 @@
+ match(_event, anyNoteOn_et) :- deep_subdict(_event, _{type:"noteon"}).
+ match(_event, any_et) :- deep_subdict(_event, _{}).
+ match(_event, none_et) :- not(match(_event, any_et)).
+-trace_expression('Main', Main) :- (Main=((anyNoteOn_et>>star(((((staccatoOk_et\/tenutoOk_et)\/legatoOk_et)\/noMark_et)\/noGap_et)));1)).
++trace_expression('Main', Main) :- (Main=((anyNoteOn_et>>star(((((noGap_et\/staccatoOk_et)\/tenutoOk_et)\/legatoOk_et)\/noMark_et)));1)).

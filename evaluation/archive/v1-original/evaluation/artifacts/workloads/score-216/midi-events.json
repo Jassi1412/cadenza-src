@@ -1,0 +1,3221 @@
+{
+  "events": [
+    {
+      "type": "noteon",
+      "timestamp": 0.0,
+      "note": 46,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 0.0,
+      "note": 93,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 10.0,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 155.0,
+      "note": 46,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 155.0,
+      "note": 93,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 193.5,
+      "note": 46,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 193.5,
+      "note": 86,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 348.5,
+      "note": 46,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 348.5,
+      "note": 86,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 387.0,
+      "note": 53,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 387.0,
+      "note": 82,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 542.0,
+      "note": 53,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 542.0,
+      "note": 82,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 580.5,
+      "note": 57,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 580.5,
+      "note": 79,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 735.5,
+      "note": 57,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 735.5,
+      "note": 79,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 774.0,
+      "note": 91,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 929.0,
+      "note": 91,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 967.5,
+      "note": 86,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 1122.5,
+      "note": 86,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 1161.5,
+      "note": 82,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 1316.5,
+      "note": 82,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 1355.0,
+      "note": 79,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 1510.0,
+      "note": 79,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 1548.5,
+      "note": 90,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 1548.5,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 1558.5,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 1703.5,
+      "note": 90,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 1742.0,
+      "note": 53,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 1742.0,
+      "note": 86,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 1897.0,
+      "note": 53,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 1897.0,
+      "note": 86,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 1935.5,
+      "note": 55,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 1935.5,
+      "note": 82,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 2090.5,
+      "note": 55,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 2090.5,
+      "note": 82,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 2129.0,
+      "note": 53,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 2129.0,
+      "note": 79,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 2284.0,
+      "note": 53,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 2284.0,
+      "note": 79,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 2322.5,
+      "note": 60,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 2322.5,
+      "note": 91,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 2477.5,
+      "note": 60,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 2477.5,
+      "note": 91,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 2516.0,
+      "note": 55,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 2516.0,
+      "note": 86,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 2671.0,
+      "note": 55,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 2671.0,
+      "note": 86,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 2709.5,
+      "note": 53,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 2709.5,
+      "note": 82,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 2864.5,
+      "note": 53,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 2864.5,
+      "note": 82,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 2903.0,
+      "note": 48,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 2903.0,
+      "note": 79,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 3058.0,
+      "note": 48,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 3058.0,
+      "note": 79,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 3097.0,
+      "note": 45,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 3097.0,
+      "note": 91,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 3097.0,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 3107.0,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 3252.0,
+      "note": 45,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 3252.0,
+      "note": 91,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 3290.5,
+      "note": 45,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 3290.5,
+      "note": 84,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 3445.5,
+      "note": 45,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 3445.5,
+      "note": 84,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 3484.0,
+      "note": 53,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 3484.0,
+      "note": 81,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 3639.0,
+      "note": 53,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 3639.0,
+      "note": 81,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 3677.5,
+      "note": 55,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 3677.5,
+      "note": 77,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 3832.5,
+      "note": 55,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 3832.5,
+      "note": 77,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 3871.0,
+      "note": 89,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 4026.0,
+      "note": 89,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 4064.5,
+      "note": 84,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 4219.5,
+      "note": 84,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 4258.0,
+      "note": 81,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 4413.0,
+      "note": 81,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 4451.5,
+      "note": 77,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 4606.5,
+      "note": 77,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 4645.0,
+      "note": 88,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 4645.0,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 4655.0,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 4800.0,
+      "note": 88,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 4838.5,
+      "note": 53,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 4838.5,
+      "note": 84,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 4993.5,
+      "note": 53,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 4993.5,
+      "note": 84,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 5032.5,
+      "note": 55,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 5032.5,
+      "note": 81,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 5187.5,
+      "note": 55,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 5187.5,
+      "note": 81,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 5226.0,
+      "note": 53,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 5226.0,
+      "note": 77,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 5381.0,
+      "note": 53,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 5381.0,
+      "note": 77,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 5419.5,
+      "note": 60,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 5419.5,
+      "note": 89,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 5574.5,
+      "note": 60,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 5574.5,
+      "note": 89,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 5613.0,
+      "note": 55,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 5613.0,
+      "note": 84,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 5768.0,
+      "note": 55,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 5768.0,
+      "note": 84,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 5806.5,
+      "note": 53,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 5806.5,
+      "note": 81,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 5961.5,
+      "note": 53,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 5961.5,
+      "note": 81,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 6000.0,
+      "note": 48,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 6000.0,
+      "note": 77,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 6155.0,
+      "note": 48,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 6155.0,
+      "note": 77,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 6193.5,
+      "note": 43,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 6193.5,
+      "note": 89,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 6193.5,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 6203.5,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 6348.5,
+      "note": 43,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 6348.5,
+      "note": 89,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 6387.0,
+      "note": 43,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 6387.0,
+      "note": 82,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 6542.0,
+      "note": 43,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 6542.0,
+      "note": 82,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 6580.5,
+      "note": 46,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 6580.5,
+      "note": 79,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 6735.5,
+      "note": 46,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 6735.5,
+      "note": 79,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 6774.0,
+      "note": 53,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 6774.0,
+      "note": 76,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 6929.0,
+      "note": 53,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 6929.0,
+      "note": 76,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 6967.5,
+      "note": 88,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 7122.5,
+      "note": 88,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 7161.5,
+      "note": 82,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 7316.5,
+      "note": 82,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 7355.0,
+      "note": 79,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 7510.0,
+      "note": 79,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 7548.5,
+      "note": 76,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 7703.5,
+      "note": 76,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 7742.0,
+      "note": 87,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 7742.0,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 7752.0,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 7897.0,
+      "note": 87,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 7935.5,
+      "note": 52,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 7935.5,
+      "note": 82,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 8090.5,
+      "note": 52,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 8090.5,
+      "note": 82,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 8129.0,
+      "note": 53,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 8129.0,
+      "note": 79,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 8284.0,
+      "note": 53,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 8284.0,
+      "note": 79,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 8322.5,
+      "note": 52,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 8322.5,
+      "note": 76,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 8477.5,
+      "note": 52,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 8477.5,
+      "note": 76,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 8516.0,
+      "note": 55,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 8516.0,
+      "note": 88,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 8671.0,
+      "note": 55,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 8671.0,
+      "note": 88,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 8709.5,
+      "note": 52,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 8709.5,
+      "note": 82,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 8864.5,
+      "note": 52,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 8864.5,
+      "note": 82,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 8903.0,
+      "note": 48,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 8903.0,
+      "note": 79,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 9058.0,
+      "note": 48,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 9058.0,
+      "note": 79,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 9097.0,
+      "note": 43,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 9097.0,
+      "note": 76,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 9252.0,
+      "note": 43,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 9252.0,
+      "note": 76,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 9290.5,
+      "note": 41,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 9290.5,
+      "note": 88,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 9290.5,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 9300.5,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 9445.5,
+      "note": 41,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 9445.5,
+      "note": 88,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 9484.0,
+      "note": 41,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 9484.0,
+      "note": 81,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 9639.0,
+      "note": 41,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 9639.0,
+      "note": 81,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 9677.5,
+      "note": 45,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 9677.5,
+      "note": 77,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 9832.5,
+      "note": 45,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 9832.5,
+      "note": 77,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 9871.0,
+      "note": 50,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteon",
+      "timestamp": 9871.0,
+      "note": 74,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 10026.0,
+      "note": 50,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 10026.0,
+      "note": 74,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 10064.5,
+      "note": 86,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 10219.5,
+      "note": 86,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 10258.0,
+      "note": 81,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 10413.0,
+      "note": 81,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 10451.5,
+      "note": 77,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 10606.5,
+      "note": 77,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 10645.0,
+      "note": 74,
+      "rawAttack": 56,
+      "velocity": 0.4409448818897638
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 10800.0,
+      "note": 74,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 10838.5,
+      "note": 85,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 10838.5,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 10848.5,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 10993.5,
+      "note": 85,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 11032.5,
+      "note": 49,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 11032.5,
+      "note": 81,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 11187.5,
+      "note": 49,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 11187.5,
+      "note": 81,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 11226.0,
+      "note": 50,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 11226.0,
+      "note": 77,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 11381.0,
+      "note": 50,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 11381.0,
+      "note": 77,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 11419.5,
+      "note": 49,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 11419.5,
+      "note": 74,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 11574.5,
+      "note": 49,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 11574.5,
+      "note": 74,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 11613.0,
+      "note": 52,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 11613.0,
+      "note": 86,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 11768.0,
+      "note": 52,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 11768.0,
+      "note": 86,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 11806.5,
+      "note": 50,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 11806.5,
+      "note": 81,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 11961.5,
+      "note": 50,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 11961.5,
+      "note": 81,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 12000.0,
+      "note": 49,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 12000.0,
+      "note": 77,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 12155.0,
+      "note": 49,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 12155.0,
+      "note": 77,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 12193.5,
+      "note": 45,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 12193.5,
+      "note": 74,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 12348.5,
+      "note": 45,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 12348.5,
+      "note": 74,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 12387.0,
+      "note": 46,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 12387.0,
+      "note": 93,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 12387.0,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 12397.0,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 12542.0,
+      "note": 46,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 12542.0,
+      "note": 93,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 12580.5,
+      "note": 46,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 12580.5,
+      "note": 86,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 12735.5,
+      "note": 46,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 12735.5,
+      "note": 86,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 12774.0,
+      "note": 53,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 12774.0,
+      "note": 82,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 12929.0,
+      "note": 53,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 12929.0,
+      "note": 82,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 12967.5,
+      "note": 57,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 12967.5,
+      "note": 79,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 13122.5,
+      "note": 57,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 13122.5,
+      "note": 79,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 13161.5,
+      "note": 91,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 13316.5,
+      "note": 91,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 13355.0,
+      "note": 86,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 13510.0,
+      "note": 86,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 13548.5,
+      "note": 82,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 13703.5,
+      "note": 82,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 13742.0,
+      "note": 79,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 13897.0,
+      "note": 79,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 13935.5,
+      "note": 90,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 13935.5,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 13945.5,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 14090.5,
+      "note": 90,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 14129.0,
+      "note": 53,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 14129.0,
+      "note": 86,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 14284.0,
+      "note": 53,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 14284.0,
+      "note": 86,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 14322.5,
+      "note": 55,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 14322.5,
+      "note": 82,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 14477.5,
+      "note": 55,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 14477.5,
+      "note": 82,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 14516.0,
+      "note": 53,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 14516.0,
+      "note": 79,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 14671.0,
+      "note": 53,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 14671.0,
+      "note": 79,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 14709.5,
+      "note": 60,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 14709.5,
+      "note": 91,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 14864.5,
+      "note": 60,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 14864.5,
+      "note": 91,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 14903.0,
+      "note": 55,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 14903.0,
+      "note": 86,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 15058.0,
+      "note": 55,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 15058.0,
+      "note": 86,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 15097.0,
+      "note": 53,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 15097.0,
+      "note": 82,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 15252.0,
+      "note": 53,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 15252.0,
+      "note": 82,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 15290.5,
+      "note": 48,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 15290.5,
+      "note": 79,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 15445.5,
+      "note": 48,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 15445.5,
+      "note": 79,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 15484.0,
+      "note": 45,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 15484.0,
+      "note": 94,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 15484.0,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 15494.0,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 15639.0,
+      "note": 45,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 15639.0,
+      "note": 94,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 15677.5,
+      "note": 45,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 15677.5,
+      "note": 87,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 15832.5,
+      "note": 45,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 15832.5,
+      "note": 87,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 15871.0,
+      "note": 48,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 15871.0,
+      "note": 84,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 16026.0,
+      "note": 48,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 16026.0,
+      "note": 84,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 16064.5,
+      "note": 60,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 16064.5,
+      "note": 81,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 16219.5,
+      "note": 60,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 16219.5,
+      "note": 81,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 16258.0,
+      "note": 93,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 16413.0,
+      "note": 93,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 16451.5,
+      "note": 87,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 16606.5,
+      "note": 87,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 16645.0,
+      "note": 84,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 16800.0,
+      "note": 84,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 16838.5,
+      "note": 81,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 16993.5,
+      "note": 81,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 17032.5,
+      "note": 92,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 17032.5,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 17042.5,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 17187.5,
+      "note": 92,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 17226.0,
+      "note": 57,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 17226.0,
+      "note": 87,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 17381.0,
+      "note": 57,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 17381.0,
+      "note": 87,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 17419.5,
+      "note": 60,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 17419.5,
+      "note": 84,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 17574.5,
+      "note": 60,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 17574.5,
+      "note": 84,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 17613.0,
+      "note": 57,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 17613.0,
+      "note": 81,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 17768.0,
+      "note": 57,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 17768.0,
+      "note": 81,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 17806.5,
+      "note": 63,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 17806.5,
+      "note": 93,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 17961.5,
+      "note": 63,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 17961.5,
+      "note": 93,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 18000.0,
+      "note": 62,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 18000.0,
+      "note": 87,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 18155.0,
+      "note": 62,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 18155.0,
+      "note": 87,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 18193.5,
+      "note": 60,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 18193.5,
+      "note": 84,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 18348.5,
+      "note": 60,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 18348.5,
+      "note": 84,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 18387.0,
+      "note": 57,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteon",
+      "timestamp": 18387.0,
+      "note": 81,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 18542.0,
+      "note": 57,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 18542.0,
+      "note": 81,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 18580.5,
+      "note": 46,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteon",
+      "timestamp": 18580.5,
+      "note": 96,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 18580.5,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 18590.5,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 18735.5,
+      "note": 46,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 18735.5,
+      "note": 96,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 18774.0,
+      "note": 46,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteon",
+      "timestamp": 18774.0,
+      "note": 86,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 18929.0,
+      "note": 46,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 18929.0,
+      "note": 86,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 18967.5,
+      "note": 53,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteon",
+      "timestamp": 18967.5,
+      "note": 82,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 19122.5,
+      "note": 53,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 19122.5,
+      "note": 82,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 19161.5,
+      "note": 58,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteon",
+      "timestamp": 19161.5,
+      "note": 79,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 19316.5,
+      "note": 58,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 19316.5,
+      "note": 79,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 19355.0,
+      "note": 94,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 19510.0,
+      "note": 94,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 19548.5,
+      "note": 86,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 19703.5,
+      "note": 86,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 19742.0,
+      "note": 82,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 19897.0,
+      "note": 82,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 19935.5,
+      "note": 79,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 20090.5,
+      "note": 79,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 20129.0,
+      "note": 93,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 20129.0,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 20139.0,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 20284.0,
+      "note": 93,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 20322.5,
+      "note": 57,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteon",
+      "timestamp": 20322.5,
+      "note": 86,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 20477.5,
+      "note": 57,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 20477.5,
+      "note": 86,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 20516.0,
+      "note": 58,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteon",
+      "timestamp": 20516.0,
+      "note": 82,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 20671.0,
+      "note": 58,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 20671.0,
+      "note": 82,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 20709.5,
+      "note": 57,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteon",
+      "timestamp": 20709.5,
+      "note": 79,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 20864.5,
+      "note": 57,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 20864.5,
+      "note": 79,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 20903.0,
+      "note": 60,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteon",
+      "timestamp": 20903.0,
+      "note": 94,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 21058.0,
+      "note": 60,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 21058.0,
+      "note": 94,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 21097.0,
+      "note": 58,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteon",
+      "timestamp": 21097.0,
+      "note": 86,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 21252.0,
+      "note": 58,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 21252.0,
+      "note": 86,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 21290.5,
+      "note": 55,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteon",
+      "timestamp": 21290.5,
+      "note": 82,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 21445.5,
+      "note": 55,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 21445.5,
+      "note": 82,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 21484.0,
+      "note": 52,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteon",
+      "timestamp": 21484.0,
+      "note": 79,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 21639.0,
+      "note": 52,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 21639.0,
+      "note": 79,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 21677.5,
+      "note": 43,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteon",
+      "timestamp": 21677.5,
+      "note": 93,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 21677.5,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 21687.5,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 21832.5,
+      "note": 43,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 21832.5,
+      "note": 93,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 21871.0,
+      "note": 43,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteon",
+      "timestamp": 21871.0,
+      "note": 82,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 22026.0,
+      "note": 43,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 22026.0,
+      "note": 82,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 22064.5,
+      "note": 46,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteon",
+      "timestamp": 22064.5,
+      "note": 79,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 22219.5,
+      "note": 46,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 22219.5,
+      "note": 79,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 22258.0,
+      "note": 53,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteon",
+      "timestamp": 22258.0,
+      "note": 76,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 22413.0,
+      "note": 53,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 22413.0,
+      "note": 76,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 22451.5,
+      "note": 91,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 22606.5,
+      "note": 91,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 22645.0,
+      "note": 82,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 22800.0,
+      "note": 82,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 22838.5,
+      "note": 79,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 22993.5,
+      "note": 79,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 23032.5,
+      "note": 76,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 23187.5,
+      "note": 76,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 23226.0,
+      "note": 89,
+      "rawAttack": 40,
+      "velocity": 0.31496062992125984
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 23226.0,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 23236.0,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 23381.0,
+      "note": 89,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 23419.5,
+      "note": 52,
+      "rawAttack": 40,
+      "velocity": 0.31496062992125984
+    },
+    {
+      "type": "noteon",
+      "timestamp": 23419.5,
+      "note": 82,
+      "rawAttack": 40,
+      "velocity": 0.31496062992125984
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 23574.5,
+      "note": 52,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 23574.5,
+      "note": 82,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 23613.0,
+      "note": 53,
+      "rawAttack": 40,
+      "velocity": 0.31496062992125984
+    },
+    {
+      "type": "noteon",
+      "timestamp": 23613.0,
+      "note": 79,
+      "rawAttack": 40,
+      "velocity": 0.31496062992125984
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 23768.0,
+      "note": 53,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 23768.0,
+      "note": 79,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 23806.5,
+      "note": 52,
+      "rawAttack": 40,
+      "velocity": 0.31496062992125984
+    },
+    {
+      "type": "noteon",
+      "timestamp": 23806.5,
+      "note": 76,
+      "rawAttack": 40,
+      "velocity": 0.31496062992125984
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 23961.5,
+      "note": 52,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 23961.5,
+      "note": 76,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 24000.0,
+      "note": 55,
+      "rawAttack": 40,
+      "velocity": 0.31496062992125984
+    },
+    {
+      "type": "noteon",
+      "timestamp": 24000.0,
+      "note": 88,
+      "rawAttack": 40,
+      "velocity": 0.31496062992125984
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 24155.0,
+      "note": 55,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 24155.0,
+      "note": 88,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 24193.5,
+      "note": 52,
+      "rawAttack": 40,
+      "velocity": 0.31496062992125984
+    },
+    {
+      "type": "noteon",
+      "timestamp": 24193.5,
+      "note": 82,
+      "rawAttack": 40,
+      "velocity": 0.31496062992125984
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 24348.5,
+      "note": 52,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 24348.5,
+      "note": 82,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 24387.0,
+      "note": 48,
+      "rawAttack": 40,
+      "velocity": 0.31496062992125984
+    },
+    {
+      "type": "noteon",
+      "timestamp": 24387.0,
+      "note": 79,
+      "rawAttack": 40,
+      "velocity": 0.31496062992125984
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 24542.0,
+      "note": 48,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 24542.0,
+      "note": 79,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 24580.5,
+      "note": 43,
+      "rawAttack": 40,
+      "velocity": 0.31496062992125984
+    },
+    {
+      "type": "noteon",
+      "timestamp": 24580.5,
+      "note": 76,
+      "rawAttack": 40,
+      "velocity": 0.31496062992125984
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 24735.5,
+      "note": 43,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 24735.5,
+      "note": 76,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 24774.0,
+      "controller": 64,
+      "value": 0
+    }
+  ],
+  "tempo_factor": 1.0
+}

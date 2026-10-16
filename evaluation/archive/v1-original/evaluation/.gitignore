@@ -1,0 +1,5 @@
+.venv/
+.node/node_modules/
+runtime/
+__pycache__/
+scripts/__pycache__/

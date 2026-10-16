@@ -1,0 +1,1196 @@
+{
+  "suite_case_count": 28,
+  "metric_verdicts_compared": 196,
+  "changed_outcomes": [
+    {
+      "case": "final_marked_note",
+      "metric": "articulation",
+      "before": 2,
+      "after": 0
+    }
+  ],
+  "unchanged_outcome_count": 195,
+  "unexpected_changes": [],
+  "inputs_identical": true,
+  "archive_verified": true,
+  "archive_verified_file_count": 421,
+  "all_outcomes": [
+    {
+      "case": "baseline",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "baseline",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "baseline",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "baseline",
+      "metric": "pedal-toggle",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "baseline",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "baseline",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "baseline",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "wrong_pitch",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "wrong_pitch",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "wrong_pitch",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "wrong_pitch",
+      "metric": "pedal-toggle",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "wrong_pitch",
+      "metric": "pitch-agreement",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "case": "wrong_pitch",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "wrong_pitch",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "outside_range",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "outside_range",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "outside_range",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "outside_range",
+      "metric": "pedal-toggle",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "outside_range",
+      "metric": "pitch-agreement",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "case": "outside_range",
+      "metric": "pitch-range",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "case": "outside_range",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "bad_velocity",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "bad_velocity",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "bad_velocity",
+      "metric": "dynamics-adherence",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "case": "bad_velocity",
+      "metric": "pedal-toggle",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "bad_velocity",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "bad_velocity",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "bad_velocity",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "bad_articulation",
+      "metric": "articulation",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "case": "bad_articulation",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "bad_articulation",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "bad_articulation",
+      "metric": "pedal-toggle",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "bad_articulation",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "bad_articulation",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "bad_articulation",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "chord_spread_29ms",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "chord_spread_29ms",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "chord_spread_29ms",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "chord_spread_29ms",
+      "metric": "pedal-toggle",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "chord_spread_29ms",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "chord_spread_29ms",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "chord_spread_29ms",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "chord_spread_30ms",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "chord_spread_30ms",
+      "metric": "chord-jitter",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "case": "chord_spread_30ms",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "chord_spread_30ms",
+      "metric": "pedal-toggle",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "chord_spread_30ms",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "chord_spread_30ms",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "chord_spread_30ms",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "chord_spread_31ms",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "chord_spread_31ms",
+      "metric": "chord-jitter",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "case": "chord_spread_31ms",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "chord_spread_31ms",
+      "metric": "pedal-toggle",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "chord_spread_31ms",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "chord_spread_31ms",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "chord_spread_31ms",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_24ms",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_24ms",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_24ms",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_24ms",
+      "metric": "pedal-toggle",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_24ms",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_24ms",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_24ms",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_25ms",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_25ms",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_25ms",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_25ms",
+      "metric": "pedal-toggle",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_25ms",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_25ms",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_25ms",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_26ms",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_26ms",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_26ms",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_26ms",
+      "metric": "pedal-toggle",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "case": "pedal_press_26ms",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_26ms",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_26ms",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_124ms",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_124ms",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_124ms",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_124ms",
+      "metric": "pedal-toggle",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "case": "pedal_press_124ms",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_124ms",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_124ms",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_125ms",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_125ms",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_125ms",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_125ms",
+      "metric": "pedal-toggle",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "case": "pedal_press_125ms",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_125ms",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_125ms",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_126ms",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_126ms",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_126ms",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_126ms",
+      "metric": "pedal-toggle",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "case": "pedal_press_126ms",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_126ms",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_press_126ms",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_release_late_25ms",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_release_late_25ms",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_release_late_25ms",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_release_late_25ms",
+      "metric": "pedal-toggle",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_release_late_25ms",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_release_late_25ms",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_release_late_25ms",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_release_late_26ms",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_release_late_26ms",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_release_late_26ms",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_release_late_26ms",
+      "metric": "pedal-toggle",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "case": "pedal_release_late_26ms",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_release_late_26ms",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_release_late_26ms",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "missing_note",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "missing_note",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "missing_note",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "missing_note",
+      "metric": "pedal-toggle",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "missing_note",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "missing_note",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "missing_note",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "duplicate_note",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "duplicate_note",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "duplicate_note",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "duplicate_note",
+      "metric": "pedal-toggle",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "duplicate_note",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "duplicate_note",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "duplicate_note",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "missing_release",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "missing_release",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "missing_release",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "missing_release",
+      "metric": "pedal-toggle",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "case": "missing_release",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "missing_release",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "missing_release",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pre_attack",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pre_attack",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pre_attack",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pre_attack",
+      "metric": "pedal-toggle",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pre_attack",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pre_attack",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pre_attack",
+      "metric": "syncopated-pedal",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "case": "pedal_all_absent",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_all_absent",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_all_absent",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_all_absent",
+      "metric": "pedal-toggle",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_all_absent",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_all_absent",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "pedal_all_absent",
+      "metric": "syncopated-pedal",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "case": "late_press_300ms",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "late_press_300ms",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "late_press_300ms",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "late_press_300ms",
+      "metric": "pedal-toggle",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "case": "late_press_300ms",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "late_press_300ms",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "late_press_300ms",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "staccato_375ms",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "staccato_375ms",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "staccato_375ms",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "staccato_375ms",
+      "metric": "pedal-toggle",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "staccato_375ms",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "staccato_375ms",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "staccato_375ms",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "tenuto_374ms",
+      "metric": "articulation",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "case": "tenuto_374ms",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "tenuto_374ms",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "tenuto_374ms",
+      "metric": "pedal-toggle",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "tenuto_374ms",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "tenuto_374ms",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "tenuto_374ms",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "tenuto_375ms",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "tenuto_375ms",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "tenuto_375ms",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "tenuto_375ms",
+      "metric": "pedal-toggle",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "tenuto_375ms",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "tenuto_375ms",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "tenuto_375ms",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "mf_velocity_64",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "mf_velocity_64",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "mf_velocity_64",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "mf_velocity_64",
+      "metric": "pedal-toggle",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "mf_velocity_64",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "mf_velocity_64",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "mf_velocity_64",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "mf_velocity_80",
+      "metric": "articulation",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "mf_velocity_80",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "mf_velocity_80",
+      "metric": "dynamics-adherence",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "case": "mf_velocity_80",
+      "metric": "pedal-toggle",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "mf_velocity_80",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "mf_velocity_80",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "mf_velocity_80",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "final_marked_note",
+      "metric": "articulation",
+      "before": 2,
+      "after": 0
+    },
+    {
+      "case": "final_marked_note",
+      "metric": "chord-jitter",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "final_marked_note",
+      "metric": "dynamics-adherence",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "final_marked_note",
+      "metric": "pedal-toggle",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "final_marked_note",
+      "metric": "pitch-agreement",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "final_marked_note",
+      "metric": "pitch-range",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "case": "final_marked_note",
+      "metric": "syncopated-pedal",
+      "before": 0,
+      "after": 0
+    }
+  ],
+  "expected_repair_observed": true
+}

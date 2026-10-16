@@ -1,0 +1,102 @@
+% Generated from retained local raw data by scripts/paper.py.
+\section{Experimental evaluation}
+\label{sec:evaluation}
+We evaluated (i) the properties observed by the current implementation,
+(ii) its behaviour on manually specified synthetic performances, and
+(iii) the cost of its local analysis path. All performances were deterministic
+synthetic MIDI, not pianist recordings or a user study. The earlier draft's
+timings were not used as reference values or targets.
+
+\paragraph{Setup and provenance.}
+We compiled the seven unchanged RML specifications with the vendored compiler
+and exercised the actual service and browser \texttt{toPerformance} export.
+The service files were staged byte-for-byte in the existing Docker layout;
+application code and specifications were not repaired. The accessible project
+Git metadata did not identify a Cadenza commit, so SHA-256 manifests identify
+the evaluated sources and inputs. The experiments ran on 14 October 2026,
+on an Intel Core i7-7700HQ (2.80\,GHz; four cores/eight logical processors),
+with 15.51\,GiB reported RAM and Linux 6.8.0-138-generic.
+The isolated environment used Python 3.11.0rc1, Partitura 1.9.0,
+NumPy 1.26.4, SciPy 1.17.1, lxml 6.1.3, mido 1.3.3 and SWI-Prolog 9.1.21.
+Complete runtime versions, resource limits and dependency inventories are retained.
+Numerical-library thread limits were one; CPU frequency and background load
+were not controlled.
+
+\paragraph{Behaviour.}
+An original eight-note MusicXML exercise contains a two-note chord, dynamics,
+staccato, tenuto and a pedal span. We froze manually reasoned per-specification
+verdicts before execution, separately labelling musical errors under a declared
+exercise rubric. Across 28 cases there were 0 deviations from these predictions,
+including one predicted articulation runtime error. The baseline was accepted
+by all seven metrics. Wrong pitch, out-of-range pitch, velocity and duration
+cases were rejected as predicted. Chord spread of 29\,ms was accepted and
+30/31\,ms rejected. At 120 beats per minute, the composed pedal-boundary
+association accepted +25\,ms and rejected +26\,ms for this fixture, despite
+the RML's nominal 0.25-beat tolerance. Missing and duplicate-note cases were
+accepted by all metrics, exposing the absence of general score coverage and
+one-to-one matching obligations. Syncopated pedal checked event order without
+an elapsed-time bound: a 300\,ms delayed press passed that metric, whereas
+pre-attack pedal failed. Missing release failed pedal-toggle but passed
+syncopated-pedal. A final marked note caused articulation exit~2 because its
+null next-attack gap reached compiled arithmetic. This defect was retained,
+and error diagnostics are provided separately from acceptance and rejection.
+
+\paragraph{Local analysis cost.}
+The repository scores \emph{Great Fairy Fountain} and
+\emph{Merry-Go-Round of Life} yielded 216 and 2,324 parsed notes, respectively.
+The latter contains 2,418 pitched XML noteheads and 94 ties, explaining the
+parsed count. The generated traces contain 464 and 4946
+note-on, note-off and control-change events. Onsets use the implementation's
+own timing map; this is not independent alignment validation. Durations,
+velocities and pedal events follow fixed documented rules, with no randomness
+or adjustment based on verdicts. MIDI encoding resolution was 0.5\,ms.
+Synthetic timestamps already have the intended score-time origin; live
+capture/playback timestamp-origin alignment was not tested.
+
+We used a monotonic high-resolution clock around each actual
+\texttt{analyse} call, including validation, temporary score creation,
+MusicXML parsing, enrichment, JSONL serialisation and writing, fresh Prolog
+startup, seven checks, verdict decoding and cleanup. Browser capture and
+conversion, MIDI decoding, HTTP transport, rendering, Python import/startup
+and ahead-of-time RML compilation were excluded. Each workload received
+three warm-ups and 30 measured calls, sequentially in one Python process;
+every call started a new Prolog process. Python libraries and OS caches could
+remain warm. Delegating stage timers and warning capture add retained
+instrumentation overhead. Total request durations were independently measured,
+not reconstructed by summing stage medians.
+
+\begin{table}[t]
+\centering
+\resizebox{\linewidth}{!}{\input{tables/timing.tex}}
+\caption{Local analysis times in seconds, with linear-interpolation quartiles.
+Every measured sample is retained; warm-ups are excluded from the statistics.}
+\label{tab:local-cost}
+\end{table}
+
+The median totals were 0.703565\,s and 5.788159\,s
+(Table~\ref{tab:local-cost}). Across the 60 measured calls there were
+0 service exceptions, 0 timeouts and 0 calls with monitor errors.
+The retained per-metric outcome table reports acceptance and rejection
+alongside timing: syncopated-pedal rejected on both workloads, while the
+other six metrics accepted on every measured call.
+Separate original-monitor diagnostics locate these rejections at events
+28 of 464 and
+29 of 4946, respectively.
+At adjacent pedal spans, a boundary attack is consumed by the preceding
+region before its release; the following press lacks a fresh preceding attack.
+These diagnostic calls are excluded from the timing samples.
+Parsing warnings occurred on every call (1 occurrences per smaller-score
+parse and 24 per larger-score parse), including ignored/unsupported
+directions and an unmatched pedal stop; Prolog also emitted a singleton-variable
+warning. All messages and raw samples are retained. An initial evaluation-wrapper
+failure occurred before monitoring and is archived separately; it did not change
+inputs, specifications or the frozen expectations.
+
+\paragraph{Limits.}
+The evidence concerns these synthetic cases, the original specifications and
+two local workloads. A rejecting monitor may stop before consuming the whole
+trace, so the results are not worst-case costs. They establish neither general
+musical completeness nor independent alignment accuracy, scalability,
+real-time guarantees or end-to-end user-facing latency. Scripts, MusicXML,
+MIDI, service inputs, enriched traces, expected/actual verdicts, hashes,
+warnings and individual timing samples accompany the evaluation.

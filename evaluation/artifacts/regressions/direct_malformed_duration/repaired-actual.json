@@ -1,0 +1,26 @@
+{
+  "version": "repaired",
+  "started_utc": "2026-10-14T13:44:03.370890+00:00",
+  "command": [
+    "swipl",
+    "-O",
+    "-p",
+    "monitor=/media/angelo/WorkData/git/cadenza-src-main/rml/monitor",
+    "/media/angelo/WorkData/git/cadenza-src-main/server/batch.pl",
+    "--",
+    "/media/angelo/WorkData/git/cadenza-src-main/evaluation/fixtures/regressions/direct/direct_malformed_duration.jsonl",
+    "articulation",
+    "/media/angelo/WorkData/git/cadenza-src-main/evaluation/compiled/articulation.pl"
+  ],
+  "specification_sha256": "501ecf5d6e73fbc87ae403ee0ce4b91e5b4ea4bb514123568898c9628e7313f3",
+  "total_seconds": 0.262555931,
+  "process": {
+    "returncode": 0,
+    "stdout": "articulation 2\n",
+    "stderr": "ERROR: Type error: `clpr_expression' expected, found `\"bad-duration\"' (a string)\n"
+  },
+  "actual": {
+    "articulation": 2
+  },
+  "trace_sha256": "b4d1a720b2399c19561e20bfb1924f22eb8dc99cb7d3d9f422b064a0858b8d1b"
+}

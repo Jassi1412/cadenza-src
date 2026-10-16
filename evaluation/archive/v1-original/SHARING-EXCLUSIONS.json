@@ -1,0 +1,81 @@
+{
+  "purpose": "Explicit omissions from the Git distribution; original frozen manifest and local files remain unchanged. All non-exempt evidence must be present and hash-verified.",
+  "files": {
+    "evaluation/artifacts/paper/page-2.png": {
+      "sha256": "063c0d8bcfb84213acd7924dc3ba0c96ff4cf33c743f26ccd9a9d2c15ea1797d",
+      "reason": "Generated paper preview; rebuild from committed LaTeX."
+    },
+    "evaluation/artifacts/paper/page-3.png": {
+      "sha256": "521e72a3737d8b2caa00558f9bda2108e298eb9ef36d683c4e3d82c20abc319b",
+      "reason": "Generated paper preview; rebuild from committed LaTeX."
+    },
+    "evaluation/artifacts/paper/paper-preview.aux": {
+      "sha256": "b09790a9cf9852e59803056e8cc8677d55c597a1fd4301f7c2ab82a4f146c0e1",
+      "reason": "Generated paper preview; rebuild from committed LaTeX."
+    },
+    "evaluation/artifacts/paper/paper-preview.log": {
+      "sha256": "3e5dddb4b0d27d0b968580dfd9779d19ff63e0a2e24ab0642bab58fcc78a82d1",
+      "reason": "Generated/duplicate log; retained locally, with raw scientific diagnostics in committed JSON."
+    },
+    "evaluation/artifacts/paper/paper-preview.pdf": {
+      "sha256": "9aeded48c93823c0bd275f64ede4ba2b5a91ae0da9d1f67571b4920c64c57377",
+      "reason": "Generated paper preview; rebuild from committed LaTeX."
+    },
+    "evaluation/artifacts/paper/paper-preview.txt": {
+      "sha256": "b02c41f6baaa997cc7d6304692e6360baea7f325c2562fb8935431077d38f6e9",
+      "reason": "Generated paper preview; rebuild from committed LaTeX."
+    },
+    "evaluation/diagnostics/harness-attempt-01/validation.log": {
+      "sha256": "1920f4595a77bf8d031704e260aff8e1458aa321211a5053864f41d5014cf0ec",
+      "reason": "Generated/duplicate log; retained locally, with raw scientific diagnostics in committed JSON."
+    },
+    "evaluation/metadata/benchmark.log": {
+      "sha256": "cf492f3b18c9e21239b7d71ca7d36368fcd9adb4d1293673b115ec61354f305e",
+      "reason": "Generated/duplicate log; retained locally, with raw scientific diagnostics in committed JSON."
+    },
+    "evaluation/metadata/determinism-generation.log": {
+      "sha256": "c3ff654e6f083032b5b5dab9eb70d6e674f0e38d8d24772496fa5be58416b592",
+      "reason": "Generated/duplicate log; retained locally, with raw scientific diagnostics in committed JSON."
+    },
+    "evaluation/metadata/generation.log": {
+      "sha256": "c3ff654e6f083032b5b5dab9eb70d6e674f0e38d8d24772496fa5be58416b592",
+      "reason": "Generated/duplicate log; retained locally, with raw scientific diagnostics in committed JSON."
+    },
+    "evaluation/metadata/latex-build.log": {
+      "sha256": "a03eee17523dbf0746552a1d5ab7aff23c77f742648f58f0500ef7a235bdd6d2",
+      "reason": "Generated/duplicate log; retained locally, with raw scientific diagnostics in committed JSON."
+    },
+    "evaluation/metadata/npm-install-network.log": {
+      "sha256": "a941066d38162d18c88ea4b096d8cf11d19b0d46b973f6d916e2f9b8794e1f36",
+      "reason": "Generated/duplicate log; retained locally, with raw scientific diagnostics in committed JSON."
+    },
+    "evaluation/metadata/npm-install.log": {
+      "sha256": "04999078ca4ccb6793de13cd11bece95276862a2327437a8e0c925d1d977ab5d",
+      "reason": "Generated/duplicate log; retained locally, with raw scientific diagnostics in committed JSON."
+    },
+    "evaluation/metadata/pdf-render.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Generated/duplicate log; retained locally, with raw scientific diagnostics in committed JSON."
+    },
+    "evaluation/metadata/pip-install-network.log": {
+      "sha256": "25eb09d457c7047c5633956ea9af750b6ea516bd025a38c0bb6630a9e3fb6c62",
+      "reason": "Generated/duplicate log; retained locally, with raw scientific diagnostics in committed JSON."
+    },
+    "evaluation/metadata/pip-install.log": {
+      "sha256": "5000cca6766a2d16fd6eab743637e65f734b27112108dd6d25206c4a5aecf9dd",
+      "reason": "Generated/duplicate log; retained locally, with raw scientific diagnostics in committed JSON."
+    },
+    "evaluation/metadata/validation.log": {
+      "sha256": "88a3d6d8a36e19f57e597263cdcd635576f4211033a10b00634233874dca1df0",
+      "reason": "Generated/duplicate log; retained locally, with raw scientific diagnostics in committed JSON."
+    },
+    "project/archive.zip": {
+      "sha256": "3d7c06c01b03f450467ce0d75bf0ebafa7424f0501d87b857f4d2b5d03ac3af9",
+      "reason": "Redundant local ZIP backup; excluded from source sharing."
+    },
+    "project/server/alignment/__pycache__/join.cpython-311.pyc": {
+      "sha256": "e2620445e3537720aa7a86ceb4617ca9ed7d973e9abeca8eaad15101e861b200",
+      "reason": "Generated Python bytecode cache."
+    }
+  }
+}

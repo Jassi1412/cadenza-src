@@ -1,0 +1,1 @@
+Initial harness failure, before any Prolog monitor execution. All 28 calls failed because the evaluation subprocess proxy omitted the PIPE constant. The evaluation wrapper was corrected to delegate PIPE unchanged; application sources, specifications, inputs and frozen expectations were not changed. These are harness diagnostics, not Cadenza correctness or timing measurements.

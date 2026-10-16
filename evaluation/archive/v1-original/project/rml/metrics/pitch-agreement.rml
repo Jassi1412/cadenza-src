@@ -1,0 +1,13 @@
+noteOn(num, dist) matches
+    {type:'noteon', note:{number:num}, expected:{pitchDist:dist}};
+
+inScore(num) matches noteOn(num, dist) with dist >= 0 && dist <= 0;
+
+inScore matches inScore(_);
+
+unmatchedNote matches noteOn(_, null);
+
+anyNoteOn matches {type:'noteon'};
+
+
+Main = anyNoteOn >> (unmatchedNote \/ inScore)*;

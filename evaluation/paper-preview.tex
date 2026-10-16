@@ -1,0 +1,31 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[british]{babel}
+\usepackage[margin=24mm]{geometry}
+\usepackage{graphicx}
+\title{Cadenza: local evaluation evidence}
+\author{}
+\date{14 October 2026}
+\begin{document}
+\maketitle
+\input{evaluation.tex}
+\clearpage
+\section*{Detailed behavioural results}
+Cells are expected/actual exit codes: 0 acceptance, 1 rejection, 2 error.
+A: articulation; C: chord jitter; D: dynamics; T: pedal toggle;
+P: pitch agreement; R: pitch range; S: syncopated pedal.
+Teacher-error labels follow the declared synthetic exercise rubric.
+\begin{center}
+\resizebox{\textwidth}{!}{\input{tables/behaviour.tex}}
+\end{center}
+\clearpage
+\section*{Focused articulation regressions}
+These additional fixtures remain separate from the 28-case suite.
+Cells show expected/actual articulation exit codes for the archived original
+and repaired monitor. Direct fixtures run articulation only; complete service
+fixtures run all seven checks, with the other six accepting in both versions.
+No-gap acceptance means the duration requirement is inapplicable.
+\begin{center}
+\resizebox{\textwidth}{!}{\input{tables/regressions.tex}}
+\end{center}
+\end{document}

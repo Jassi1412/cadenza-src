@@ -1,0 +1,103 @@
+% Generated from repaired-version retained raw data by scripts/paper.py.
+\section{Experimental evaluation}
+\label{sec:evaluation}
+We evaluated the repaired articulation monitor, its preserved assessment
+boundaries and local execution costs. Service-path performances used
+deterministic synthetic MIDI; direct checks used synthetic enriched traces.
+No pianist recordings or user study were involved.
+The previous evaluation, expectations and diagnostics were archived before
+repair. Content hashes identify both source versions because usable project
+Git history was unavailable; no parent repository commit is attributed to Cadenza.
+
+\paragraph{Repair and behavioural evidence.}
+Replaying the original final-marked-note input reproduced
+\texttt{type\_error(clpr\_expression,null)}. The final attack has no next
+distinct performed onset, so enrichment intentionally supplies a null gap.
+The RML tried a numeric duration alternative before the existing no-gap
+alternative, exposing null to generated CLP(R) arithmetic. We moved the
+no-gap alternative first and regenerated Prolog with the vendored compiler.
+Staccato still requires $d\leq0.75g$, and tenuto/legato require
+$d\geq0.75g$ whenever the gap applies. No successor interval was invented.
+Acceptance without a gap means that this requirement is inapplicable,
+not that the final duration was verified.
+
+The unchanged 28-case suite uses an original eight-note MusicXML
+exercise with a chord, dynamics, staccato, tenuto and a pedal span. A separately
+versioned manual ledger was frozen before repaired execution; it changes only
+the expected final-note articulation error to no-gap acceptance.
+All 196 metric outcomes were compared with the archive:
+only this articulation verdict changed (exit 2 to 0); the other
+195 were unchanged. All repaired predictions matched,
+with 0 service failures and 0 monitor errors.
+A further 29 focused checks also matched expectations:
+18 direct compiled-monitor fixtures and 11 complete
+conversion/service fixtures. They cover marked/unmarked null-gap finals,
+durations below/at/above the 0.75 boundary, and earlier violations followed
+by no-gap events; earlier violations still reject. The importer produces
+staccato and tenuto; literal legato is tested directly at the monitor boundary.
+Two malformed numeric fixtures retain their expected monitor errors;
+the repair does not convert arbitrary arithmetic failures into acceptance.
+
+\paragraph{Remaining assessment limits.}
+Missing and duplicate-note cases still pass all seven metrics, showing the
+absence of general score-coverage and one-to-one matching obligations.
+Pedal endpoint association remains narrower than the nominal RML assessment
+tolerance: this 120 BPM fixture accepts +25\,ms and rejects +26\,ms,
+despite a nominal 0.25-beat (125\,ms) allowance. The effective boundary depends
+on enrichment, tempo and floating-point snapping. Syncopated-pedal checks
+event order without a numerical deadline: a 300\,ms delayed press passes
+that metric, although pedal-toggle rejects it. These policies were unchanged.
+
+\paragraph{Local execution costs.}
+The same repository-score inputs yielded 216 and
+2,324 parsed notes and 464 and
+4,946 enriched events; hashes and counts match the archive.
+The larger score's 2,418 pitched XML
+noteheads include 94 tied continuations.
+Onsets depend on the implementation's own timing map; this does not
+independently validate alignment. Synthetic timestamps already have the
+intended score-time origin, leaving live capture/playback clock alignment untested.
+
+Each workload received three warm-ups and 30 measured calls, sequentially
+in one Python process, with a new Prolog process per request and all seven
+checks. A monotonic clock surrounded the actual \texttt{analyse} call,
+including validation, temporary score creation, MusicXML parsing, enrichment,
+JSONL serialisation/writing, Prolog startup/specification loading, monitoring,
+verdict decoding and cleanup. Browser capture/conversion, MIDI decoding,
+HTTP transport, rendering, Python startup/import and ahead-of-time compilation
+were excluded. Stage-timer and warning-capture overhead remained included;
+totals were measured directly, rather than summing component medians.
+
+\begin{table}[t]
+\centering
+\resizebox{\linewidth}{!}{\input{tables/timing.tex}}
+\caption{New local analysis times in seconds. Quartiles use linear
+interpolation; all measured samples are retained and warm-ups excluded.}
+\label{tab:local-cost}
+\end{table}
+
+Median totals were 0.779284\,s and 6.037239\,s
+(Table~\ref{tab:local-cost}). Across 60 measured calls,
+there were 0 service failures, 0 timeouts and
+0 calls with monitor errors. The other six metrics accepted
+on every call, but syncopated-pedal rejected on both workloads.
+Separate standalone-monitor diagnostics locate rejection at events
+28/464 and
+29/4946,
+respectively: at adjacent pedal spans the preceding region consumes a
+boundary attack, leaving the next press without a fresh preceding attack.
+These diagnostics were excluded from timing. Rejecting monitors can stop
+early, so these costs do not represent seven fully accepting checks or
+worst-case trace consumption. Parsing warnings and Prolog diagnostics were
+retained with every sample; earlier timings were not reused as samples or targets.
+
+Measurements ran on 14 October 2026 using
+Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, 15.51\,GiB reported RAM, Linux 6.8.0-138-generic,
+Python 3.11.0rc1, Partitura 1.9.0, NumPy 1.26.4, SciPy 1.17.1, lxml 6.1.3, mido 1.3.3 and
+SWI-Prolog version 9.1.21 for x86\_64-linux. Numerical-library thread limits were
+one; Python libraries and OS caches could remain warm. CPU frequency and
+background load were uncontrolled. Exact versions, commands, hashes, raw
+inputs/traces, manual expectations, all verdicts and timing samples accompany
+the report. The evidence supports the repaired no-gap policy and these local
+costs; it establishes neither complete musical assessment, independent live
+alignment accuracy, scalability, real-time bounds nor user-facing latency.

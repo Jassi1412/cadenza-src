@@ -1,0 +1,128 @@
+[
+  {
+    "argv": [
+      "java",
+      "-cp",
+      "/media/angelo/WorkData/git/cadenza-src-main/vendor/rml-compiler/lib/*",
+      "compiler.MainKt",
+      "--input",
+      "/media/angelo/WorkData/git/cadenza-src-main/rml/metrics/articulation.rml",
+      "--output",
+      "/media/angelo/WorkData/git/cadenza-src-main/evaluation/compiled/articulation.pl"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "source": "rml/metrics/articulation.rml",
+    "source_sha256": "d6e63ac2bfc4fe8917494518683076bf56f1b2874fde992813fa9c7cb77bcf59",
+    "compiled_sha256": "e905cff6dcc7e365f268877f039cb3f2f8bee7ebe8c17cb0808f196b8bbe28a2"
+  },
+  {
+    "argv": [
+      "java",
+      "-cp",
+      "/media/angelo/WorkData/git/cadenza-src-main/vendor/rml-compiler/lib/*",
+      "compiler.MainKt",
+      "--input",
+      "/media/angelo/WorkData/git/cadenza-src-main/rml/metrics/chord-jitter.rml",
+      "--output",
+      "/media/angelo/WorkData/git/cadenza-src-main/evaluation/compiled/chord-jitter.pl"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "source": "rml/metrics/chord-jitter.rml",
+    "source_sha256": "0d2fbc5b32819fd42ea916399f7e74a3717237cc536f5f135c82dfbef6c7da5b",
+    "compiled_sha256": "fb56ef0568da26a4a98338bb49b1f15468b1b27594d3d61e3865baa2ba74d581"
+  },
+  {
+    "argv": [
+      "java",
+      "-cp",
+      "/media/angelo/WorkData/git/cadenza-src-main/vendor/rml-compiler/lib/*",
+      "compiler.MainKt",
+      "--input",
+      "/media/angelo/WorkData/git/cadenza-src-main/rml/metrics/dynamics-adherence.rml",
+      "--output",
+      "/media/angelo/WorkData/git/cadenza-src-main/evaluation/compiled/dynamics-adherence.pl"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "source": "rml/metrics/dynamics-adherence.rml",
+    "source_sha256": "edf7355a3bd4aac78f1daadcf8328c6ecb022e7f16f93b1a97ace3a9ed477e1d",
+    "compiled_sha256": "0b496d4afab3fede47868579261fc895dfeb162c1e680d64a187a8adaa25190f"
+  },
+  {
+    "argv": [
+      "java",
+      "-cp",
+      "/media/angelo/WorkData/git/cadenza-src-main/vendor/rml-compiler/lib/*",
+      "compiler.MainKt",
+      "--input",
+      "/media/angelo/WorkData/git/cadenza-src-main/rml/metrics/pedal-toggle.rml",
+      "--output",
+      "/media/angelo/WorkData/git/cadenza-src-main/evaluation/compiled/pedal-toggle.pl"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "source": "rml/metrics/pedal-toggle.rml",
+    "source_sha256": "f7c7149205be9c9595838f73476d1d51fa0e5008f5d76dc43d72ec44a3c7aac9",
+    "compiled_sha256": "26bf221d046cb1ef013b18b94e12922a599ba1617533f49bbb7caedb43422688"
+  },
+  {
+    "argv": [
+      "java",
+      "-cp",
+      "/media/angelo/WorkData/git/cadenza-src-main/vendor/rml-compiler/lib/*",
+      "compiler.MainKt",
+      "--input",
+      "/media/angelo/WorkData/git/cadenza-src-main/rml/metrics/pitch-agreement.rml",
+      "--output",
+      "/media/angelo/WorkData/git/cadenza-src-main/evaluation/compiled/pitch-agreement.pl"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "source": "rml/metrics/pitch-agreement.rml",
+    "source_sha256": "5b819f58fbe4880d29340e00b1a0745b750e1944013458a07f1ecf7167e196f6",
+    "compiled_sha256": "4d4096bdc133d20d325cf96be1757911006d7d0d023666615ac62c1270c7a823"
+  },
+  {
+    "argv": [
+      "java",
+      "-cp",
+      "/media/angelo/WorkData/git/cadenza-src-main/vendor/rml-compiler/lib/*",
+      "compiler.MainKt",
+      "--input",
+      "/media/angelo/WorkData/git/cadenza-src-main/rml/metrics/pitch-range.rml",
+      "--output",
+      "/media/angelo/WorkData/git/cadenza-src-main/evaluation/compiled/pitch-range.pl"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "source": "rml/metrics/pitch-range.rml",
+    "source_sha256": "ee652e39fdc269c49881050a7e7e697c7362088528b1a1d76cac2123a3109a53",
+    "compiled_sha256": "1a4b07cfb3dec0d9655ac6e74278229c6fd63e78dbeb015c431323772b698f7d"
+  },
+  {
+    "argv": [
+      "java",
+      "-cp",
+      "/media/angelo/WorkData/git/cadenza-src-main/vendor/rml-compiler/lib/*",
+      "compiler.MainKt",
+      "--input",
+      "/media/angelo/WorkData/git/cadenza-src-main/rml/metrics/syncopated-pedal.rml",
+      "--output",
+      "/media/angelo/WorkData/git/cadenza-src-main/evaluation/compiled/syncopated-pedal.pl"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "source": "rml/metrics/syncopated-pedal.rml",
+    "source_sha256": "a53fbdd6c069d8a98e589a22f10ce768093204f5aa0c39b391ad0cbffd08d0cf",
+    "compiled_sha256": "78503cd31e911e1e347238aa43dbf88d594ab2b0eca7087f063faf27c4a14a63"
+  }
+]

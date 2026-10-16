@@ -1,0 +1,1 @@
+{"type": "noteon", "note": {"number": 60, "rawAttack": 80}, "timestamp": 0, "durMs": 25000, "gapMs": null, "expected": {"art": null}}

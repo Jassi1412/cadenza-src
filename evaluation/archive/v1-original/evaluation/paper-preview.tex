@@ -1,0 +1,21 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[british]{babel}
+\usepackage[margin=24mm]{geometry}
+\usepackage{graphicx}
+\title{Cadenza: local evaluation evidence}
+\author{}
+\date{14 October 2026}
+\begin{document}
+\maketitle
+\input{evaluation.tex}
+\clearpage
+\section*{Detailed behavioural results}
+Cells are expected/actual exit codes: 0 acceptance, 1 rejection, 2 error.
+A: articulation; C: chord jitter; D: dynamics; T: pedal toggle;
+P: pitch agreement; R: pitch range; S: syncopated pedal.
+Teacher-error labels follow the declared synthetic exercise rubric.
+\begin{center}
+\resizebox{\textwidth}{!}{\input{tables/behaviour.tex}}
+\end{center}
+\end{document}

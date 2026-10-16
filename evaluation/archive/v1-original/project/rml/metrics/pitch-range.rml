@@ -1,0 +1,10 @@
+
+noteOn(num) matches {type:'noteon', note:{number:num}} with num >= 21 && num <= 108;
+
+
+noteOn matches noteOn(_);
+
+
+anyNoteOn matches {type:'noteon'};
+
+Main = anyNoteOn >> noteOn*;

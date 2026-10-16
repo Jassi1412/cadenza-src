@@ -1,0 +1,75 @@
+{
+  "notes": [
+    {
+      "time_ms": 0,
+      "dur_ms": 200,
+      "pitch": 60,
+      "velocity": 72
+    },
+    {
+      "time_ms": 500,
+      "dur_ms": 400,
+      "pitch": 62,
+      "velocity": 72
+    },
+    {
+      "time_ms": 1000,
+      "dur_ms": 400,
+      "pitch": 64,
+      "velocity": 72
+    },
+    {
+      "time_ms": 1500,
+      "dur_ms": 400,
+      "pitch": 65,
+      "velocity": 72
+    },
+    {
+      "time_ms": 2000,
+      "dur_ms": 400,
+      "pitch": 67,
+      "velocity": 88
+    },
+    {
+      "time_ms": 2000,
+      "dur_ms": 400,
+      "pitch": 71,
+      "velocity": 88
+    },
+    {
+      "time_ms": 3000,
+      "dur_ms": 400,
+      "pitch": 69,
+      "velocity": 88
+    },
+    {
+      "time_ms": 3500,
+      "dur_ms": 400,
+      "pitch": 72,
+      "velocity": 88
+    }
+  ],
+  "control_changes": [
+    {
+      "time_ms": 1124,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "time_ms": 2000,
+      "controller": 64,
+      "value": 0
+    }
+  ],
+  "tempo_factor": 1,
+  "_replay": {
+    "source": "web-app/src/hooks/useVerdict.ts",
+    "source_sha256": "5b0b77af0b936ba16a409914973944c60cd4fc1a4f0b9fd95887d398b0547974",
+    "export": "toPerformance",
+    "typescript_version": "6.0.2",
+    "node_version": "v20.15.0",
+    "environment_replacements": 1,
+    "execution": "full module transpile; React hooks and fetch disabled",
+    "input_sha256": "c553c3ade040f069b1648a152cc0ee5da341b96920925a18a5f82a0d7be5aba8"
+  }
+}

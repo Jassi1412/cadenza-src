@@ -1,0 +1,824 @@
+{
+  "version": 2,
+  "method": "Manual outcomes fixed from original/repaired source semantics before any regression monitor call.",
+  "scope": "Additional focused regressions, separate from the original 28 cases.",
+  "no_gap_interpretation": "Duration requirement inapplicable when there is no next-attack gap; final duration is not verified.",
+  "legato_service_limitation": "Installed Partitura 1.9.0 MusicXML get_articulations recognises staccato and tenuto, but not literal legato. Detached-legato is a different unchanged token. Literal legato is tested only by direct compiled-monitor fixtures.",
+  "original_compiled_articulation_sha256": "e905cff6dcc7e365f268877f039cb3f2f8bee7ebe8c17cb0808f196b8bbe28a2",
+  "cases": [
+    {
+      "name": "direct_final_null_staccato",
+      "kind": "direct_monitor",
+      "input": "fixtures/regressions/direct/direct_final_null_staccato.jsonl",
+      "input_sha256": "65ac1c7eb69538ac4167d6c9b15d7a0dd02cab6d853e6842e21bbf8fb334ccc2",
+      "event_count": 1,
+      "expected_original": {
+        "articulation": 2
+      },
+      "expected_repaired": {
+        "articulation": 0
+      },
+      "rationale": "Final staccato attack has gapMs:null and duration 25,000 ms. Original marked arithmetic raises before noGap; repaired noGap exempts this requirement without verifying duration."
+    },
+    {
+      "name": "direct_final_null_tenuto",
+      "kind": "direct_monitor",
+      "input": "fixtures/regressions/direct/direct_final_null_tenuto.jsonl",
+      "input_sha256": "9d64ae52fd6c7f4ba05329a04ce2eaca12347af455c16ccaadda0adc94d8e71c",
+      "event_count": 1,
+      "expected_original": {
+        "articulation": 2
+      },
+      "expected_repaired": {
+        "articulation": 0
+      },
+      "rationale": "Final tenuto attack has gapMs:null and duration 25,000 ms. Original marked arithmetic raises before noGap; repaired noGap exempts this requirement without verifying duration."
+    },
+    {
+      "name": "direct_final_null_legato",
+      "kind": "direct_monitor",
+      "input": "fixtures/regressions/direct/direct_final_null_legato.jsonl",
+      "input_sha256": "71121c0b678788176abe6a6d6cda950f1774d48cebbf63533191a044cf2d5421",
+      "event_count": 1,
+      "expected_original": {
+        "articulation": 2
+      },
+      "expected_repaired": {
+        "articulation": 0
+      },
+      "rationale": "Final legato attack has gapMs:null and duration 25,000 ms. Original marked arithmetic raises before noGap; repaired noGap exempts this requirement without verifying duration."
+    },
+    {
+      "name": "direct_final_null_unmarked",
+      "kind": "direct_monitor",
+      "input": "fixtures/regressions/direct/direct_final_null_unmarked.jsonl",
+      "input_sha256": "dcb340435ec2c09ccec29b655eff9597c59357464a9f1f36142ea3e5b55707e9",
+      "event_count": 1,
+      "expected_original": {
+        "articulation": 0
+      },
+      "expected_repaired": {
+        "articulation": 0
+      },
+      "rationale": "An unmarked final attack is accepted by the existing noMark alternative and by the reordered noGap alternative."
+    },
+    {
+      "name": "direct_staccato_374ms",
+      "kind": "direct_monitor",
+      "input": "fixtures/regressions/direct/direct_staccato_374ms.jsonl",
+      "input_sha256": "496a43f884423ff9f833747b6c46b81972e136ef600cb7ca2cb6060ee62b12b2",
+      "event_count": 1,
+      "expected_original": {
+        "articulation": 0
+      },
+      "expected_repaired": {
+        "articulation": 0
+      },
+      "rationale": "Numeric gap 500 ms sets the boundary at 375 ms. staccato requires duration <=375 ms."
+    },
+    {
+      "name": "direct_staccato_375ms",
+      "kind": "direct_monitor",
+      "input": "fixtures/regressions/direct/direct_staccato_375ms.jsonl",
+      "input_sha256": "3384afebb0e8518771f09f061c2fc0322cf80f6c091832843648616d0372409f",
+      "event_count": 1,
+      "expected_original": {
+        "articulation": 0
+      },
+      "expected_repaired": {
+        "articulation": 0
+      },
+      "rationale": "Numeric gap 500 ms sets the boundary at 375 ms. staccato requires duration <=375 ms."
+    },
+    {
+      "name": "direct_staccato_376ms",
+      "kind": "direct_monitor",
+      "input": "fixtures/regressions/direct/direct_staccato_376ms.jsonl",
+      "input_sha256": "550c9974748d4e9b882f95a32a680362cf6fdbf1850e2e1ea0c70bda59ef8037",
+      "event_count": 1,
+      "expected_original": {
+        "articulation": 1
+      },
+      "expected_repaired": {
+        "articulation": 1
+      },
+      "rationale": "Numeric gap 500 ms sets the boundary at 375 ms. staccato requires duration <=375 ms."
+    },
+    {
+      "name": "direct_earlier_bad_then_null_staccato",
+      "kind": "direct_monitor",
+      "input": "fixtures/regressions/direct/direct_earlier_bad_then_null_staccato.jsonl",
+      "input_sha256": "b60fad6320e4131e8c171c55c9450e8abc4e953a0d25a680c18c6ef2ed90f8ed",
+      "event_count": 2,
+      "expected_original": {
+        "articulation": 1
+      },
+      "expected_repaired": {
+        "articulation": 1
+      },
+      "rationale": "The first staccato event violates the numeric 375 ms boundary; the final marked null-gap exemption cannot erase that rejection."
+    },
+    {
+      "name": "direct_tenuto_374ms",
+      "kind": "direct_monitor",
+      "input": "fixtures/regressions/direct/direct_tenuto_374ms.jsonl",
+      "input_sha256": "c5c26c044c44c5880323f547c7dee08eeac5faa1048955ff32e123c4b28ad483",
+      "event_count": 1,
+      "expected_original": {
+        "articulation": 1
+      },
+      "expected_repaired": {
+        "articulation": 1
+      },
+      "rationale": "Numeric gap 500 ms sets the boundary at 375 ms. tenuto requires duration >=375 ms."
+    },
+    {
+      "name": "direct_tenuto_375ms",
+      "kind": "direct_monitor",
+      "input": "fixtures/regressions/direct/direct_tenuto_375ms.jsonl",
+      "input_sha256": "65014a01de51852f37ede42e2b0e9186a349c5e2186ef76163bfb86bf300f86d",
+      "event_count": 1,
+      "expected_original": {
+        "articulation": 0
+      },
+      "expected_repaired": {
+        "articulation": 0
+      },
+      "rationale": "Numeric gap 500 ms sets the boundary at 375 ms. tenuto requires duration >=375 ms."
+    },
+    {
+      "name": "direct_tenuto_376ms",
+      "kind": "direct_monitor",
+      "input": "fixtures/regressions/direct/direct_tenuto_376ms.jsonl",
+      "input_sha256": "a2f299681bb2fc0f8004ea7219e936181f03c5a9dc5c839d79e4aab2028537bd",
+      "event_count": 1,
+      "expected_original": {
+        "articulation": 0
+      },
+      "expected_repaired": {
+        "articulation": 0
+      },
+      "rationale": "Numeric gap 500 ms sets the boundary at 375 ms. tenuto requires duration >=375 ms."
+    },
+    {
+      "name": "direct_earlier_bad_then_null_tenuto",
+      "kind": "direct_monitor",
+      "input": "fixtures/regressions/direct/direct_earlier_bad_then_null_tenuto.jsonl",
+      "input_sha256": "bdb11fee73ef2d7e754ad14c5ae2fc3add843779926b1526fa319015b04e43c3",
+      "event_count": 2,
+      "expected_original": {
+        "articulation": 1
+      },
+      "expected_repaired": {
+        "articulation": 1
+      },
+      "rationale": "The first tenuto event violates the numeric 375 ms boundary; the final marked null-gap exemption cannot erase that rejection."
+    },
+    {
+      "name": "direct_legato_374ms",
+      "kind": "direct_monitor",
+      "input": "fixtures/regressions/direct/direct_legato_374ms.jsonl",
+      "input_sha256": "dcfe01a2db11fbda149497f543d322d8ed71420cdae05a45ff141c02f9d260d4",
+      "event_count": 1,
+      "expected_original": {
+        "articulation": 1
+      },
+      "expected_repaired": {
+        "articulation": 1
+      },
+      "rationale": "Numeric gap 500 ms sets the boundary at 375 ms. legato requires duration >=375 ms."
+    },
+    {
+      "name": "direct_legato_375ms",
+      "kind": "direct_monitor",
+      "input": "fixtures/regressions/direct/direct_legato_375ms.jsonl",
+      "input_sha256": "ce2c17316dc4375a475e4b7718e3b54c22fdc55a70c31e9ae99d0930a0630724",
+      "event_count": 1,
+      "expected_original": {
+        "articulation": 0
+      },
+      "expected_repaired": {
+        "articulation": 0
+      },
+      "rationale": "Numeric gap 500 ms sets the boundary at 375 ms. legato requires duration >=375 ms."
+    },
+    {
+      "name": "direct_legato_376ms",
+      "kind": "direct_monitor",
+      "input": "fixtures/regressions/direct/direct_legato_376ms.jsonl",
+      "input_sha256": "311201aa74f615522c3262942430317fe9511cc605b498a6660616747ca644ee",
+      "event_count": 1,
+      "expected_original": {
+        "articulation": 0
+      },
+      "expected_repaired": {
+        "articulation": 0
+      },
+      "rationale": "Numeric gap 500 ms sets the boundary at 375 ms. legato requires duration >=375 ms."
+    },
+    {
+      "name": "direct_earlier_bad_then_null_legato",
+      "kind": "direct_monitor",
+      "input": "fixtures/regressions/direct/direct_earlier_bad_then_null_legato.jsonl",
+      "input_sha256": "3d79116d805fce1a0a52c81b3d51fceb8c6b925f1c99b8a02722c8762dd485ac",
+      "event_count": 2,
+      "expected_original": {
+        "articulation": 1
+      },
+      "expected_repaired": {
+        "articulation": 1
+      },
+      "rationale": "The first legato event violates the numeric 375 ms boundary; the final marked null-gap exemption cannot erase that rejection."
+    },
+    {
+      "name": "direct_malformed_nonnull_gap",
+      "kind": "direct_monitor",
+      "input": "fixtures/regressions/direct/direct_malformed_nonnull_gap.jsonl",
+      "input_sha256": "44be8e57a826338db3f7662ba155309767195f7e60d6a6412239a1d27eade257",
+      "event_count": 1,
+      "expected_original": {
+        "articulation": 2
+      },
+      "expected_repaired": {
+        "articulation": 2
+      },
+      "rationale": "A non-null, non-numeric gap still reaches CLP(R) and raises; the repair must not convert arbitrary monitor errors into acceptance."
+    },
+    {
+      "name": "direct_malformed_duration",
+      "kind": "direct_monitor",
+      "input": "fixtures/regressions/direct/direct_malformed_duration.jsonl",
+      "input_sha256": "b4d1a720b2399c19561e20bfb1924f22eb8dc99cb7d3d9f422b064a0858b8d1b",
+      "event_count": 1,
+      "expected_original": {
+        "articulation": 2
+      },
+      "expected_repaired": {
+        "articulation": 2
+      },
+      "rationale": "A non-numeric duration with a numeric gap still raises in CLP(R)."
+    },
+    {
+      "name": "service_final_null_staccato",
+      "kind": "converter_and_service",
+      "input": "artifacts/regressions/service_final_null_staccato/service-input.json",
+      "input_sha256": "737046731f42b77de5dbfc0511fc33f986487b9c813f35f23a3f28b3cc05c9db",
+      "score": "fixtures/regressions/exercise-final-staccato.musicxml",
+      "score_sha256": "b1cea4bb69e0bba492bb89e6691c78457d892dabe0be96751f0ffb82378849a8",
+      "midi_sha256": "d5482afaa3709b0b9f93ce0833179a192435354987c9fd4008d888dc7173d33c",
+      "midi_event_count": 18,
+      "note_count": 8,
+      "generation_warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ],
+      "probe": {
+        "time_ms": 3500,
+        "pitch": 72,
+        "durMs": 25000.0
+      },
+      "expected_enrichment": {
+        "note_count": 8,
+        "final_gap_null": true,
+        "final_articulation": "staccato",
+        "final_duration_ms": 25000.0,
+        "probe_articulation": "staccato",
+        "probe_gap_ms": null,
+        "probe_duration_ms": 25000.0,
+        "probe_duration_retained": true
+      },
+      "expected_original": {
+        "articulation": 2,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "expected_repaired": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "rationale": "Actual MIDI decoding, browser conversion, MusicXML parsing, enrichment and all seven checks. The final staccato attack has duration 25,000 ms and no next attack; acceptance exempts the duration requirement rather than verifying it."
+    },
+    {
+      "name": "service_final_null_tenuto",
+      "kind": "converter_and_service",
+      "input": "artifacts/regressions/service_final_null_tenuto/service-input.json",
+      "input_sha256": "954b3201b5f247d189ad757211769271ffa8119c6240bc13533df42aec0ecf24",
+      "score": "fixtures/regressions/exercise-final-tenuto.musicxml",
+      "score_sha256": "a149d3d34e20274071aa759fd4d427f46a8749a6195e3020a56ceb845d83ea7e",
+      "midi_sha256": "d5482afaa3709b0b9f93ce0833179a192435354987c9fd4008d888dc7173d33c",
+      "midi_event_count": 18,
+      "note_count": 8,
+      "generation_warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ],
+      "probe": {
+        "time_ms": 3500,
+        "pitch": 72,
+        "durMs": 25000.0
+      },
+      "expected_enrichment": {
+        "note_count": 8,
+        "final_gap_null": true,
+        "final_articulation": "tenuto",
+        "final_duration_ms": 25000.0,
+        "probe_articulation": "tenuto",
+        "probe_gap_ms": null,
+        "probe_duration_ms": 25000.0,
+        "probe_duration_retained": true
+      },
+      "expected_original": {
+        "articulation": 2,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "expected_repaired": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "rationale": "Actual MIDI decoding, browser conversion, MusicXML parsing, enrichment and all seven checks. The final tenuto attack has duration 25,000 ms and no next attack; acceptance exempts the duration requirement rather than verifying it."
+    },
+    {
+      "name": "service_final_null_unmarked",
+      "kind": "converter_and_service",
+      "input": "artifacts/regressions/service_final_null_unmarked/service-input.json",
+      "input_sha256": "3fb29de77f883f48a4e32ff50deab8f5ac10167fdfa7d29c9a3b39f1b4feb573",
+      "score": "fixtures/regressions/exercise-final-unmarked.musicxml",
+      "score_sha256": "2b9e9e4d8c75f0a2b8915dcd3219d6209e0b5f18a212691d4052ce586779aee2",
+      "midi_sha256": "d5482afaa3709b0b9f93ce0833179a192435354987c9fd4008d888dc7173d33c",
+      "midi_event_count": 18,
+      "note_count": 8,
+      "generation_warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ],
+      "probe": {
+        "time_ms": 3500,
+        "pitch": 72,
+        "durMs": 25000.0
+      },
+      "expected_enrichment": {
+        "note_count": 8,
+        "final_gap_null": true,
+        "final_articulation": null,
+        "final_duration_ms": 25000.0,
+        "probe_articulation": null,
+        "probe_gap_ms": null,
+        "probe_duration_ms": 25000.0,
+        "probe_duration_retained": true
+      },
+      "expected_original": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "expected_repaired": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "rationale": "Actual MIDI decoding, browser conversion, MusicXML parsing, enrichment and all seven checks. The final unmarked attack has duration 25,000 ms and no next attack; acceptance exempts the duration requirement rather than verifying it."
+    },
+    {
+      "name": "service_earlier_bad_then_null_staccato",
+      "kind": "converter_and_service",
+      "input": "artifacts/regressions/service_earlier_bad_then_null_staccato/service-input.json",
+      "input_sha256": "e8997add7c43a48c8368678bc420ad77f10cbe16f47cfd2ce95a15d08b83bc96",
+      "score": "fixtures/regressions/exercise-final-staccato.musicxml",
+      "score_sha256": "b1cea4bb69e0bba492bb89e6691c78457d892dabe0be96751f0ffb82378849a8",
+      "midi_sha256": "745c10de1d5e76636cd9987ddd48561d49341cd4ca4e6489fb023f4094eae288",
+      "midi_event_count": 18,
+      "note_count": 8,
+      "generation_warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ],
+      "probe": {
+        "time_ms": 0,
+        "pitch": 60,
+        "durMs": 376.0
+      },
+      "expected_enrichment": {
+        "note_count": 8,
+        "final_gap_null": true,
+        "final_articulation": "staccato",
+        "final_duration_ms": 25000.0,
+        "probe_articulation": "staccato",
+        "probe_gap_ms": 500.0,
+        "probe_duration_ms": 376.0,
+        "probe_duration_retained": true
+      },
+      "expected_original": {
+        "articulation": 1,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "expected_repaired": {
+        "articulation": 1,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "rationale": "Earlier staccato duration 376 ms violates its numeric 375 ms boundary; a later marked null-gap event cannot erase rejection."
+    },
+    {
+      "name": "service_staccato_374ms",
+      "kind": "converter_and_service",
+      "input": "artifacts/regressions/service_staccato_374ms/service-input.json",
+      "input_sha256": "43502f1d8cf71b8f06ec2af1909e87a028dd43b38f2b9d3d167995a094a113ab",
+      "score": "fixtures/regressions/exercise-final-unmarked.musicxml",
+      "score_sha256": "2b9e9e4d8c75f0a2b8915dcd3219d6209e0b5f18a212691d4052ce586779aee2",
+      "midi_sha256": "e42778c4e85eac5045e1dc748abff26a395854fce53b3d2e76a6c6b931efb342",
+      "midi_event_count": 18,
+      "note_count": 8,
+      "generation_warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ],
+      "probe": {
+        "time_ms": 0,
+        "pitch": 60,
+        "durMs": 374.0
+      },
+      "expected_enrichment": {
+        "note_count": 8,
+        "final_gap_null": true,
+        "final_articulation": null,
+        "final_duration_ms": 400,
+        "probe_articulation": "staccato",
+        "probe_gap_ms": 500.0,
+        "probe_duration_ms": 374.0,
+        "probe_duration_retained": true
+      },
+      "expected_original": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "expected_repaired": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "rationale": "Complete converter/service boundary test: staccato, duration 374 ms, next attack gap 500 ms, threshold 375 ms. The final event is unmarked with a null gap."
+    },
+    {
+      "name": "service_staccato_375ms",
+      "kind": "converter_and_service",
+      "input": "artifacts/regressions/service_staccato_375ms/service-input.json",
+      "input_sha256": "432564998b179661c894dce8bbd96d28ff441a1da8157ea08e4fc3bd2c0a8d40",
+      "score": "fixtures/regressions/exercise-final-unmarked.musicxml",
+      "score_sha256": "2b9e9e4d8c75f0a2b8915dcd3219d6209e0b5f18a212691d4052ce586779aee2",
+      "midi_sha256": "10a640026c82f3a354385574ddb7de60b3220ed4d717388a7b847ace899ecb8c",
+      "midi_event_count": 18,
+      "note_count": 8,
+      "generation_warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ],
+      "probe": {
+        "time_ms": 0,
+        "pitch": 60,
+        "durMs": 375.0
+      },
+      "expected_enrichment": {
+        "note_count": 8,
+        "final_gap_null": true,
+        "final_articulation": null,
+        "final_duration_ms": 400,
+        "probe_articulation": "staccato",
+        "probe_gap_ms": 500.0,
+        "probe_duration_ms": 375.0,
+        "probe_duration_retained": true
+      },
+      "expected_original": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "expected_repaired": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "rationale": "Complete converter/service boundary test: staccato, duration 375 ms, next attack gap 500 ms, threshold 375 ms. The final event is unmarked with a null gap."
+    },
+    {
+      "name": "service_staccato_376ms",
+      "kind": "converter_and_service",
+      "input": "artifacts/regressions/service_staccato_376ms/service-input.json",
+      "input_sha256": "2eaa18d3d2aa4f5453315827036e82a4ced517e93699f6d4d4e8558e5932d140",
+      "score": "fixtures/regressions/exercise-final-unmarked.musicxml",
+      "score_sha256": "2b9e9e4d8c75f0a2b8915dcd3219d6209e0b5f18a212691d4052ce586779aee2",
+      "midi_sha256": "91106c5e79f085187a818b8f1323f9d1b66e7f0a4967f5b1b8c849c190b8c8bd",
+      "midi_event_count": 18,
+      "note_count": 8,
+      "generation_warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ],
+      "probe": {
+        "time_ms": 0,
+        "pitch": 60,
+        "durMs": 376.0
+      },
+      "expected_enrichment": {
+        "note_count": 8,
+        "final_gap_null": true,
+        "final_articulation": null,
+        "final_duration_ms": 400,
+        "probe_articulation": "staccato",
+        "probe_gap_ms": 500.0,
+        "probe_duration_ms": 376.0,
+        "probe_duration_retained": true
+      },
+      "expected_original": {
+        "articulation": 1,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "expected_repaired": {
+        "articulation": 1,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "rationale": "Complete converter/service boundary test: staccato, duration 376 ms, next attack gap 500 ms, threshold 375 ms. The final event is unmarked with a null gap."
+    },
+    {
+      "name": "service_earlier_bad_then_null_tenuto",
+      "kind": "converter_and_service",
+      "input": "artifacts/regressions/service_earlier_bad_then_null_tenuto/service-input.json",
+      "input_sha256": "0be2681ca9df18e56b5eebd381f6810e94f3973082e93ff51676bbca4df4d0fc",
+      "score": "fixtures/regressions/exercise-final-tenuto.musicxml",
+      "score_sha256": "a149d3d34e20274071aa759fd4d427f46a8749a6195e3020a56ceb845d83ea7e",
+      "midi_sha256": "b7299e202d9541136cd4c76a5c3b988dea3fbbcfc12f220eefcb1a1640f5be80",
+      "midi_event_count": 18,
+      "note_count": 8,
+      "generation_warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ],
+      "probe": {
+        "time_ms": 500,
+        "pitch": 62,
+        "durMs": 374.0
+      },
+      "expected_enrichment": {
+        "note_count": 8,
+        "final_gap_null": true,
+        "final_articulation": "tenuto",
+        "final_duration_ms": 25000.0,
+        "probe_articulation": "tenuto",
+        "probe_gap_ms": 500.0,
+        "probe_duration_ms": 374.0,
+        "probe_duration_retained": true
+      },
+      "expected_original": {
+        "articulation": 1,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "expected_repaired": {
+        "articulation": 1,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "rationale": "Earlier tenuto duration 374 ms violates its numeric 375 ms boundary; a later marked null-gap event cannot erase rejection."
+    },
+    {
+      "name": "service_tenuto_374ms",
+      "kind": "converter_and_service",
+      "input": "artifacts/regressions/service_tenuto_374ms/service-input.json",
+      "input_sha256": "54e14743dafe2e696880c1582162a7b2f7765fadea9e0a9d288c933ce4d0b33d",
+      "score": "fixtures/regressions/exercise-final-unmarked.musicxml",
+      "score_sha256": "2b9e9e4d8c75f0a2b8915dcd3219d6209e0b5f18a212691d4052ce586779aee2",
+      "midi_sha256": "a9704170ba32eb438fc755a19b9723d36bd20277392a7de2fde3477790b9f122",
+      "midi_event_count": 18,
+      "note_count": 8,
+      "generation_warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ],
+      "probe": {
+        "time_ms": 500,
+        "pitch": 62,
+        "durMs": 374.0
+      },
+      "expected_enrichment": {
+        "note_count": 8,
+        "final_gap_null": true,
+        "final_articulation": null,
+        "final_duration_ms": 400,
+        "probe_articulation": "tenuto",
+        "probe_gap_ms": 500.0,
+        "probe_duration_ms": 374.0,
+        "probe_duration_retained": true
+      },
+      "expected_original": {
+        "articulation": 1,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "expected_repaired": {
+        "articulation": 1,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "rationale": "Complete converter/service boundary test: tenuto, duration 374 ms, next attack gap 500 ms, threshold 375 ms. The final event is unmarked with a null gap."
+    },
+    {
+      "name": "service_tenuto_375ms",
+      "kind": "converter_and_service",
+      "input": "artifacts/regressions/service_tenuto_375ms/service-input.json",
+      "input_sha256": "ca11a604870048f632eb0c7ce6207b9f9b8fa19c0b777acc918017716b5d5473",
+      "score": "fixtures/regressions/exercise-final-unmarked.musicxml",
+      "score_sha256": "2b9e9e4d8c75f0a2b8915dcd3219d6209e0b5f18a212691d4052ce586779aee2",
+      "midi_sha256": "eb75c04046651e07dfe245393d15e365652903632fbe24291b1088234fdadeae",
+      "midi_event_count": 18,
+      "note_count": 8,
+      "generation_warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ],
+      "probe": {
+        "time_ms": 500,
+        "pitch": 62,
+        "durMs": 375.0
+      },
+      "expected_enrichment": {
+        "note_count": 8,
+        "final_gap_null": true,
+        "final_articulation": null,
+        "final_duration_ms": 400,
+        "probe_articulation": "tenuto",
+        "probe_gap_ms": 500.0,
+        "probe_duration_ms": 375.0,
+        "probe_duration_retained": true
+      },
+      "expected_original": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "expected_repaired": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "rationale": "Complete converter/service boundary test: tenuto, duration 375 ms, next attack gap 500 ms, threshold 375 ms. The final event is unmarked with a null gap."
+    },
+    {
+      "name": "service_tenuto_376ms",
+      "kind": "converter_and_service",
+      "input": "artifacts/regressions/service_tenuto_376ms/service-input.json",
+      "input_sha256": "0696892e7ca9203902a2b60181d6c3a9e66bb9c182448befef053a1441a21c5e",
+      "score": "fixtures/regressions/exercise-final-unmarked.musicxml",
+      "score_sha256": "2b9e9e4d8c75f0a2b8915dcd3219d6209e0b5f18a212691d4052ce586779aee2",
+      "midi_sha256": "231e2f592fec221db21c97ec26562880a653c0e63ce63bc57738ce60650e57c4",
+      "midi_event_count": 18,
+      "note_count": 8,
+      "generation_warnings": [
+        {
+          "category": "UserWarning",
+          "message": "ignoring direction type: metronome {}"
+        }
+      ],
+      "probe": {
+        "time_ms": 500,
+        "pitch": 62,
+        "durMs": 376.0
+      },
+      "expected_enrichment": {
+        "note_count": 8,
+        "final_gap_null": true,
+        "final_articulation": null,
+        "final_duration_ms": 400,
+        "probe_articulation": "tenuto",
+        "probe_gap_ms": 500.0,
+        "probe_duration_ms": 376.0,
+        "probe_duration_retained": true
+      },
+      "expected_original": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "expected_repaired": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "rationale": "Complete converter/service boundary test: tenuto, duration 376 ms, next attack gap 500 ms, threshold 375 ms. The final event is unmarked with a null gap."
+    }
+  ],
+  "frozen_utc": "2026-10-14T13:43:35.755712+00:00"
+}

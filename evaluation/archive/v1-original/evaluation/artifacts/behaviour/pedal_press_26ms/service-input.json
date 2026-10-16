@@ -1,0 +1,66 @@
+{
+  "notes": [
+    {
+      "time_ms": 0,
+      "dur_ms": 200,
+      "pitch": 60,
+      "velocity": 72
+    },
+    {
+      "time_ms": 500,
+      "dur_ms": 400,
+      "pitch": 62,
+      "velocity": 72
+    },
+    {
+      "time_ms": 1000,
+      "dur_ms": 400,
+      "pitch": 64,
+      "velocity": 72
+    },
+    {
+      "time_ms": 1500,
+      "dur_ms": 400,
+      "pitch": 65,
+      "velocity": 72
+    },
+    {
+      "time_ms": 2000,
+      "dur_ms": 400,
+      "pitch": 67,
+      "velocity": 88
+    },
+    {
+      "time_ms": 2000,
+      "dur_ms": 400,
+      "pitch": 71,
+      "velocity": 88
+    },
+    {
+      "time_ms": 3000,
+      "dur_ms": 400,
+      "pitch": 69,
+      "velocity": 88
+    },
+    {
+      "time_ms": 3500,
+      "dur_ms": 400,
+      "pitch": 72,
+      "velocity": 88
+    }
+  ],
+  "control_changes": [
+    {
+      "time_ms": 1026,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "time_ms": 2000,
+      "controller": 64,
+      "value": 0
+    }
+  ],
+  "tempo_factor": 1,
+  "score": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<score-partwise version=\"4.0\">\n  <work><work-title>Cadenza evaluation exercise (original)</work-title></work>\n  <identification><creator type=\"composer\">Original synthetic evaluation fixture</creator></identification>\n  <part-list>\n    <score-part id=\"P1\"><part-name>Piano</part-name><part-abbreviation>Pno.</part-abbreviation>\n      <score-instrument id=\"I1\"><instrument-name>Piano</instrument-name></score-instrument>\n      <midi-instrument id=\"I1\"><midi-channel>1</midi-channel><midi-program>1</midi-program></midi-instrument>\n    </score-part>\n  </part-list>\n  <part id=\"P1\">\n    <measure number=\"1\">\n      <attributes><divisions>100</divisions><key><fifths>0</fifths></key>\n        <time><beats>4</beats><beat-type>4</beat-type></time>\n        <clef><sign>G</sign><line>2</line></clef>\n      </attributes>\n      <direction placement=\"above\"><direction-type><metronome><beat-unit>quarter</beat-unit><per-minute>120</per-minute></metronome></direction-type><sound tempo=\"120\"/></direction>\n      <direction placement=\"below\"><direction-type><dynamics><mf/></dynamics></direction-type></direction>\n      <note id=\"n1\"><pitch><step>C</step><octave>4</octave></pitch><duration>100</duration><voice>1</voice><type>quarter</type><notations><articulations><staccato/></articulations></notations></note>\n      <note id=\"n2\"><pitch><step>D</step><octave>4</octave></pitch><duration>100</duration><voice>1</voice><type>quarter</type><notations><articulations><tenuto/></articulations></notations></note>\n      <direction placement=\"below\"><direction-type><pedal type=\"start\" line=\"yes\"/></direction-type></direction>\n      <note id=\"n3\"><pitch><step>E</step><octave>4</octave></pitch><duration>100</duration><voice>1</voice><type>quarter</type></note>\n      <note id=\"n4\"><pitch><step>F</step><octave>4</octave></pitch><duration>100</duration><voice>1</voice><type>quarter</type></note>\n    </measure>\n    <measure number=\"2\">\n      <direction placement=\"below\"><direction-type><pedal type=\"stop\" line=\"yes\"/></direction-type></direction>\n      <direction placement=\"below\"><direction-type><dynamics><f/></dynamics></direction-type></direction>\n      <note id=\"n5\"><pitch><step>G</step><octave>4</octave></pitch><duration>200</duration><voice>1</voice><type>half</type></note>\n      <note id=\"n6\"><chord/><pitch><step>B</step><octave>4</octave></pitch><duration>200</duration><voice>1</voice><type>half</type></note>\n      <note id=\"n7\"><pitch><step>A</step><octave>4</octave></pitch><duration>100</duration><voice>1</voice><type>quarter</type></note>\n      <note id=\"n8\"><pitch><step>C</step><octave>5</octave></pitch><duration>100</duration><voice>1</voice><type>quarter</type></note>\n      <barline location=\"right\"><bar-style>light-heavy</bar-style></barline>\n    </measure>\n  </part>\n</score-partwise>\n"
+}

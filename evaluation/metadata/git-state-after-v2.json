@@ -1,0 +1,39 @@
+{
+  "recorded_utc": "2026-10-14T13:55:46.865900+00:00",
+  "project_commit": null,
+  "note": "Parent Git history is not attributed to Cadenza; repair.diff and source hashes identify the change.",
+  "commands": [
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "--show-toplevel"
+      ],
+      "returncode": 0,
+      "stdout": "/media/angelo/WorkData/git\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "a6ad5c26ae667b84a935e8a73931a22eca568484\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "status",
+        "--porcelain=v1",
+        "--",
+        "."
+      ],
+      "returncode": 0,
+      "stdout": "?? cadenza-src-main/\n",
+      "stderr": ""
+    }
+  ]
+}

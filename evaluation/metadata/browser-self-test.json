@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "checks": [
+    "FIFO repeated pitch",
+    "zero-velocity release",
+    "short duration",
+    "unreleased notes",
+    "control changes",
+    "tempo factor",
+    "empty stream"
+  ],
+  "_replay": {
+    "source": "web-app/src/hooks/useVerdict.ts",
+    "source_sha256": "5b0b77af0b936ba16a409914973944c60cd4fc1a4f0b9fd95887d398b0547974",
+    "export": "toPerformance",
+    "typescript_version": "6.0.2",
+    "node_version": "v20.15.0",
+    "environment_replacements": 1,
+    "execution": "full module transpile; React hooks and fetch disabled"
+  }
+}

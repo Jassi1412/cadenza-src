@@ -1,0 +1,62 @@
+{
+  "success": true,
+  "verdicts": {
+    "articulation": {
+      "ok": true,
+      "exit": 0,
+      "diagnostic": ""
+    },
+    "chord-jitter": {
+      "ok": true,
+      "exit": 0,
+      "diagnostic": ""
+    },
+    "dynamics-adherence": {
+      "ok": true,
+      "exit": 0,
+      "diagnostic": ""
+    },
+    "pedal-toggle": {
+      "ok": true,
+      "exit": 0,
+      "diagnostic": ""
+    },
+    "pitch-agreement": {
+      "ok": true,
+      "exit": 0,
+      "diagnostic": ""
+    },
+    "pitch-range": {
+      "ok": true,
+      "exit": 0,
+      "diagnostic": ""
+    },
+    "syncopated-pedal": {
+      "ok": true,
+      "exit": 0,
+      "diagnostic": ""
+    }
+  },
+  "enriched_event_count": 18,
+  "total_seconds": 0.265980532,
+  "stages_seconds": {
+    "score_parse": 0.005342915,
+    "join": 0.000167923,
+    "trace_serialise": 0.000217495,
+    "prolog_process": 0.259798876
+  },
+  "process": {
+    "returncode": 0,
+    "stdout": "articulation 0\nchord-jitter 0\ndynamics-adherence 0\npedal-toggle 0\npitch-agreement 0\npitch-range 0\nsyncopated-pedal 0\n",
+    "stderr": "Warning: /media/angelo/WorkData/git/cadenza-src-main/evaluation/compiled/pedal-toggle.pl:10:\nWarning:    Singleton variables: [Ctrl]\n"
+  },
+  "warnings": [
+    {
+      "category": "UserWarning",
+      "message": "ignoring direction type: metronome {}"
+    }
+  ],
+  "python_stderr": "",
+  "python_stdout": "",
+  "started_utc": "2026-10-14T11:12:09.804667+00:00"
+}

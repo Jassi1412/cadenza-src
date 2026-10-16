@@ -1,0 +1,19 @@
+
+markedNote(num, vel, dyn) matches
+    {type:'noteon', note:{number:num, rawAttack:vel},
+     expected:{dynExplicit:true, dyn:dyn}};
+
+
+inAdherence(num, vel, dyn) matches markedNote(num, vel, dyn)
+    with dyn - 8 <= vel && vel <= dyn + 8;
+
+inAdherence matches inAdherence(_, _, _);
+
+
+unmarkedNote matches {type:'noteon', expected:{dynExplicit:false}};
+unmarkedNote matches unmarkedNote(_);
+
+anyNoteOn matches {type:'noteon'};
+
+
+Main = anyNoteOn >> (inAdherence \/ unmarkedNote)*;

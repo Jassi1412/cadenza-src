@@ -1,0 +1,453 @@
+{
+  "method": "Manual source semantics before monitor execution",
+  "frozen_utc": "2026-10-14T07:33:23.915426+00:00",
+  "cases": [
+    {
+      "name": "baseline",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": false,
+      "teacher_interpretation": "Within the declared exercise tolerances.",
+      "rationale": "All pitches are in range and in the sounding score; velocities are within +/-8 of mf/f. Staccato 200 <= 375 ms and tenuto 400 >= 375 ms; unmarked attacks have no duration constraint. Both chord tones coincide. The pedal press follows the beat-2 attack by 10 ms and snaps to beat 2; the release is at beat 4. All seven specifications should accept.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "wrong_pitch",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 1,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": true,
+      "teacher_interpretation": "A notated pitch is replaced.",
+      "rationale": "C-sharp4 replaces the first C4: nearest score pitch distance is 1, so only pitch-agreement rejects.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "outside_range",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 1,
+        "pitch-range": 1,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": true,
+      "teacher_interpretation": "The first note is outside an 88-key piano and replaces C4.",
+      "rationale": "MIDI pitch 20 is below the inclusive [21,108] range and is not a score pitch; both pitch checks reject.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "bad_velocity",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 1,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": true,
+      "teacher_interpretation": "The mf attack is much too soft.",
+      "rationale": "Velocity 40 is outside mf's [63.5,79.5] interval; only dynamics-adherence rejects.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "bad_articulation",
+      "expected": {
+        "articulation": 1,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": true,
+      "teacher_interpretation": "The first staccato is held beyond the declared duration limit.",
+      "rationale": "The first staccato lasts 450 ms, above 0.75 * the 500 ms next-attack gap (375 ms).",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "chord_spread_29ms",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": false,
+      "teacher_interpretation": "Chord spread is within the declared <30 ms tolerance.",
+      "rationale": "The chord's B4 follows G4 by 29 ms. Both retain chordId=4 and valid score pitches. chord-jitter requires abs(t2-t1) < 30, so equality rejects. Other marks are unaffected.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "chord_spread_30ms",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 1,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": true,
+      "teacher_interpretation": "Chord spread reaches or exceeds 30 ms.",
+      "rationale": "The chord's B4 follows G4 by 30 ms. Both retain chordId=4 and valid score pitches. chord-jitter requires abs(t2-t1) < 30, so equality rejects. Other marks are unaffected.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "chord_spread_31ms",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 1,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": true,
+      "teacher_interpretation": "Chord spread reaches or exceeds 30 ms.",
+      "rationale": "The chord's B4 follows G4 by 31 ms. Both retain chordId=4 and valid score pitches. chord-jitter requires abs(t2-t1) < 30, so equality rejects. Other marks are unaffected.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "pedal_press_24ms",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": false,
+      "teacher_interpretation": "Pedal follows the relevant attack within the declared 125 ms tolerance.",
+      "rationale": "Press is 24 ms after beat 2. At 120 BPM, join.py's span lookup has an effective +/-25 ms (0.05 beat) association window after onset snapping, narrower than RML's +/-125 ms (0.25 beat) test. At 25 ms the computed 2.05 beat is within floating-point epsilon of the inclusive boundary and snaps to 2. Beyond 25 ms spanExplicit is false, so pedal-toggle rejects even within its nominal tolerance. The press still follows notePedal before the first noteoff, so syncopated-pedal accepts.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "pedal_press_25ms",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": false,
+      "teacher_interpretation": "Pedal follows the relevant attack within the declared 125 ms tolerance.",
+      "rationale": "Press is 25 ms after beat 2. At 120 BPM, join.py's span lookup has an effective +/-25 ms (0.05 beat) association window after onset snapping, narrower than RML's +/-125 ms (0.25 beat) test. At 25 ms the computed 2.05 beat is within floating-point epsilon of the inclusive boundary and snaps to 2. Beyond 25 ms spanExplicit is false, so pedal-toggle rejects even within its nominal tolerance. The press still follows notePedal before the first noteoff, so syncopated-pedal accepts.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "pedal_press_26ms",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 1,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": false,
+      "teacher_interpretation": "Pedal follows the relevant attack within the declared 125 ms tolerance.",
+      "rationale": "Press is 26 ms after beat 2. At 120 BPM, join.py's span lookup has an effective +/-25 ms (0.05 beat) association window after onset snapping, narrower than RML's +/-125 ms (0.25 beat) test. At 25 ms the computed 2.05 beat is within floating-point epsilon of the inclusive boundary and snaps to 2. Beyond 25 ms spanExplicit is false, so pedal-toggle rejects even within its nominal tolerance. The press still follows notePedal before the first noteoff, so syncopated-pedal accepts.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "pedal_press_124ms",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 1,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": false,
+      "teacher_interpretation": "Pedal follows the relevant attack within the declared 125 ms tolerance.",
+      "rationale": "Press is 124 ms after beat 2. At 120 BPM, join.py's span lookup has an effective +/-25 ms (0.05 beat) association window after onset snapping, narrower than RML's +/-125 ms (0.25 beat) test. At 25 ms the computed 2.05 beat is within floating-point epsilon of the inclusive boundary and snaps to 2. Beyond 25 ms spanExplicit is false, so pedal-toggle rejects even within its nominal tolerance. The press still follows notePedal before the first noteoff, so syncopated-pedal accepts.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "pedal_press_125ms",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 1,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": false,
+      "teacher_interpretation": "Pedal follows the relevant attack within the declared 125 ms tolerance.",
+      "rationale": "Press is 125 ms after beat 2. At 120 BPM, join.py's span lookup has an effective +/-25 ms (0.05 beat) association window after onset snapping, narrower than RML's +/-125 ms (0.25 beat) test. At 25 ms the computed 2.05 beat is within floating-point epsilon of the inclusive boundary and snaps to 2. Beyond 25 ms spanExplicit is false, so pedal-toggle rejects even within its nominal tolerance. The press still follows notePedal before the first noteoff, so syncopated-pedal accepts.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "pedal_press_126ms",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 1,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": true,
+      "teacher_interpretation": "Pedal press is later than the declared 125 ms tolerance.",
+      "rationale": "Press is 126 ms after beat 2. At 120 BPM, join.py's span lookup has an effective +/-25 ms (0.05 beat) association window after onset snapping, narrower than RML's +/-125 ms (0.25 beat) test. At 25 ms the computed 2.05 beat is within floating-point epsilon of the inclusive boundary and snaps to 2. Beyond 25 ms spanExplicit is false, so pedal-toggle rejects even within its nominal tolerance. The press still follows notePedal before the first noteoff, so syncopated-pedal accepts.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "pedal_release_late_25ms",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": false,
+      "teacher_interpretation": "Release is within the declared +/-125 ms tolerance.",
+      "rationale": "Release is 25 ms after beat 4. At 25 ms, 4.05 is within the inclusive 0.05-beat span association/snap boundary; at 26 ms spanExplicit becomes false and pedal-toggle rejects. syncopated-pedal imposes no release deadline. Other specifications are unaffected.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "pedal_release_late_26ms",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 1,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": false,
+      "teacher_interpretation": "Release is within the declared +/-125 ms tolerance.",
+      "rationale": "Release is 26 ms after beat 4. At 25 ms, 4.05 is within the inclusive 0.05-beat span association/snap boundary; at 26 ms spanExplicit becomes false and pedal-toggle rejects. syncopated-pedal imposes no release deadline. Other specifications are unaffected.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "missing_note",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": true,
+      "teacher_interpretation": "A required score note is omitted.",
+      "rationale": "F4 at beat 3 is absent. No score-to-performance coverage obligation is generated. E4 still opens the pedal region and both chord tones remain, so all seven specifications accept.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "duplicate_note",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": true,
+      "teacher_interpretation": "An extra E4 re-attack is inserted.",
+      "rationale": "E4 is re-attacked at beat 2.9 after its first release. E4 is still in the score's sounding interval; the added attack is unmarked, solo and inside the open pedal region. No uniqueness or one-to-one matching requirement exists, so all seven specifications accept.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "missing_release",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 1,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": true,
+      "teacher_interpretation": "Pedal release at the end of the marked region is omitted.",
+      "rationale": "The pedal press has no release. pedal-toggle cannot finish Toggle=press filler* release and rejects. syncopated-pedal requires the post-attack press but does not require a release.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "pre_attack",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 1
+      },
+      "teacher_error": true,
+      "teacher_interpretation": "Syncopated pedal is activated before the relevant attack.",
+      "rationale": "The press precedes E4 by 10 ms but snaps to beat 2, so pedal-toggle accepts its boundary association. syncopated-pedal encounters a pedalPress before notePedal and rejects it.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "pedal_all_absent",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 1
+      },
+      "teacher_error": true,
+      "teacher_interpretation": "The entire notated pedal region is omitted.",
+      "rationale": "Without any CC64 events, pedal-toggle accepts other*. The scored-pedal notes still require a subsequent press in syncopated-pedal, which rejects. Absence is not an error for the toggle-only obligation.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "late_press_300ms",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 1,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": true,
+      "teacher_interpretation": "Pedal press is 300 ms late, beyond the declared 125 ms tolerance.",
+      "rationale": "The 300 ms delayed press precedes E4's noteoff at 1400 ms. syncopated-pedal checks event ordering without a millisecond bound and accepts. The press has no associated span start, so pedal-toggle rejects.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "staccato_375ms",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": false,
+      "teacher_interpretation": "Within the declared exercise tolerances.",
+      "rationale": "First duration equals 0.75 * its 500 ms next-attack gap. staccatoOk uses <=, including equality at 375 ms.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "tenuto_374ms",
+      "expected": {
+        "articulation": 1,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": true,
+      "teacher_interpretation": "Tenuto falls short of 375 ms.",
+      "rationale": "Second duration is 374 ms with a 500 ms next-attack gap. tenutoOk uses d >= 0.75*g, including equality at 375 ms.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "tenuto_375ms",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": false,
+      "teacher_interpretation": "Tenuto meets the declared >=375 ms limit.",
+      "rationale": "Second duration is 375 ms with a 500 ms next-attack gap. tenutoOk uses d >= 0.75*g, including equality at 375 ms.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "mf_velocity_64",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": false,
+      "teacher_interpretation": "Velocity lies in the declared mf interval.",
+      "rationale": "First velocity is 64; the mf centre is 71.5 and the RML interval is inclusive [63.5,79.5]. MIDI's integer velocities can test adjacent values but cannot equal the half-integer limits.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "mf_velocity_80",
+      "expected": {
+        "articulation": 0,
+        "chord-jitter": 0,
+        "dynamics-adherence": 1,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "teacher_error": true,
+      "teacher_interpretation": "Velocity lies outside the declared mf interval.",
+      "rationale": "First velocity is 80; the mf centre is 71.5 and the RML interval is inclusive [63.5,79.5]. MIDI's integer velocities can test adjacent values but cannot equal the half-integer limits.",
+      "expectation_basis": "Manual reading of repository RML and join.py before monitor execution; not inferred from observed verdicts."
+    },
+    {
+      "name": "final_marked_note",
+      "teacher_error": false,
+      "teacher_interpretation": "Final staccato note shortened to half its written duration.",
+      "expected": {
+        "articulation": 2,
+        "chord-jitter": 0,
+        "dynamics-adherence": 0,
+        "pedal-toggle": 0,
+        "pitch-agreement": 0,
+        "pitch-range": 0,
+        "syncopated-pedal": 0
+      },
+      "rationale": "Last marked attack has gapMs:null. Compiled CLP(R) arithmetic receives null before noGap is tried; expected runtime error exit2."
+    }
+  ]
+}

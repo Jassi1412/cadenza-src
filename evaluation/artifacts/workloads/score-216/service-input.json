@@ -1,0 +1,1464 @@
+{
+  "notes": [
+    {
+      "time_ms": 0,
+      "dur_ms": 155,
+      "pitch": 46,
+      "velocity": 56
+    },
+    {
+      "time_ms": 0,
+      "dur_ms": 155,
+      "pitch": 93,
+      "velocity": 56
+    },
+    {
+      "time_ms": 193.5,
+      "dur_ms": 155,
+      "pitch": 46,
+      "velocity": 56
+    },
+    {
+      "time_ms": 193.5,
+      "dur_ms": 155,
+      "pitch": 86,
+      "velocity": 56
+    },
+    {
+      "time_ms": 387,
+      "dur_ms": 155,
+      "pitch": 53,
+      "velocity": 56
+    },
+    {
+      "time_ms": 387,
+      "dur_ms": 155,
+      "pitch": 82,
+      "velocity": 56
+    },
+    {
+      "time_ms": 580.5,
+      "dur_ms": 155,
+      "pitch": 57,
+      "velocity": 56
+    },
+    {
+      "time_ms": 580.5,
+      "dur_ms": 155,
+      "pitch": 79,
+      "velocity": 56
+    },
+    {
+      "time_ms": 774,
+      "dur_ms": 155,
+      "pitch": 91,
+      "velocity": 56
+    },
+    {
+      "time_ms": 967.5,
+      "dur_ms": 155,
+      "pitch": 86,
+      "velocity": 56
+    },
+    {
+      "time_ms": 1161.5,
+      "dur_ms": 155,
+      "pitch": 82,
+      "velocity": 56
+    },
+    {
+      "time_ms": 1355,
+      "dur_ms": 155,
+      "pitch": 79,
+      "velocity": 56
+    },
+    {
+      "time_ms": 1548.5,
+      "dur_ms": 155,
+      "pitch": 90,
+      "velocity": 56
+    },
+    {
+      "time_ms": 1742,
+      "dur_ms": 155,
+      "pitch": 53,
+      "velocity": 56
+    },
+    {
+      "time_ms": 1742,
+      "dur_ms": 155,
+      "pitch": 86,
+      "velocity": 56
+    },
+    {
+      "time_ms": 1935.5,
+      "dur_ms": 155,
+      "pitch": 55,
+      "velocity": 56
+    },
+    {
+      "time_ms": 1935.5,
+      "dur_ms": 155,
+      "pitch": 82,
+      "velocity": 56
+    },
+    {
+      "time_ms": 2129,
+      "dur_ms": 155,
+      "pitch": 53,
+      "velocity": 56
+    },
+    {
+      "time_ms": 2129,
+      "dur_ms": 155,
+      "pitch": 79,
+      "velocity": 56
+    },
+    {
+      "time_ms": 2322.5,
+      "dur_ms": 155,
+      "pitch": 60,
+      "velocity": 56
+    },
+    {
+      "time_ms": 2322.5,
+      "dur_ms": 155,
+      "pitch": 91,
+      "velocity": 56
+    },
+    {
+      "time_ms": 2516,
+      "dur_ms": 155,
+      "pitch": 55,
+      "velocity": 56
+    },
+    {
+      "time_ms": 2516,
+      "dur_ms": 155,
+      "pitch": 86,
+      "velocity": 56
+    },
+    {
+      "time_ms": 2709.5,
+      "dur_ms": 155,
+      "pitch": 53,
+      "velocity": 56
+    },
+    {
+      "time_ms": 2709.5,
+      "dur_ms": 155,
+      "pitch": 82,
+      "velocity": 56
+    },
+    {
+      "time_ms": 2903,
+      "dur_ms": 155,
+      "pitch": 48,
+      "velocity": 56
+    },
+    {
+      "time_ms": 2903,
+      "dur_ms": 155,
+      "pitch": 79,
+      "velocity": 56
+    },
+    {
+      "time_ms": 3097,
+      "dur_ms": 155,
+      "pitch": 45,
+      "velocity": 56
+    },
+    {
+      "time_ms": 3097,
+      "dur_ms": 155,
+      "pitch": 91,
+      "velocity": 56
+    },
+    {
+      "time_ms": 3290.5,
+      "dur_ms": 155,
+      "pitch": 45,
+      "velocity": 56
+    },
+    {
+      "time_ms": 3290.5,
+      "dur_ms": 155,
+      "pitch": 84,
+      "velocity": 56
+    },
+    {
+      "time_ms": 3484,
+      "dur_ms": 155,
+      "pitch": 53,
+      "velocity": 56
+    },
+    {
+      "time_ms": 3484,
+      "dur_ms": 155,
+      "pitch": 81,
+      "velocity": 56
+    },
+    {
+      "time_ms": 3677.5,
+      "dur_ms": 155,
+      "pitch": 55,
+      "velocity": 56
+    },
+    {
+      "time_ms": 3677.5,
+      "dur_ms": 155,
+      "pitch": 77,
+      "velocity": 56
+    },
+    {
+      "time_ms": 3871,
+      "dur_ms": 155,
+      "pitch": 89,
+      "velocity": 56
+    },
+    {
+      "time_ms": 4064.5,
+      "dur_ms": 155,
+      "pitch": 84,
+      "velocity": 56
+    },
+    {
+      "time_ms": 4258,
+      "dur_ms": 155,
+      "pitch": 81,
+      "velocity": 56
+    },
+    {
+      "time_ms": 4451.5,
+      "dur_ms": 155,
+      "pitch": 77,
+      "velocity": 56
+    },
+    {
+      "time_ms": 4645,
+      "dur_ms": 155,
+      "pitch": 88,
+      "velocity": 56
+    },
+    {
+      "time_ms": 4838.5,
+      "dur_ms": 155,
+      "pitch": 53,
+      "velocity": 56
+    },
+    {
+      "time_ms": 4838.5,
+      "dur_ms": 155,
+      "pitch": 84,
+      "velocity": 56
+    },
+    {
+      "time_ms": 5032.5,
+      "dur_ms": 155,
+      "pitch": 55,
+      "velocity": 56
+    },
+    {
+      "time_ms": 5032.5,
+      "dur_ms": 155,
+      "pitch": 81,
+      "velocity": 56
+    },
+    {
+      "time_ms": 5226,
+      "dur_ms": 155,
+      "pitch": 53,
+      "velocity": 56
+    },
+    {
+      "time_ms": 5226,
+      "dur_ms": 155,
+      "pitch": 77,
+      "velocity": 56
+    },
+    {
+      "time_ms": 5419.5,
+      "dur_ms": 155,
+      "pitch": 60,
+      "velocity": 56
+    },
+    {
+      "time_ms": 5419.5,
+      "dur_ms": 155,
+      "pitch": 89,
+      "velocity": 56
+    },
+    {
+      "time_ms": 5613,
+      "dur_ms": 155,
+      "pitch": 55,
+      "velocity": 56
+    },
+    {
+      "time_ms": 5613,
+      "dur_ms": 155,
+      "pitch": 84,
+      "velocity": 56
+    },
+    {
+      "time_ms": 5806.5,
+      "dur_ms": 155,
+      "pitch": 53,
+      "velocity": 56
+    },
+    {
+      "time_ms": 5806.5,
+      "dur_ms": 155,
+      "pitch": 81,
+      "velocity": 56
+    },
+    {
+      "time_ms": 6000,
+      "dur_ms": 155,
+      "pitch": 48,
+      "velocity": 56
+    },
+    {
+      "time_ms": 6000,
+      "dur_ms": 155,
+      "pitch": 77,
+      "velocity": 56
+    },
+    {
+      "time_ms": 6193.5,
+      "dur_ms": 155,
+      "pitch": 43,
+      "velocity": 56
+    },
+    {
+      "time_ms": 6193.5,
+      "dur_ms": 155,
+      "pitch": 89,
+      "velocity": 56
+    },
+    {
+      "time_ms": 6387,
+      "dur_ms": 155,
+      "pitch": 43,
+      "velocity": 56
+    },
+    {
+      "time_ms": 6387,
+      "dur_ms": 155,
+      "pitch": 82,
+      "velocity": 56
+    },
+    {
+      "time_ms": 6580.5,
+      "dur_ms": 155,
+      "pitch": 46,
+      "velocity": 56
+    },
+    {
+      "time_ms": 6580.5,
+      "dur_ms": 155,
+      "pitch": 79,
+      "velocity": 56
+    },
+    {
+      "time_ms": 6774,
+      "dur_ms": 155,
+      "pitch": 53,
+      "velocity": 56
+    },
+    {
+      "time_ms": 6774,
+      "dur_ms": 155,
+      "pitch": 76,
+      "velocity": 56
+    },
+    {
+      "time_ms": 6967.5,
+      "dur_ms": 155,
+      "pitch": 88,
+      "velocity": 56
+    },
+    {
+      "time_ms": 7161.5,
+      "dur_ms": 155,
+      "pitch": 82,
+      "velocity": 56
+    },
+    {
+      "time_ms": 7355,
+      "dur_ms": 155,
+      "pitch": 79,
+      "velocity": 56
+    },
+    {
+      "time_ms": 7548.5,
+      "dur_ms": 155,
+      "pitch": 76,
+      "velocity": 56
+    },
+    {
+      "time_ms": 7742,
+      "dur_ms": 155,
+      "pitch": 87,
+      "velocity": 56
+    },
+    {
+      "time_ms": 7935.5,
+      "dur_ms": 155,
+      "pitch": 52,
+      "velocity": 56
+    },
+    {
+      "time_ms": 7935.5,
+      "dur_ms": 155,
+      "pitch": 82,
+      "velocity": 56
+    },
+    {
+      "time_ms": 8129,
+      "dur_ms": 155,
+      "pitch": 53,
+      "velocity": 56
+    },
+    {
+      "time_ms": 8129,
+      "dur_ms": 155,
+      "pitch": 79,
+      "velocity": 56
+    },
+    {
+      "time_ms": 8322.5,
+      "dur_ms": 155,
+      "pitch": 52,
+      "velocity": 56
+    },
+    {
+      "time_ms": 8322.5,
+      "dur_ms": 155,
+      "pitch": 76,
+      "velocity": 56
+    },
+    {
+      "time_ms": 8516,
+      "dur_ms": 155,
+      "pitch": 55,
+      "velocity": 56
+    },
+    {
+      "time_ms": 8516,
+      "dur_ms": 155,
+      "pitch": 88,
+      "velocity": 56
+    },
+    {
+      "time_ms": 8709.5,
+      "dur_ms": 155,
+      "pitch": 52,
+      "velocity": 56
+    },
+    {
+      "time_ms": 8709.5,
+      "dur_ms": 155,
+      "pitch": 82,
+      "velocity": 56
+    },
+    {
+      "time_ms": 8903,
+      "dur_ms": 155,
+      "pitch": 48,
+      "velocity": 56
+    },
+    {
+      "time_ms": 8903,
+      "dur_ms": 155,
+      "pitch": 79,
+      "velocity": 56
+    },
+    {
+      "time_ms": 9097,
+      "dur_ms": 155,
+      "pitch": 43,
+      "velocity": 56
+    },
+    {
+      "time_ms": 9097,
+      "dur_ms": 155,
+      "pitch": 76,
+      "velocity": 56
+    },
+    {
+      "time_ms": 9290.5,
+      "dur_ms": 155,
+      "pitch": 41,
+      "velocity": 56
+    },
+    {
+      "time_ms": 9290.5,
+      "dur_ms": 155,
+      "pitch": 88,
+      "velocity": 56
+    },
+    {
+      "time_ms": 9484,
+      "dur_ms": 155,
+      "pitch": 41,
+      "velocity": 56
+    },
+    {
+      "time_ms": 9484,
+      "dur_ms": 155,
+      "pitch": 81,
+      "velocity": 56
+    },
+    {
+      "time_ms": 9677.5,
+      "dur_ms": 155,
+      "pitch": 45,
+      "velocity": 56
+    },
+    {
+      "time_ms": 9677.5,
+      "dur_ms": 155,
+      "pitch": 77,
+      "velocity": 56
+    },
+    {
+      "time_ms": 9871,
+      "dur_ms": 155,
+      "pitch": 50,
+      "velocity": 56
+    },
+    {
+      "time_ms": 9871,
+      "dur_ms": 155,
+      "pitch": 74,
+      "velocity": 56
+    },
+    {
+      "time_ms": 10064.5,
+      "dur_ms": 155,
+      "pitch": 86,
+      "velocity": 56
+    },
+    {
+      "time_ms": 10258,
+      "dur_ms": 155,
+      "pitch": 81,
+      "velocity": 56
+    },
+    {
+      "time_ms": 10451.5,
+      "dur_ms": 155,
+      "pitch": 77,
+      "velocity": 56
+    },
+    {
+      "time_ms": 10645,
+      "dur_ms": 155,
+      "pitch": 74,
+      "velocity": 56
+    },
+    {
+      "time_ms": 10838.5,
+      "dur_ms": 155,
+      "pitch": 85,
+      "velocity": 72
+    },
+    {
+      "time_ms": 11032.5,
+      "dur_ms": 155,
+      "pitch": 49,
+      "velocity": 72
+    },
+    {
+      "time_ms": 11032.5,
+      "dur_ms": 155,
+      "pitch": 81,
+      "velocity": 72
+    },
+    {
+      "time_ms": 11226,
+      "dur_ms": 155,
+      "pitch": 50,
+      "velocity": 72
+    },
+    {
+      "time_ms": 11226,
+      "dur_ms": 155,
+      "pitch": 77,
+      "velocity": 72
+    },
+    {
+      "time_ms": 11419.5,
+      "dur_ms": 155,
+      "pitch": 49,
+      "velocity": 72
+    },
+    {
+      "time_ms": 11419.5,
+      "dur_ms": 155,
+      "pitch": 74,
+      "velocity": 72
+    },
+    {
+      "time_ms": 11613,
+      "dur_ms": 155,
+      "pitch": 52,
+      "velocity": 72
+    },
+    {
+      "time_ms": 11613,
+      "dur_ms": 155,
+      "pitch": 86,
+      "velocity": 72
+    },
+    {
+      "time_ms": 11806.5,
+      "dur_ms": 155,
+      "pitch": 50,
+      "velocity": 72
+    },
+    {
+      "time_ms": 11806.5,
+      "dur_ms": 155,
+      "pitch": 81,
+      "velocity": 72
+    },
+    {
+      "time_ms": 12000,
+      "dur_ms": 155,
+      "pitch": 49,
+      "velocity": 72
+    },
+    {
+      "time_ms": 12000,
+      "dur_ms": 155,
+      "pitch": 77,
+      "velocity": 72
+    },
+    {
+      "time_ms": 12193.5,
+      "dur_ms": 155,
+      "pitch": 45,
+      "velocity": 72
+    },
+    {
+      "time_ms": 12193.5,
+      "dur_ms": 155,
+      "pitch": 74,
+      "velocity": 72
+    },
+    {
+      "time_ms": 12387,
+      "dur_ms": 155,
+      "pitch": 46,
+      "velocity": 72
+    },
+    {
+      "time_ms": 12387,
+      "dur_ms": 155,
+      "pitch": 93,
+      "velocity": 72
+    },
+    {
+      "time_ms": 12580.5,
+      "dur_ms": 155,
+      "pitch": 46,
+      "velocity": 72
+    },
+    {
+      "time_ms": 12580.5,
+      "dur_ms": 155,
+      "pitch": 86,
+      "velocity": 72
+    },
+    {
+      "time_ms": 12774,
+      "dur_ms": 155,
+      "pitch": 53,
+      "velocity": 72
+    },
+    {
+      "time_ms": 12774,
+      "dur_ms": 155,
+      "pitch": 82,
+      "velocity": 72
+    },
+    {
+      "time_ms": 12967.5,
+      "dur_ms": 155,
+      "pitch": 57,
+      "velocity": 72
+    },
+    {
+      "time_ms": 12967.5,
+      "dur_ms": 155,
+      "pitch": 79,
+      "velocity": 72
+    },
+    {
+      "time_ms": 13161.5,
+      "dur_ms": 155,
+      "pitch": 91,
+      "velocity": 72
+    },
+    {
+      "time_ms": 13355,
+      "dur_ms": 155,
+      "pitch": 86,
+      "velocity": 72
+    },
+    {
+      "time_ms": 13548.5,
+      "dur_ms": 155,
+      "pitch": 82,
+      "velocity": 72
+    },
+    {
+      "time_ms": 13742,
+      "dur_ms": 155,
+      "pitch": 79,
+      "velocity": 72
+    },
+    {
+      "time_ms": 13935.5,
+      "dur_ms": 155,
+      "pitch": 90,
+      "velocity": 72
+    },
+    {
+      "time_ms": 14129,
+      "dur_ms": 155,
+      "pitch": 53,
+      "velocity": 72
+    },
+    {
+      "time_ms": 14129,
+      "dur_ms": 155,
+      "pitch": 86,
+      "velocity": 72
+    },
+    {
+      "time_ms": 14322.5,
+      "dur_ms": 155,
+      "pitch": 55,
+      "velocity": 72
+    },
+    {
+      "time_ms": 14322.5,
+      "dur_ms": 155,
+      "pitch": 82,
+      "velocity": 72
+    },
+    {
+      "time_ms": 14516,
+      "dur_ms": 155,
+      "pitch": 53,
+      "velocity": 72
+    },
+    {
+      "time_ms": 14516,
+      "dur_ms": 155,
+      "pitch": 79,
+      "velocity": 72
+    },
+    {
+      "time_ms": 14709.5,
+      "dur_ms": 155,
+      "pitch": 60,
+      "velocity": 72
+    },
+    {
+      "time_ms": 14709.5,
+      "dur_ms": 155,
+      "pitch": 91,
+      "velocity": 72
+    },
+    {
+      "time_ms": 14903,
+      "dur_ms": 155,
+      "pitch": 55,
+      "velocity": 72
+    },
+    {
+      "time_ms": 14903,
+      "dur_ms": 155,
+      "pitch": 86,
+      "velocity": 72
+    },
+    {
+      "time_ms": 15097,
+      "dur_ms": 155,
+      "pitch": 53,
+      "velocity": 72
+    },
+    {
+      "time_ms": 15097,
+      "dur_ms": 155,
+      "pitch": 82,
+      "velocity": 72
+    },
+    {
+      "time_ms": 15290.5,
+      "dur_ms": 155,
+      "pitch": 48,
+      "velocity": 72
+    },
+    {
+      "time_ms": 15290.5,
+      "dur_ms": 155,
+      "pitch": 79,
+      "velocity": 72
+    },
+    {
+      "time_ms": 15484,
+      "dur_ms": 155,
+      "pitch": 45,
+      "velocity": 72
+    },
+    {
+      "time_ms": 15484,
+      "dur_ms": 155,
+      "pitch": 94,
+      "velocity": 72
+    },
+    {
+      "time_ms": 15677.5,
+      "dur_ms": 155,
+      "pitch": 45,
+      "velocity": 72
+    },
+    {
+      "time_ms": 15677.5,
+      "dur_ms": 155,
+      "pitch": 87,
+      "velocity": 72
+    },
+    {
+      "time_ms": 15871,
+      "dur_ms": 155,
+      "pitch": 48,
+      "velocity": 72
+    },
+    {
+      "time_ms": 15871,
+      "dur_ms": 155,
+      "pitch": 84,
+      "velocity": 72
+    },
+    {
+      "time_ms": 16064.5,
+      "dur_ms": 155,
+      "pitch": 60,
+      "velocity": 72
+    },
+    {
+      "time_ms": 16064.5,
+      "dur_ms": 155,
+      "pitch": 81,
+      "velocity": 72
+    },
+    {
+      "time_ms": 16258,
+      "dur_ms": 155,
+      "pitch": 93,
+      "velocity": 72
+    },
+    {
+      "time_ms": 16451.5,
+      "dur_ms": 155,
+      "pitch": 87,
+      "velocity": 72
+    },
+    {
+      "time_ms": 16645,
+      "dur_ms": 155,
+      "pitch": 84,
+      "velocity": 72
+    },
+    {
+      "time_ms": 16838.5,
+      "dur_ms": 155,
+      "pitch": 81,
+      "velocity": 72
+    },
+    {
+      "time_ms": 17032.5,
+      "dur_ms": 155,
+      "pitch": 92,
+      "velocity": 72
+    },
+    {
+      "time_ms": 17226,
+      "dur_ms": 155,
+      "pitch": 57,
+      "velocity": 72
+    },
+    {
+      "time_ms": 17226,
+      "dur_ms": 155,
+      "pitch": 87,
+      "velocity": 72
+    },
+    {
+      "time_ms": 17419.5,
+      "dur_ms": 155,
+      "pitch": 60,
+      "velocity": 72
+    },
+    {
+      "time_ms": 17419.5,
+      "dur_ms": 155,
+      "pitch": 84,
+      "velocity": 72
+    },
+    {
+      "time_ms": 17613,
+      "dur_ms": 155,
+      "pitch": 57,
+      "velocity": 72
+    },
+    {
+      "time_ms": 17613,
+      "dur_ms": 155,
+      "pitch": 81,
+      "velocity": 72
+    },
+    {
+      "time_ms": 17806.5,
+      "dur_ms": 155,
+      "pitch": 63,
+      "velocity": 72
+    },
+    {
+      "time_ms": 17806.5,
+      "dur_ms": 155,
+      "pitch": 93,
+      "velocity": 72
+    },
+    {
+      "time_ms": 18000,
+      "dur_ms": 155,
+      "pitch": 62,
+      "velocity": 72
+    },
+    {
+      "time_ms": 18000,
+      "dur_ms": 155,
+      "pitch": 87,
+      "velocity": 72
+    },
+    {
+      "time_ms": 18193.5,
+      "dur_ms": 155,
+      "pitch": 60,
+      "velocity": 72
+    },
+    {
+      "time_ms": 18193.5,
+      "dur_ms": 155,
+      "pitch": 84,
+      "velocity": 72
+    },
+    {
+      "time_ms": 18387,
+      "dur_ms": 155,
+      "pitch": 57,
+      "velocity": 72
+    },
+    {
+      "time_ms": 18387,
+      "dur_ms": 155,
+      "pitch": 81,
+      "velocity": 72
+    },
+    {
+      "time_ms": 18580.5,
+      "dur_ms": 155,
+      "pitch": 46,
+      "velocity": 88
+    },
+    {
+      "time_ms": 18580.5,
+      "dur_ms": 155,
+      "pitch": 96,
+      "velocity": 88
+    },
+    {
+      "time_ms": 18774,
+      "dur_ms": 155,
+      "pitch": 46,
+      "velocity": 88
+    },
+    {
+      "time_ms": 18774,
+      "dur_ms": 155,
+      "pitch": 86,
+      "velocity": 88
+    },
+    {
+      "time_ms": 18967.5,
+      "dur_ms": 155,
+      "pitch": 53,
+      "velocity": 88
+    },
+    {
+      "time_ms": 18967.5,
+      "dur_ms": 155,
+      "pitch": 82,
+      "velocity": 88
+    },
+    {
+      "time_ms": 19161.5,
+      "dur_ms": 155,
+      "pitch": 58,
+      "velocity": 88
+    },
+    {
+      "time_ms": 19161.5,
+      "dur_ms": 155,
+      "pitch": 79,
+      "velocity": 88
+    },
+    {
+      "time_ms": 19355,
+      "dur_ms": 155,
+      "pitch": 94,
+      "velocity": 88
+    },
+    {
+      "time_ms": 19548.5,
+      "dur_ms": 155,
+      "pitch": 86,
+      "velocity": 88
+    },
+    {
+      "time_ms": 19742,
+      "dur_ms": 155,
+      "pitch": 82,
+      "velocity": 88
+    },
+    {
+      "time_ms": 19935.5,
+      "dur_ms": 155,
+      "pitch": 79,
+      "velocity": 88
+    },
+    {
+      "time_ms": 20129,
+      "dur_ms": 155,
+      "pitch": 93,
+      "velocity": 88
+    },
+    {
+      "time_ms": 20322.5,
+      "dur_ms": 155,
+      "pitch": 57,
+      "velocity": 88
+    },
+    {
+      "time_ms": 20322.5,
+      "dur_ms": 155,
+      "pitch": 86,
+      "velocity": 88
+    },
+    {
+      "time_ms": 20516,
+      "dur_ms": 155,
+      "pitch": 58,
+      "velocity": 88
+    },
+    {
+      "time_ms": 20516,
+      "dur_ms": 155,
+      "pitch": 82,
+      "velocity": 88
+    },
+    {
+      "time_ms": 20709.5,
+      "dur_ms": 155,
+      "pitch": 57,
+      "velocity": 88
+    },
+    {
+      "time_ms": 20709.5,
+      "dur_ms": 155,
+      "pitch": 79,
+      "velocity": 88
+    },
+    {
+      "time_ms": 20903,
+      "dur_ms": 155,
+      "pitch": 60,
+      "velocity": 88
+    },
+    {
+      "time_ms": 20903,
+      "dur_ms": 155,
+      "pitch": 94,
+      "velocity": 88
+    },
+    {
+      "time_ms": 21097,
+      "dur_ms": 155,
+      "pitch": 58,
+      "velocity": 88
+    },
+    {
+      "time_ms": 21097,
+      "dur_ms": 155,
+      "pitch": 86,
+      "velocity": 88
+    },
+    {
+      "time_ms": 21290.5,
+      "dur_ms": 155,
+      "pitch": 55,
+      "velocity": 88
+    },
+    {
+      "time_ms": 21290.5,
+      "dur_ms": 155,
+      "pitch": 82,
+      "velocity": 88
+    },
+    {
+      "time_ms": 21484,
+      "dur_ms": 155,
+      "pitch": 52,
+      "velocity": 88
+    },
+    {
+      "time_ms": 21484,
+      "dur_ms": 155,
+      "pitch": 79,
+      "velocity": 88
+    },
+    {
+      "time_ms": 21677.5,
+      "dur_ms": 155,
+      "pitch": 43,
+      "velocity": 88
+    },
+    {
+      "time_ms": 21677.5,
+      "dur_ms": 155,
+      "pitch": 93,
+      "velocity": 88
+    },
+    {
+      "time_ms": 21871,
+      "dur_ms": 155,
+      "pitch": 43,
+      "velocity": 88
+    },
+    {
+      "time_ms": 21871,
+      "dur_ms": 155,
+      "pitch": 82,
+      "velocity": 88
+    },
+    {
+      "time_ms": 22064.5,
+      "dur_ms": 155,
+      "pitch": 46,
+      "velocity": 88
+    },
+    {
+      "time_ms": 22064.5,
+      "dur_ms": 155,
+      "pitch": 79,
+      "velocity": 88
+    },
+    {
+      "time_ms": 22258,
+      "dur_ms": 155,
+      "pitch": 53,
+      "velocity": 88
+    },
+    {
+      "time_ms": 22258,
+      "dur_ms": 155,
+      "pitch": 76,
+      "velocity": 88
+    },
+    {
+      "time_ms": 22451.5,
+      "dur_ms": 155,
+      "pitch": 91,
+      "velocity": 88
+    },
+    {
+      "time_ms": 22645,
+      "dur_ms": 155,
+      "pitch": 82,
+      "velocity": 88
+    },
+    {
+      "time_ms": 22838.5,
+      "dur_ms": 155,
+      "pitch": 79,
+      "velocity": 88
+    },
+    {
+      "time_ms": 23032.5,
+      "dur_ms": 155,
+      "pitch": 76,
+      "velocity": 88
+    },
+    {
+      "time_ms": 23226,
+      "dur_ms": 155,
+      "pitch": 89,
+      "velocity": 40
+    },
+    {
+      "time_ms": 23419.5,
+      "dur_ms": 155,
+      "pitch": 52,
+      "velocity": 40
+    },
+    {
+      "time_ms": 23419.5,
+      "dur_ms": 155,
+      "pitch": 82,
+      "velocity": 40
+    },
+    {
+      "time_ms": 23613,
+      "dur_ms": 155,
+      "pitch": 53,
+      "velocity": 40
+    },
+    {
+      "time_ms": 23613,
+      "dur_ms": 155,
+      "pitch": 79,
+      "velocity": 40
+    },
+    {
+      "time_ms": 23806.5,
+      "dur_ms": 155,
+      "pitch": 52,
+      "velocity": 40
+    },
+    {
+      "time_ms": 23806.5,
+      "dur_ms": 155,
+      "pitch": 76,
+      "velocity": 40
+    },
+    {
+      "time_ms": 24000,
+      "dur_ms": 155,
+      "pitch": 55,
+      "velocity": 40
+    },
+    {
+      "time_ms": 24000,
+      "dur_ms": 155,
+      "pitch": 88,
+      "velocity": 40
+    },
+    {
+      "time_ms": 24193.5,
+      "dur_ms": 155,
+      "pitch": 52,
+      "velocity": 40
+    },
+    {
+      "time_ms": 24193.5,
+      "dur_ms": 155,
+      "pitch": 82,
+      "velocity": 40
+    },
+    {
+      "time_ms": 24387,
+      "dur_ms": 155,
+      "pitch": 48,
+      "velocity": 40
+    },
+    {
+      "time_ms": 24387,
+      "dur_ms": 155,
+      "pitch": 79,
+      "velocity": 40
+    },
+    {
+      "time_ms": 24580.5,
+      "dur_ms": 155,
+      "pitch": 43,
+      "velocity": 40
+    },
+    {
+      "time_ms": 24580.5,
+      "dur_ms": 155,
+      "pitch": 76,
+      "velocity": 40
+    }
+  ],
+  "control_changes": [
+    {
+      "time_ms": 10,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "time_ms": 1548.5,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "time_ms": 1558.5,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "time_ms": 3097,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "time_ms": 3107,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "time_ms": 4645,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "time_ms": 4655,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "time_ms": 6193.5,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "time_ms": 6203.5,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "time_ms": 7742,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "time_ms": 7752,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "time_ms": 9290.5,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "time_ms": 9300.5,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "time_ms": 10838.5,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "time_ms": 10848.5,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "time_ms": 12387,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "time_ms": 12397,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "time_ms": 13935.5,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "time_ms": 13945.5,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "time_ms": 15484,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "time_ms": 15494,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "time_ms": 17032.5,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "time_ms": 17042.5,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "time_ms": 18580.5,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "time_ms": 18590.5,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "time_ms": 20129,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "time_ms": 20139,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "time_ms": 21677.5,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "time_ms": 21687.5,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "time_ms": 23226,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "time_ms": 23236,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "time_ms": 24774,
+      "controller": 64,
+      "value": 0
+    }
+  ],
+  "tempo_factor": 1,
+  "score": "<?xml version='1.0' encoding='UTF-8'?>\n<!DOCTYPE score-partwise PUBLIC \"-//Recordare//DTD MusicXML 4.0 Partwise//EN\" \"http://www.musicxml.org/dtds/partwise.dtd\">\n<score-partwise version=\"4.0\">\n  <work>\n    <work-title>Great Fairy Fountain Theme</work-title>\n    </work>\n  <identification>\n    <encoding>\n      <software>MuseScore 4.0.0</software>\n      <encoding-date>2026-10-02</encoding-date>\n      <supports element=\"accidental\" type=\"yes\"/>\n      <supports element=\"beam\" type=\"yes\"/>\n      <supports element=\"print\" attribute=\"new-page\" type=\"yes\" value=\"yes\"/>\n      <supports element=\"print\" attribute=\"new-system\" type=\"yes\" value=\"yes\"/>\n      <supports element=\"stem\" type=\"yes\"/>\n      </encoding>\n    <source>http://musescore.com/score/1321591</source>\n    </identification>\n  <defaults>\n    <scaling>\n      <millimeters>7.05556</millimeters>\n      <tenths>40</tenths>\n      </scaling>\n    <page-layout>\n      <page-height>1584</page-height>\n      <page-width>1224</page-width>\n      <page-margins type=\"even\">\n        <left-margin>56.6929</left-margin>\n        <right-margin>56.6929</right-margin>\n        <top-margin>56.6929</top-margin>\n        <bottom-margin>113.386</bottom-margin>\n        </page-margins>\n      <page-margins type=\"odd\">\n        <left-margin>56.6929</left-margin>\n        <right-margin>56.6929</right-margin>\n        <top-margin>56.6929</top-margin>\n        <bottom-margin>113.386</bottom-margin>\n        </page-margins>\n      </page-layout>\n    <word-font font-family=\"FreeSerif\" font-size=\"10\"/>\n    <lyric-font font-family=\"FreeSerif\" font-size=\"11\"/>\n    </defaults>\n  <credit page=\"1\">\n    <credit-type>title</credit-type>\n    <credit-words default-x=\"612\" default-y=\"1527.31\" justify=\"center\" valign=\"top\" font-size=\"24\">The Great Fairy Fountain</credit-words>\n    </credit>\n  <credit page=\"1\">\n    <credit-type>subtitle</credit-type>\n    <credit-words default-x=\"612\" default-y=\"1470.61\" justify=\"center\" valign=\"top\" font-size=\"14\">The Legend of Zelda</credit-words>\n    </credit>\n  <credit page=\"1\">\n    <credit-type>composer</credit-type>\n    <credit-words default-x=\"1167.31\" default-y=\"1427.31\" justify=\"right\" valign=\"bottom\" font-size=\"12\">Koji Kondo\n</credit-words>\n    </credit>\n  <part-list>\n    <score-part id=\"P1\">\n      <part-name>Piano</part-name>\n      <part-abbreviation>Pno.</part-abbreviation>\n      <score-instrument id=\"P1-I1\">\n        <instrument-name>Piano</instrument-name>\n        </score-instrument>\n      <midi-device id=\"P1-I1\" port=\"1\"/>\n      <midi-instrument id=\"P1-I1\">\n        <midi-channel>1</midi-channel>\n        <midi-program>1</midi-program>\n        <volume>78.7402</volume>\n        <pan>0</pan>\n        </midi-instrument>\n      </score-part>\n    </part-list>\n  <part id=\"P1\">\n    <measure number=\"1\" width=\"325.74\">\n      <print>\n        <system-layout>\n          <system-margins>\n            <left-margin>-0.00</left-margin>\n            <right-margin>-0.00</right-margin>\n            </system-margins>\n          <top-system-distance>171.82</top-system-distance>\n          </system-layout>\n        <staff-layout number=\"2\">\n          <staff-distance>65.00</staff-distance>\n          </staff-layout>\n        </print>\n      <barline location=\"left\">\n        <bar-style>heavy-light</bar-style>\n        <repeat direction=\"forward\"/>\n        </barline>\n      <attributes>\n        <divisions>2</divisions>\n        <key>\n          <fifths>-2</fifths>\n          </key>\n        <time symbol=\"cut\">\n          <beats>2</beats>\n          <beat-type>2</beat-type>\n          </time>\n        <staves>2</staves>\n        <clef number=\"1\">\n          <sign>G</sign>\n          <line>2</line>\n          </clef>\n        <clef number=\"2\">\n          <sign>F</sign>\n          <line>4</line>\n          </clef>\n        </attributes>\n      <direction placement=\"above\">\n        <direction-type>\n          <metronome parentheses=\"no\" default-x=\"-68.04\" default-y=\"29.02\" relative-y=\"20.00\">\n            <beat-unit>quarter</beat-unit>\n            <per-minute>155</per-minute>\n            </metronome>\n          </direction-type>\n        <staff>1</staff>\n        <sound tempo=\"155\"/>\n        </direction>\n      <direction placement=\"above\">\n        <direction-type>\n          <octave-shift type=\"down\" size=\"8\" number=\"1\" default-y=\"41.12\"/>\n          </direction-type>\n        <staff>1</staff>\n        </direction>\n      <direction placement=\"below\"><direction-type><dynamics><mp/></dynamics></direction-type><sound dynamics=\"64\"/></direction><note default-x=\"143.82\" default-y=\"10.00\">\n        <pitch>\n          <step>A</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"166.27\" default-y=\"-10.00\">\n        <pitch>\n          <step>D</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"188.72\" default-y=\"-20.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"211.17\" default-y=\"-30.00\">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"233.62\" default-y=\"5.00\">\n        <pitch>\n          <step>G</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"256.08\" default-y=\"-10.00\">\n        <pitch>\n          <step>D</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"278.53\" default-y=\"-20.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"300.98\" default-y=\"-30.00\">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <backup>\n        <duration>8</duration>\n        </backup>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"start\" line=\"yes\" default-y=\"-81.50\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      <note default-x=\"143.82\" default-y=\"-135.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>2</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"166.27\" default-y=\"-135.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>2</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"188.72\" default-y=\"-115.00\">\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"211.17\" default-y=\"-105.00\">\n        <pitch>\n          <step>A</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"233.62\" default-y=\"-125.00\">\n        <rest/>\n        <duration>4</duration>\n        <voice>5</voice>\n        <type>half</type>\n        <staff>2</staff>\n        </note>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"stop\" line=\"yes\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      </measure>\n    <measure number=\"2\" width=\"196.96\">\n      <note default-x=\"15.04\" default-y=\"0.00\">\n        <pitch>\n          <step>F</step>\n          <alter>1</alter>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <accidental>sharp</accidental>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"37.49\" default-y=\"-10.00\">\n        <pitch>\n          <step>D</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"59.94\" default-y=\"-20.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"82.39\" default-y=\"-30.00\">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"104.84\" default-y=\"5.00\">\n        <pitch>\n          <step>G</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"127.29\" default-y=\"-10.00\">\n        <pitch>\n          <step>D</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"149.74\" default-y=\"-20.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"172.20\" default-y=\"-30.00\">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <backup>\n        <duration>8</duration>\n        </backup>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"start\" line=\"yes\" default-y=\"-81.50\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      <note default-x=\"15.04\" default-y=\"-125.00\">\n        <rest/>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <staff>2</staff>\n        </note>\n      <note default-x=\"37.49\" default-y=\"-115.00\">\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"59.94\" default-y=\"-110.00\">\n        <pitch>\n          <step>G</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"82.39\" default-y=\"-115.00\">\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"104.84\" default-y=\"-95.00\">\n        <pitch>\n          <step>C</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"127.29\" default-y=\"-110.00\">\n        <pitch>\n          <step>G</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"149.74\" default-y=\"-115.00\">\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"172.20\" default-y=\"-130.00\">\n        <pitch>\n          <step>C</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"stop\" line=\"yes\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      </measure>\n    <measure number=\"3\" width=\"193.92\">\n      <note default-x=\"12.00\" default-y=\"5.00\">\n        <pitch>\n          <step>G</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"34.45\" default-y=\"-15.00\">\n        <pitch>\n          <step>C</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"56.90\" default-y=\"-25.00\">\n        <pitch>\n          <step>A</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"79.35\" default-y=\"-35.00\">\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"101.80\" default-y=\"0.00\">\n        <pitch>\n          <step>F</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"124.25\" default-y=\"-15.00\">\n        <pitch>\n          <step>C</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"146.70\" default-y=\"-25.00\">\n        <pitch>\n          <step>A</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"169.15\" default-y=\"-35.00\">\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <backup>\n        <duration>8</duration>\n        </backup>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"start\" line=\"yes\" default-y=\"-81.50\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      <note default-x=\"12.00\" default-y=\"-140.00\">\n        <pitch>\n          <step>A</step>\n          <octave>2</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"34.45\" default-y=\"-140.00\">\n        <pitch>\n          <step>A</step>\n          <octave>2</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"56.90\" default-y=\"-115.00\">\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"79.35\" default-y=\"-110.00\">\n        <pitch>\n          <step>G</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"101.80\" default-y=\"-125.00\">\n        <rest/>\n        <duration>4</duration>\n        <voice>5</voice>\n        <type>half</type>\n        <staff>2</staff>\n        </note>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"stop\" line=\"yes\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      </measure>\n    <measure number=\"4\" width=\"194.04\">\n      <note default-x=\"12.12\" default-y=\"-5.00\">\n        <pitch>\n          <step>E</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <accidental>natural</accidental>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"34.57\" default-y=\"-15.00\">\n        <pitch>\n          <step>C</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"57.02\" default-y=\"-25.00\">\n        <pitch>\n          <step>A</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"79.47\" default-y=\"-35.00\">\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"101.92\" default-y=\"0.00\">\n        <pitch>\n          <step>F</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"124.37\" default-y=\"-15.00\">\n        <pitch>\n          <step>C</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"146.82\" default-y=\"-25.00\">\n        <pitch>\n          <step>A</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"169.27\" default-y=\"-35.00\">\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <backup>\n        <duration>8</duration>\n        </backup>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"start\" line=\"yes\" default-y=\"-81.50\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      <note default-x=\"12.12\" default-y=\"-125.00\">\n        <rest/>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <staff>2</staff>\n        </note>\n      <note default-x=\"34.57\" default-y=\"-115.00\">\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"57.02\" default-y=\"-110.00\">\n        <pitch>\n          <step>G</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"79.47\" default-y=\"-115.00\">\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"101.92\" default-y=\"-95.00\">\n        <pitch>\n          <step>C</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"124.37\" default-y=\"-110.00\">\n        <pitch>\n          <step>G</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"146.82\" default-y=\"-115.00\">\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"169.27\" default-y=\"-130.00\">\n        <pitch>\n          <step>C</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"stop\" line=\"yes\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      </measure>\n    <measure number=\"5\" width=\"199.95\">\n      <note default-x=\"12.00\" default-y=\"0.00\">\n        <pitch>\n          <step>F</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"34.45\" default-y=\"-20.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"56.90\" default-y=\"-30.00\">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"82.37\" default-y=\"-40.00\">\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <accidental>natural</accidental>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"107.83\" default-y=\"-5.00\">\n        <pitch>\n          <step>E</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <accidental>natural</accidental>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"130.28\" default-y=\"-20.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"152.73\" default-y=\"-30.00\">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"175.18\" default-y=\"-40.00\">\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <backup>\n        <duration>8</duration>\n        </backup>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"start\" line=\"yes\" default-y=\"-81.50\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      <note default-x=\"12.00\" default-y=\"-145.00\">\n        <pitch>\n          <step>G</step>\n          <octave>2</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"34.45\" default-y=\"-145.00\">\n        <pitch>\n          <step>G</step>\n          <octave>2</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"56.90\" default-y=\"-135.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>2</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"82.37\" default-y=\"-115.00\">\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"107.83\" default-y=\"-125.00\">\n        <rest/>\n        <duration>4</duration>\n        <voice>5</voice>\n        <type>half</type>\n        <staff>2</staff>\n        </note>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"stop\" line=\"yes\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      </measure>\n    <measure number=\"6\" width=\"285.78\">\n      <print new-system=\"yes\">\n        <system-layout>\n          <system-margins>\n            <left-margin>-0.00</left-margin>\n            <right-margin>-0.00</right-margin>\n            </system-margins>\n          <system-distance>150.00</system-distance>\n          </system-layout>\n        <staff-layout number=\"2\">\n          <staff-distance>65.00</staff-distance>\n          </staff-layout>\n        </print>\n      <note default-x=\"90.78\" default-y=\"-5.00\">\n        <pitch>\n          <step>E</step>\n          <alter>-1</alter>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"114.53\" default-y=\"-20.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"138.27\" default-y=\"-30.00\">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"163.74\" default-y=\"-40.00\">\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <accidental>natural</accidental>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"189.21\" default-y=\"-5.00\">\n        <pitch>\n          <step>E</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <accidental>natural</accidental>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"212.95\" default-y=\"-20.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"236.69\" default-y=\"-30.00\">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"260.44\" default-y=\"-40.00\">\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <backup>\n        <duration>8</duration>\n        </backup>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"start\" line=\"yes\" default-y=\"-80.00\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      <note default-x=\"90.78\" default-y=\"-125.00\">\n        <rest/>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <staff>2</staff>\n        </note>\n      <note default-x=\"114.53\" default-y=\"-120.00\">\n        <pitch>\n          <step>E</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <accidental>natural</accidental>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"138.27\" default-y=\"-115.00\">\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"163.74\" default-y=\"-120.00\">\n        <pitch>\n          <step>E</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"189.21\" default-y=\"-110.00\">\n        <pitch>\n          <step>G</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"212.95\" default-y=\"-120.00\">\n        <pitch>\n          <step>E</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"236.69\" default-y=\"-130.00\">\n        <pitch>\n          <step>C</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"260.44\" default-y=\"-145.00\">\n        <pitch>\n          <step>G</step>\n          <octave>2</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"stop\" line=\"yes\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      </measure>\n    <measure number=\"7\" width=\"203.56\">\n      <note default-x=\"12.00\" default-y=\"-5.00\">\n        <pitch>\n          <step>E</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <accidental>natural</accidental>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"35.74\" default-y=\"-25.00\">\n        <pitch>\n          <step>A</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"59.49\" default-y=\"-35.00\">\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"83.23\" default-y=\"-45.00\">\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"106.98\" default-y=\"-10.00\">\n        <pitch>\n          <step>D</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"130.72\" default-y=\"-25.00\">\n        <pitch>\n          <step>A</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"154.47\" default-y=\"-35.00\">\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"178.21\" default-y=\"-45.00\">\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <backup>\n        <duration>8</duration>\n        </backup>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"start\" line=\"yes\" default-y=\"-80.00\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      <note default-x=\"12.00\" default-y=\"-150.00\">\n        <pitch>\n          <step>F</step>\n          <octave>2</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"35.74\" default-y=\"-150.00\">\n        <pitch>\n          <step>F</step>\n          <octave>2</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"59.49\" default-y=\"-140.00\">\n        <pitch>\n          <step>A</step>\n          <octave>2</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"83.23\" default-y=\"-125.00\">\n        <pitch>\n          <step>D</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"106.98\" default-y=\"-125.00\">\n        <rest/>\n        <duration>4</duration>\n        <voice>5</voice>\n        <type>half</type>\n        <staff>2</staff>\n        </note>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"stop\" line=\"yes\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      </measure>\n    <measure number=\"8\" width=\"211.12\">\n      <direction placement=\"below\"><direction-type><dynamics><mf/></dynamics></direction-type><sound dynamics=\"80\"/></direction><note default-x=\"15.04\" default-y=\"-15.00\">\n        <pitch>\n          <step>C</step>\n          <alter>1</alter>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <accidental>sharp</accidental>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"41.58\" default-y=\"-25.00\">\n        <pitch>\n          <step>A</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"65.33\" default-y=\"-35.00\">\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"89.07\" default-y=\"-45.00\">\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"114.54\" default-y=\"-10.00\">\n        <pitch>\n          <step>D</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"138.28\" default-y=\"-25.00\">\n        <pitch>\n          <step>A</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"162.03\" default-y=\"-35.00\">\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"185.77\" default-y=\"-45.00\">\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <backup>\n        <duration>8</duration>\n        </backup>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"start\" line=\"yes\" default-y=\"-80.00\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      <note default-x=\"15.04\" default-y=\"-125.00\">\n        <rest/>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <staff>2</staff>\n        </note>\n      <note default-x=\"41.58\" default-y=\"-130.00\">\n        <pitch>\n          <step>C</step>\n          <alter>1</alter>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <accidental>sharp</accidental>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"65.33\" default-y=\"-125.00\">\n        <pitch>\n          <step>D</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"89.07\" default-y=\"-130.00\">\n        <pitch>\n          <step>C</step>\n          <alter>1</alter>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"114.54\" default-y=\"-120.00\">\n        <pitch>\n          <step>E</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <accidental>natural</accidental>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"138.28\" default-y=\"-125.00\">\n        <pitch>\n          <step>D</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"162.03\" default-y=\"-130.00\">\n        <pitch>\n          <step>C</step>\n          <alter>1</alter>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"185.77\" default-y=\"-140.00\">\n        <pitch>\n          <step>A</step>\n          <octave>2</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"stop\" line=\"yes\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      </measure>\n    <measure number=\"9\" width=\"203.56\">\n      <note default-x=\"12.00\" default-y=\"10.00\">\n        <pitch>\n          <step>A</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"35.74\" default-y=\"-10.00\">\n        <pitch>\n          <step>D</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"59.49\" default-y=\"-20.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"83.23\" default-y=\"-30.00\">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"106.98\" default-y=\"5.00\">\n        <pitch>\n          <step>G</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"130.72\" default-y=\"-10.00\">\n        <pitch>\n          <step>D</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"154.47\" default-y=\"-20.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"178.21\" default-y=\"-30.00\">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <backup>\n        <duration>8</duration>\n        </backup>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"start\" line=\"yes\" default-y=\"-80.00\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      <note default-x=\"12.00\" default-y=\"-135.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>2</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"35.74\" default-y=\"-135.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>2</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"59.49\" default-y=\"-115.00\">\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"83.23\" default-y=\"-105.00\">\n        <pitch>\n          <step>A</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"106.98\" default-y=\"-125.00\">\n        <rest/>\n        <duration>4</duration>\n        <voice>5</voice>\n        <type>half</type>\n        <staff>2</staff>\n        </note>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"stop\" line=\"yes\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      </measure>\n    <measure number=\"10\" width=\"206.60\">\n      <note default-x=\"15.04\" default-y=\"0.00\">\n        <pitch>\n          <step>F</step>\n          <alter>1</alter>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <accidental>sharp</accidental>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"38.79\" default-y=\"-10.00\">\n        <pitch>\n          <step>D</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"62.53\" default-y=\"-20.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"86.27\" default-y=\"-30.00\">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"110.02\" default-y=\"5.00\">\n        <pitch>\n          <step>G</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"133.76\" default-y=\"-10.00\">\n        <pitch>\n          <step>D</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"157.51\" default-y=\"-20.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"181.25\" default-y=\"-30.00\">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <backup>\n        <duration>8</duration>\n        </backup>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"start\" line=\"yes\" default-y=\"-80.00\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      <note default-x=\"15.04\" default-y=\"-125.00\">\n        <rest/>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <staff>2</staff>\n        </note>\n      <note default-x=\"38.79\" default-y=\"-115.00\">\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"62.53\" default-y=\"-110.00\">\n        <pitch>\n          <step>G</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"86.27\" default-y=\"-115.00\">\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"110.02\" default-y=\"-95.00\">\n        <pitch>\n          <step>C</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"133.76\" default-y=\"-110.00\">\n        <pitch>\n          <step>G</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"157.51\" default-y=\"-115.00\">\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"181.25\" default-y=\"-130.00\">\n        <pitch>\n          <step>C</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"stop\" line=\"yes\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      </measure>\n    <measure number=\"11\" width=\"283.91\">\n      <print new-system=\"yes\">\n        <system-layout>\n          <system-margins>\n            <left-margin>-0.00</left-margin>\n            <right-margin>-0.00</right-margin>\n            </system-margins>\n          <system-distance>150.00</system-distance>\n          </system-layout>\n        <staff-layout number=\"2\">\n          <staff-distance>65.00</staff-distance>\n          </staff-layout>\n        </print>\n      <note default-x=\"90.78\" default-y=\"15.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"114.72\" default-y=\"-5.00\">\n        <pitch>\n          <step>E</step>\n          <alter>-1</alter>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"138.67\" default-y=\"-15.00\">\n        <pitch>\n          <step>C</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"162.61\" default-y=\"-25.00\">\n        <pitch>\n          <step>A</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"186.55\" default-y=\"10.00\">\n        <pitch>\n          <step>A</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"210.49\" default-y=\"-5.00\">\n        <pitch>\n          <step>E</step>\n          <alter>-1</alter>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"234.43\" default-y=\"-15.00\">\n        <pitch>\n          <step>C</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"258.37\" default-y=\"-25.00\">\n        <pitch>\n          <step>A</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <backup>\n        <duration>8</duration>\n        </backup>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"start\" line=\"yes\" default-y=\"-81.50\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      <note default-x=\"90.78\" default-y=\"-140.00\">\n        <pitch>\n          <step>A</step>\n          <octave>2</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"114.72\" default-y=\"-140.00\">\n        <pitch>\n          <step>A</step>\n          <octave>2</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"138.67\" default-y=\"-130.00\">\n        <pitch>\n          <step>C</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"162.61\" default-y=\"-95.00\">\n        <pitch>\n          <step>C</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"186.55\" default-y=\"-125.00\">\n        <rest/>\n        <duration>4</duration>\n        <voice>5</voice>\n        <type>half</type>\n        <staff>2</staff>\n        </note>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"stop\" line=\"yes\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      </measure>\n    <measure number=\"12\" width=\"208.16\">\n      <note default-x=\"15.04\" default-y=\"5.00\">\n        <pitch>\n          <step>G</step>\n          <alter>1</alter>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <accidental>sharp</accidental>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"38.98\" default-y=\"-5.00\">\n        <pitch>\n          <step>E</step>\n          <alter>-1</alter>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"62.92\" default-y=\"-15.00\">\n        <pitch>\n          <step>C</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"86.86\" default-y=\"-25.00\">\n        <pitch>\n          <step>A</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"110.80\" default-y=\"10.00\">\n        <pitch>\n          <step>A</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"134.74\" default-y=\"-5.00\">\n        <pitch>\n          <step>E</step>\n          <alter>-1</alter>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"158.68\" default-y=\"-15.00\">\n        <pitch>\n          <step>C</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"182.62\" default-y=\"-25.00\">\n        <pitch>\n          <step>A</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <backup>\n        <duration>8</duration>\n        </backup>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"start\" line=\"yes\" default-y=\"-81.50\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      <note default-x=\"15.04\" default-y=\"-125.00\">\n        <rest/>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <staff>2</staff>\n        </note>\n      <note default-x=\"38.98\" default-y=\"-105.00\">\n        <pitch>\n          <step>A</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"62.92\" default-y=\"-95.00\">\n        <pitch>\n          <step>C</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"86.86\" default-y=\"-105.00\">\n        <pitch>\n          <step>A</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"110.80\" default-y=\"-85.00\">\n        <pitch>\n          <step>E</step>\n          <alter>-1</alter>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"134.74\" default-y=\"-90.00\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"158.68\" default-y=\"-95.00\">\n        <pitch>\n          <step>C</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"182.62\" default-y=\"-105.00\">\n        <pitch>\n          <step>A</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"stop\" line=\"yes\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      </measure>\n    <measure number=\"13\" width=\"205.12\">\n      <direction placement=\"below\"><direction-type><dynamics><f/></dynamics></direction-type><sound dynamics=\"96\"/></direction><note default-x=\"12.00\" default-y=\"20.00\">\n        <pitch>\n          <step>C</step>\n          <octave>7</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"35.94\" default-y=\"-10.00\">\n        <pitch>\n          <step>D</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"59.88\" default-y=\"-20.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"83.82\" default-y=\"-30.00\">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"107.76\" default-y=\"15.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"131.70\" default-y=\"-10.00\">\n        <pitch>\n          <step>D</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"155.64\" default-y=\"-20.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"179.58\" default-y=\"-30.00\">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <backup>\n        <duration>8</duration>\n        </backup>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"start\" line=\"yes\" default-y=\"-81.50\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      <note default-x=\"12.00\" default-y=\"-135.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>2</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"35.94\" default-y=\"-135.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>2</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"59.88\" default-y=\"-115.00\">\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"83.82\" default-y=\"-100.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"107.76\" default-y=\"-125.00\">\n        <rest/>\n        <duration>4</duration>\n        <voice>5</voice>\n        <type>half</type>\n        <staff>2</staff>\n        </note>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"stop\" line=\"yes\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      </measure>\n    <measure number=\"14\" width=\"206.77\">\n      <note default-x=\"12.12\" default-y=\"10.00\">\n        <pitch>\n          <step>A</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"36.06\" default-y=\"-10.00\">\n        <pitch>\n          <step>D</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"60.00\" default-y=\"-20.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"83.94\" default-y=\"-30.00\">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"107.88\" default-y=\"15.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"131.82\" default-y=\"-10.00\">\n        <pitch>\n          <step>D</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"155.76\" default-y=\"-20.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"181.23\" default-y=\"-30.00\">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <backup>\n        <duration>8</duration>\n        </backup>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"start\" line=\"yes\" default-y=\"-81.50\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      <note default-x=\"12.12\" default-y=\"-125.00\">\n        <rest/>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <staff>2</staff>\n        </note>\n      <note default-x=\"36.06\" default-y=\"-105.00\">\n        <pitch>\n          <step>A</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"60.00\" default-y=\"-100.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"83.94\" default-y=\"-105.00\">\n        <pitch>\n          <step>A</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"107.88\" default-y=\"-95.00\">\n        <pitch>\n          <step>C</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"131.82\" default-y=\"-100.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"155.76\" default-y=\"-110.00\">\n        <pitch>\n          <step>G</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"181.23\" default-y=\"-120.00\">\n        <pitch>\n          <step>E</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <accidental>natural</accidental>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"stop\" line=\"yes\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      </measure>\n    <measure number=\"15\" width=\"206.65\">\n      <note default-x=\"12.00\" default-y=\"10.00\">\n        <pitch>\n          <step>A</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"35.94\" default-y=\"-20.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"59.88\" default-y=\"-30.00\">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"85.35\" default-y=\"-40.00\">\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <accidental>natural</accidental>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"109.29\" default-y=\"5.00\">\n        <pitch>\n          <step>G</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"133.23\" default-y=\"-20.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"157.17\" default-y=\"-30.00\">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"181.11\" default-y=\"-40.00\">\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <backup>\n        <duration>8</duration>\n        </backup>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"start\" line=\"yes\" default-y=\"-81.50\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      <note default-x=\"12.00\" default-y=\"-145.00\">\n        <pitch>\n          <step>G</step>\n          <octave>2</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"35.94\" default-y=\"-145.00\">\n        <pitch>\n          <step>G</step>\n          <octave>2</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"59.88\" default-y=\"-135.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>2</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"85.35\" default-y=\"-115.00\">\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"109.29\" default-y=\"-125.00\">\n        <rest/>\n        <duration>4</duration>\n        <voice>5</voice>\n        <type>half</type>\n        <staff>2</staff>\n        </note>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"stop\" line=\"yes\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      </measure>\n    <measure number=\"16\" width=\"292.65\">\n      <print new-system=\"yes\">\n        <system-layout>\n          <system-margins>\n            <left-margin>-0.00</left-margin>\n            <right-margin>817.97</right-margin>\n            </system-margins>\n          <system-distance>150.00</system-distance>\n          </system-layout>\n        <staff-layout number=\"2\">\n          <staff-distance>65.00</staff-distance>\n          </staff-layout>\n        </print>\n      <direction placement=\"below\"><direction-type><dynamics><p/></dynamics></direction-type><sound dynamics=\"49\"/></direction><note default-x=\"90.78\" default-y=\"0.00\">\n        <pitch>\n          <step>F</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"114.08\" default-y=\"-20.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"134.27\" default-y=\"-30.00\">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"159.73\" default-y=\"-40.00\">\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <accidental>natural</accidental>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"185.20\" default-y=\"-5.00\">\n        <pitch>\n          <step>E</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <accidental>natural</accidental>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"205.38\" default-y=\"-20.00\">\n        <pitch>\n          <step>B</step>\n          <alter>-1</alter>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"225.57\" default-y=\"-30.00\">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"245.75\" default-y=\"-40.00\">\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <direction placement=\"above\">\n        <direction-type>\n          <octave-shift type=\"stop\" size=\"8\" number=\"1\"/>\n          </direction-type>\n        <staff>1</staff>\n        </direction>\n      <backup>\n        <duration>8</duration>\n        </backup>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"start\" line=\"yes\" default-y=\"-80.00\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      <note default-x=\"90.78\" default-y=\"-125.00\">\n        <rest/>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <staff>2</staff>\n        </note>\n      <note default-x=\"114.08\" default-y=\"-120.00\">\n        <pitch>\n          <step>E</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <accidental>natural</accidental>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"134.27\" default-y=\"-115.00\">\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"159.73\" default-y=\"-120.00\">\n        <pitch>\n          <step>E</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <note default-x=\"185.20\" default-y=\"-110.00\">\n        <pitch>\n          <step>G</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>\n      <note default-x=\"205.38\" default-y=\"-120.00\">\n        <pitch>\n          <step>E</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"225.57\" default-y=\"-130.00\">\n        <pitch>\n          <step>C</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        </note>\n      <note default-x=\"245.75\" default-y=\"-145.00\">\n        <pitch>\n          <step>G</step>\n          <octave>2</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">end</beam>\n        </note>\n      <direction placement=\"below\">\n        <direction-type>\n          <pedal type=\"stop\" line=\"yes\"/>\n          </direction-type>\n        <staff>2</staff>\n        </direction>\n      <barline location=\"right\">\n        <bar-style>light-heavy</bar-style>\n        <repeat direction=\"backward\"/>\n        </barline>\n      </measure>\n    </part>\n  </score-partwise>\n"
+}

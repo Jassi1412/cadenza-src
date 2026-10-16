@@ -1,0 +1,135 @@
+{
+  "notes": [
+    {
+      "id": "n1",
+      "pitch": 60,
+      "onset": 0.0,
+      "duration": 1.0,
+      "voice": 1,
+      "articulation": "staccato",
+      "chordId": 0,
+      "chordMates": [],
+      "expected_dyn": 71.5,
+      "expected_pedal": false
+    },
+    {
+      "id": "n2",
+      "pitch": 62,
+      "onset": 1.0,
+      "duration": 1.0,
+      "voice": 1,
+      "articulation": "tenuto",
+      "chordId": 1,
+      "chordMates": [],
+      "expected_dyn": 71.5,
+      "expected_pedal": false
+    },
+    {
+      "id": "n3",
+      "pitch": 64,
+      "onset": 2.0,
+      "duration": 1.0,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 2,
+      "chordMates": [],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "n4",
+      "pitch": 65,
+      "onset": 3.0,
+      "duration": 1.0,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 3,
+      "chordMates": [],
+      "expected_dyn": 71.5,
+      "expected_pedal": true
+    },
+    {
+      "id": "n5",
+      "pitch": 67,
+      "onset": 4.0,
+      "duration": 2.0,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 4,
+      "chordMates": [
+        71
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": false
+    },
+    {
+      "id": "n6",
+      "pitch": 71,
+      "onset": 4.0,
+      "duration": 2.0,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 4,
+      "chordMates": [
+        67
+      ],
+      "expected_dyn": 87.5,
+      "expected_pedal": false
+    },
+    {
+      "id": "n7",
+      "pitch": 69,
+      "onset": 6.0,
+      "duration": 1.0,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 5,
+      "chordMates": [],
+      "expected_dyn": 87.5,
+      "expected_pedal": false
+    },
+    {
+      "id": "n8",
+      "pitch": 72,
+      "onset": 7.0,
+      "duration": 1.0,
+      "voice": 1,
+      "articulation": null,
+      "chordId": 6,
+      "chordMates": [],
+      "expected_dyn": 87.5,
+      "expected_pedal": false
+    }
+  ],
+  "dynamics": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "text": "mf",
+      "velocity": 71.5
+    },
+    {
+      "start": 4.0,
+      "end": 8.0,
+      "text": "f",
+      "velocity": 87.5
+    }
+  ],
+  "pedals": [
+    {
+      "start": 2.0,
+      "end": 4.0
+    }
+  ],
+  "beat_grad": 0.01,
+  "time_anchors": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      8.0,
+      4000.0
+    ]
+  ]
+}

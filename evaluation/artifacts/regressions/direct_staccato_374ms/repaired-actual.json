@@ -1,0 +1,26 @@
+{
+  "version": "repaired",
+  "started_utc": "2026-10-14T13:43:56.218388+00:00",
+  "command": [
+    "swipl",
+    "-O",
+    "-p",
+    "monitor=/media/angelo/WorkData/git/cadenza-src-main/rml/monitor",
+    "/media/angelo/WorkData/git/cadenza-src-main/server/batch.pl",
+    "--",
+    "/media/angelo/WorkData/git/cadenza-src-main/evaluation/fixtures/regressions/direct/direct_staccato_374ms.jsonl",
+    "articulation",
+    "/media/angelo/WorkData/git/cadenza-src-main/evaluation/compiled/articulation.pl"
+  ],
+  "specification_sha256": "501ecf5d6e73fbc87ae403ee0ce4b91e5b4ea4bb514123568898c9628e7313f3",
+  "total_seconds": 0.266216673,
+  "process": {
+    "returncode": 0,
+    "stdout": "articulation 0\n",
+    "stderr": ""
+  },
+  "actual": {
+    "articulation": 0
+  },
+  "trace_sha256": "496a43f884423ff9f833747b6c46b81972e136ef600cb7ca2cb6060ee62b12b2"
+}

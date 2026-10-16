@@ -1,0 +1,19 @@
+
+soloNote matches {type:'noteon', expected:{chordMates:[]}};
+soloNote matches soloNote(_);
+
+
+chordNote(cid, ts) matches
+    {type:'noteon', expected:{chordId:cid, chordMates:_}, timestamp:ts};
+
+
+anyNoteOn matches {type:'noteon'};
+
+
+mateOf(c, t1) matches chordNote(c, t2) with abs(t2 - t1) < 30;
+
+mateOf matches mateOf(_, _);
+
+Chord = {let c, t1; chordNote(c, t1) mateOf(c, t1) mateOf(c, t1)*};
+
+Main = anyNoteOn >> (soloNote \/ Chord)*;

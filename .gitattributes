@@ -9,3 +9,7 @@ vendor/rml-compiler/**/*.sh       text eol=lf
 
 *.rml   text eol=lf
 *.pl    text eol=lf
+
+# Preserve content hashes of experimental evidence and score inputs.
+/evaluation/** -text
+/scores/*.musicxml -text

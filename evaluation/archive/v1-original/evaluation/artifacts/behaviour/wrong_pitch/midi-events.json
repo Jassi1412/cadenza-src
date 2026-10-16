@@ -1,0 +1,129 @@
+{
+  "events": [
+    {
+      "type": "noteon",
+      "timestamp": 0.0,
+      "note": 61,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 200.0,
+      "note": 61,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 500.0,
+      "note": 62,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 900.0,
+      "note": 62,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 1000.0,
+      "note": 64,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 1010.0,
+      "controller": 64,
+      "value": 127
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 1400.0,
+      "note": 64,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 1500.0,
+      "note": 65,
+      "rawAttack": 72,
+      "velocity": 0.5669291338582677
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 1900.0,
+      "note": 65,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 2000.0,
+      "note": 67,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteon",
+      "timestamp": 2000.0,
+      "note": 71,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "controlchange",
+      "timestamp": 2000.0,
+      "controller": 64,
+      "value": 0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 2400.0,
+      "note": 67,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 2400.0,
+      "note": 71,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 3000.0,
+      "note": 69,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 3400.0,
+      "note": 69,
+      "rawAttack": 0,
+      "velocity": 0.0
+    },
+    {
+      "type": "noteon",
+      "timestamp": 3500.0,
+      "note": 72,
+      "rawAttack": 88,
+      "velocity": 0.6929133858267716
+    },
+    {
+      "type": "noteoff",
+      "timestamp": 3900.0,
+      "note": 72,
+      "rawAttack": 0,
+      "velocity": 0.0
+    }
+  ],
+  "tempo_factor": 1.0
+}

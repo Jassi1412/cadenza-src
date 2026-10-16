@@ -1,0 +1,84 @@
+{
+  "success": true,
+  "verdicts": {
+    "articulation": {
+      "ok": false,
+      "exit": 1,
+      "diagnostic": ""
+    },
+    "chord-jitter": {
+      "ok": true,
+      "exit": 0,
+      "diagnostic": ""
+    },
+    "dynamics-adherence": {
+      "ok": true,
+      "exit": 0,
+      "diagnostic": ""
+    },
+    "pedal-toggle": {
+      "ok": true,
+      "exit": 0,
+      "diagnostic": ""
+    },
+    "pitch-agreement": {
+      "ok": true,
+      "exit": 0,
+      "diagnostic": ""
+    },
+    "pitch-range": {
+      "ok": true,
+      "exit": 0,
+      "diagnostic": ""
+    },
+    "syncopated-pedal": {
+      "ok": true,
+      "exit": 0,
+      "diagnostic": ""
+    }
+  },
+  "enriched_event_count": 18,
+  "total_seconds": 0.289575499,
+  "stages_seconds": {
+    "score_parse": 0.006697094,
+    "join": 0.000184015,
+    "trace_serialise": 0.000236549,
+    "prolog_process": 0.281876556
+  },
+  "process": {
+    "returncode": 0,
+    "stdout": "articulation 1\nchord-jitter 0\ndynamics-adherence 0\npedal-toggle 0\npitch-agreement 0\npitch-range 0\nsyncopated-pedal 0\n",
+    "stderr": "Warning: /media/angelo/WorkData/git/cadenza-src-main/evaluation/archive/v1-original/evaluation/compiled/pedal-toggle.pl:10:\nWarning:    Singleton variables: [Ctrl]\n"
+  },
+  "warnings": [
+    {
+      "category": "UserWarning",
+      "message": "ignoring direction type: metronome {}"
+    }
+  ],
+  "python_stderr": "",
+  "python_stdout": "",
+  "version": "original",
+  "started_utc": "2026-10-14T13:44:05.400162+00:00",
+  "specification_sha256": "e905cff6dcc7e365f268877f039cb3f2f8bee7ebe8c17cb0808f196b8bbe28a2",
+  "specifications_directory": "/media/angelo/WorkData/git/cadenza-src-main/evaluation/archive/v1-original/evaluation/compiled",
+  "actual": {
+    "articulation": 1,
+    "chord-jitter": 0,
+    "dynamics-adherence": 0,
+    "pedal-toggle": 0,
+    "pitch-agreement": 0,
+    "pitch-range": 0,
+    "syncopated-pedal": 0
+  },
+  "enrichment_checks": {
+    "note_count": 8,
+    "final_gap_null": true,
+    "final_articulation": "staccato",
+    "final_duration_ms": 25000.0,
+    "probe_articulation": "staccato",
+    "probe_gap_ms": 500.0,
+    "probe_duration_ms": 376.0,
+    "probe_duration_retained": true
+  }
+}

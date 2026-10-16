@@ -21,4 +21,5 @@ noGap matches noGap(_);
 
 anyNoteOn matches {type:'noteon'};
 
-Main = anyNoteOn >> (staccatoOk \/ tenutoOk \/ legatoOk \/ noMark \/ noGap)*;
+// Without a successor gap the duration requirement is inapplicable.
+Main = anyNoteOn >> (noGap \/ staccatoOk \/ tenutoOk \/ legatoOk \/ noMark)*;
