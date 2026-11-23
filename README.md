@@ -6,7 +6,7 @@ RML (Rewrite Modulo Logic) and compiled to Prolog monitors; the web application 
 verdicts on the score while the student plays and stops the piece on the note that
 departs from the instructions.
 
-**Live application**: <https://cadenza-etji.onrender.com>
+**Live application**: <https://cadenza-unlikekats-projects.vercel.app>
 
 ## The seven criteria
 
