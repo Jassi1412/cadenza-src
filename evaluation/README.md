@@ -4,6 +4,10 @@ For the Git distribution, [SHARING.md](SHARING.md) documents omitted local backu
 
 This directory contains the local evaluation after repairing the articulation monitor's final marked-note exception. Performances are deterministic synthetic MIDI. The experiments exercise the existing converter, enrichment and compiled monitors; they do not validate live capture, independent alignment accuracy or complete musical assessment. The experiments ran locally; source sharing is documented in [SHARING.md](SHARING.md).
 
+[videos/](videos/) holds the seven demonstration recordings: two takes of a real
+piece per criterion, judged by the same chain, with the frame the application drew
+beside each take. The root [README](../README.md) links them.
+
 Read [REPORT.md](REPORT.md) for the paper-facing report, [RESULTS.md](RESULTS.md) for generated results, and [evaluation.tex](evaluation.tex) for the British English LaTeX section. [IMPLEMENTATION.md](IMPLEMENTATION.md) describes the current seven specifications and remaining limitations. The project's metrics README describes older behaviour.
 
 ## Preserved evidence and repair
