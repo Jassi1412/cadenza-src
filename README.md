@@ -81,6 +81,16 @@ cd web-app && npm install && npm run dev
 `evaluation/scripts/run.sh` reproduces the measurements, with the exact environment,
 recorded versions and provenance in [`evaluation/README.md`](evaluation/README.md).
 
+## Deploying
+
+The browser application is built from [`web-app/`](web-app/) and deployed to Vercel; the
+analysis service is built from [`server/Dockerfile`](server/Dockerfile) and deployed to
+Render as the Docker service declared in [`render.yaml`](render.yaml), which redeploys on
+every commit to `main`. Vercel needs `web-app/` as the project's root directory, since
+`package.json` lives there and not at the repository root; the settings that matter are
+also written down in [`web-app/vercel.json`](web-app/vercel.json) so a project with a
+stale dashboard configuration still builds.
+
 ## Status and limits
 
 The system assesses what a MIDI keyboard reports, so an acoustic piano played without
