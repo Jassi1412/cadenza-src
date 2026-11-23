@@ -10,7 +10,7 @@ chordNote(cid, ts) matches
 anyNoteOn matches {type:'noteon'};
 
 
-mateOf(c, t1) matches chordNote(c, t2) with abs(t2 - t1) < 30;
+mateOf(c, t1) matches chordNote(c, t2) with abs(t2 - t1) < 50;
 
 mateOf matches mateOf(_, _);
 

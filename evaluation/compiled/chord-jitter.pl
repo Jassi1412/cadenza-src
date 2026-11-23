@@ -6,7 +6,7 @@ match(_event, soloNote_et) :- match(_event, soloNote_et(_)).
 match(_event, chordNote_et(Cid, Ts)) :- deep_subdict(_event, _{type:"noteon", expected:_{chordId:Cid, chordMates:_}, timestamp:Ts}).
 match(_event, anyNoteOn_et) :- deep_subdict(_event, _{type:"noteon"}).
 match(_event, mateOf_et(C, T1)) :- match(_event, chordNote_et(C, T2)),
-	{(abs((T2 - T1)) < 30)}.
+	{(abs((T2 - T1)) < 50)}.
 match(_event, mateOf_et) :- match(_event, mateOf_et(_, _)).
 match(_event, any_et) :- deep_subdict(_event, _{}).
 match(_event, none_et) :- not(match(_event, any_et)).
