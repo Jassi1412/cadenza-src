@@ -1,11 +1,31 @@
-/** useMidi — acceptance: stream bounded 500, appendEvent funzionale, rawAttack 0-127, export stabile. */
+/**
+ * useMidi — Task 2.1 acceptance tests.
+ *
+ * Covers:
+ *  1. Bounded MidiEvent[] stream (cap 500, oldest dropped first)
+ *  2. Functional appendEvent (chord-speed batches are never dropped between renders)
+ *  3. Integer rawAttack 0-127 on noteon (webmidi v3 e.note.rawAttack), with
+ *     channel/rawBytes intentionally absent from MidiEvent (live adapter scope)
+ *  4. Export stability: useMidi function + exact UseMidiReturn shape,
+ *     MidiNote / MidiEvent / UseMidiReturn type surfaces
+ *
+ * React and webmidi are mocked at module level (mock.module BEFORE the
+ * dynamic import of the hook) so the hook's state machine can be driven
+ * deterministically without a DOM or a real MIDI device.
+ */
 
-// bun:test ha tipi assenti: tsconfig.app.json blocca `types`, diagnostica soppressa.
+// bun:test has no installed type declarations here: tsconfig.app.json pins
+// `types: ["vite/client"]` and bun-types is not a dependency. Adding a
+// devDependency is outside this task's declared write scope (this test file
+// only), so the unresolved-module diagnostic is suppressed instead.
 // @ts-expect-error bun:test has no installed type declarations — see the note above.
 import { describe, test, expect, mock, beforeEach, afterEach, afterAll } from 'bun:test';
 import type { MidiEvent, MidiNote, UseMidiReturn } from './useMidi';
 
-// Riferimenti reali catturati prima del mock: afterAll li ripristina.
+// ---------------------------------------------------------------------------
+// Real module references captured BEFORE mocking, so afterAll can restore the
+// module registry for any test file that shares this bun process later.
+// ---------------------------------------------------------------------------
 
 const realReact = await import('react');
 let realWebMidi: unknown = null;
@@ -15,7 +35,11 @@ try {
   realWebMidi = null;
 }
 
-// Runtime React minimale: gli slot persistono fra i render.
+// ---------------------------------------------------------------------------
+// Minimal React hook runtime (replaces the 'react' module for this file).
+// Slots persist across useRenderHook() calls to model a single component
+// instance re-rendering; cursor resets per render to model hook call order.
+// ---------------------------------------------------------------------------
 
 interface Slot {
   value?: unknown;
@@ -24,7 +48,8 @@ interface Slot {
 
 let slots: Slot[] = [];
 let cursor = 0;
-// Ultimo body d'effetto per slot: remount() rilancia il setup.
+// Latest effect body per hook-slot index, so remount() can re-run the effect
+// SETUP after running its cleanup with the deps slot left untouched.
 let mountedEffects = new Map<number, () => void | (() => void)>();
 let pendingEffects: Array<{ index: number; run: () => void | (() => void) }> = [];
 let cleanups: Array<() => void> = [];
@@ -88,7 +113,9 @@ const reactModuleExports: Record<string, unknown> = {
 };
 reactModuleExports['default'] = reactModuleExports;
 
-// Mock webmidi: WebMidi singleton + FakeMidiInput.
+// ---------------------------------------------------------------------------
+// webmidi mock: singleton WebMidi + a controllable FakeMidiInput.
+// ---------------------------------------------------------------------------
 
 type Listener = (event: unknown) => void;
 
@@ -157,14 +184,18 @@ const webMidiMock = {
     webMidiState.inputs.find((input) => input.id === id) ?? null,
 };
 
-// Mock di modulo: vanno registrati prima di importare l'hook.
+// ---------------------------------------------------------------------------
+// Module mocks — MUST be registered before the hook module is imported.
+// ---------------------------------------------------------------------------
 
 mock.module('react', () => reactModuleExports);
 mock.module('webmidi', () => ({ WebMidi: webMidiMock }));
 
 const { useMidi } = await import('./useMidi');
 
+// ---------------------------------------------------------------------------
 // Harness
+// ---------------------------------------------------------------------------
 
 function useRenderHook(): UseMidiReturn {
   cursor = 0;
@@ -181,13 +212,19 @@ function useRenderHook(): UseMidiReturn {
   return result;
 }
 
-/** remount(): rilancia cleanup e setup; deps intatti, come in StrictMode. */
+/**
+ * Effect remount: run every stored cleanup, then re-run every stored effect
+ * body. The deps slot is deliberately left untouched, so the effect is NOT
+ * re-scheduled on the next render — React would compare identical deps, which
+ * is exactly what a Fast Refresh / StrictMode remount of a component with
+ * unchanged props produces.
+ */
 function remount(): void {
   for (const cleanup of cleanups) {
     try {
       cleanup();
     } catch {
-// Teardown in corsa con disable(): il test seguente resetta.
+      // Teardown may race disable(); the next test resets all state.
     }
   }
   cleanups = [];
@@ -264,14 +301,18 @@ function globalListener(type: string): () => void {
   return found[1] as () => void;
 }
 
-/** Handler passati a addListener per type, in ordine di registrazione. */
+/**
+ * Every handler passed to WebMidi.addListener for `type`, in registration
+ * order. The webmidi mock is a no-op recorder, so its call list IS the
+ * registration evidence — no real listener bookkeeping is introduced here.
+ */
 function globalRegistrations(type: string): Array<() => void> {
   return webMidiMock.addListener.mock.calls
     .filter((call: unknown[]) => call[0] === type)
     .map((call: unknown[]) => call[1] as () => void);
 }
 
-/** Handler passati a removeListener per type, in ordine di rimozione. */
+/** Every handler passed to WebMidi.removeListener for `type`, in removal order. */
 function globalRemovals(type: string): Array<() => void> {
   return webMidiMock.removeListener.mock.calls
     .filter((call: unknown[]) => call[0] === type)
@@ -295,7 +336,9 @@ function clearAllTestMocks(): void {
   webMidiMock.removeListener.mockClear();
 }
 
-// navigator: il support check legge globalThis.navigator.requestMIDIAccess.
+// ---------------------------------------------------------------------------
+// navigator control (support check reads globalThis.navigator.requestMIDIAccess)
+// ---------------------------------------------------------------------------
 
 interface NavLike {
   requestMIDIAccess?: unknown;
@@ -386,7 +429,7 @@ afterEach(() => {
     try {
       cleanup();
     } catch {
-// Teardown in corsa con disable(): lo stato si resetta al test dopo.
+      // Listener teardown may race disable(); ignore — state resets next test.
     }
   }
   cleanups = [];
@@ -395,14 +438,16 @@ afterEach(() => {
 });
 
 afterAll(() => {
-// Ripristina i moduli reali per i test successivi.
+  // Un-mock so later test files in this bun process get the real modules.
   mock.module('react', () => realReact);
   if (realWebMidi) {
     mock.module('webmidi', () => realWebMidi);
   }
 });
 
+// ---------------------------------------------------------------------------
 // Tests
+// ---------------------------------------------------------------------------
 
 describe('useMidi — task 2.1: bounded event stream, rawAttack, export stability', () => {
   test('export surface: useMidi is a function, UseMidiReturn shape and initial state are stable', () => {
@@ -482,7 +527,9 @@ describe('useMidi — task 2.1: bounded event stream, rawAttack, export stabilit
     expect(result.inputs[0]).toBe(input1);
     expect(result.selectedInput).toBe(input2);
 
-// Ogni porta riceve i tre listener: i bridge Bluetooth si enumerano come A/B.
+    // Every port carries the three listeners: a Bluetooth bridge enumerates as
+    // two ports and only one of them delivers the keyboard's traffic, so
+    // subscribing to a single port silently drops all events.
     for (const port of inputs) {
       expect(port.listenerCount('noteon')).toBe(1);
       expect(port.listenerCount('noteoff')).toBe(1);
@@ -510,7 +557,7 @@ describe('useMidi — task 2.1: bounded event stream, rawAttack, export stabilit
     );
     const r = useRenderHook();
 
-// AFTER: un evento, shape esatto — channel/rawBytes assenti.
+    // AFTER: exactly one event, exact shape — channel/rawBytes are NOT present.
     expect(r.events.length).toBe(1);
     expect(r.events[0]).toEqual({
       type: 'noteon',
@@ -548,7 +595,7 @@ describe('useMidi — task 2.1: bounded event stream, rawAttack, export stabilit
     expect(r.events.every((e) => (e.rawAttack as number) >= 0 && (e.rawAttack as number) <= 127)).toBe(
       true,
     );
-// rawAttack è l'intero 0-127, indipendente dalla velocity float.
+    // rawAttack is the raw 0-127 integer, independent of the float velocity.
     expect(r.events.map((e) => e.velocity)).toEqual([0, 1 / 127, 64 / 127, 1]);
   });
 
@@ -584,7 +631,8 @@ describe('useMidi — task 2.1: bounded event stream, rawAttack, export stabilit
     const { inputs } = await useCreateHookWithInputs(['input-1']);
     const [input1] = inputs;
 
-// PROPERTY: dopo N > cap lo stream tiene gli ULTIMI 500 timestamp, in ordine.
+    // PROPERTY: after N > cap fires in one batch, the stream equals the LAST 500
+    // fired timestamps, in order (lossless within the bound).
     for (let i = 0; i < 600; i++) {
       input1.emit('noteon', makeNoteOn({ timestamp: i }));
     }
@@ -595,7 +643,7 @@ describe('useMidi — task 2.1: bounded event stream, rawAttack, export stabilit
     );
     expect(r.events.every((e) => (e.timestamp as number) >= 100)).toBe(true);
 
-// PROPERTY: il cap è stabile — un evento butta fuori uno vecchio.
+    // PROPERTY: the cap is stable — one more event pushes one old event out.
     input1.emit('noteon', makeNoteOn({ timestamp: 600 }));
     r = useRenderHook();
     expect(r.events.length).toBe(500);
@@ -669,7 +717,8 @@ describe('useMidi — task 2.1: bounded event stream, rawAttack, export stabilit
   test('selectInput() moves the reported selection to the chosen input, clears active notes, keeps history', async () => {
     const { inputs, result } = await useCreateHookWithInputs(['input-1', 'input-2']);
     const [input1, input2] = inputs;
-// enable() sottoscrive ogni porta: l'ultima è la selezione riportata.
+    // enable() subscribes to EVERY port (a Bluetooth bridge enumerates as A/B
+    // and only one carries traffic), so the last port is the reported selection.
     expect(result.selectedInput).toBe(input2);
 
     input1.emit('noteon', makeNoteOn({ timestamp: 50 }));
@@ -680,7 +729,8 @@ describe('useMidi — task 2.1: bounded event stream, rawAttack, export stabilit
     r.selectInput('input-1');
     r = useRenderHook();
     expect(r.selectedInput).toBe(input1);
-// selectInput risottoscrive la scelta; le altre porte non si zittiscono.
+    // selectInput re-subscribes the chosen port; it never silences the others,
+    // so a keyboard on a different port keeps delivering.
     expect(input1.listenerCount('noteon')).toBe(1);
     expect(input2.listenerCount('noteon')).toBe(1);
     expect(r.activeNotes.size).toBe(0); // AFTER switch — cleared
@@ -707,7 +757,8 @@ describe('useMidi — task 2.1: bounded event stream, rawAttack, export stabilit
   });
 
   test('clearRecording() empties recording, the live stream and the held notes, and keeps listening', async () => {
-// Serve a ogni prova: senza, due prese si leggerebbero come una.
+    // ScorePage calls this when a take starts. Without it a second take would
+    // be appended to the first and the aligner would read both as one piece.
     const { inputs } = await useCreateHookWithInputs(['input-1']);
     const [input1] = inputs;
 
@@ -724,7 +775,8 @@ describe('useMidi — task 2.1: bounded event stream, rawAttack, export stabilit
     r = useRenderHook();
     expect(r.recording).toEqual([]);
     expect(r.events).toEqual([]);
-// Una nota tenuta nel countdown chiuderebbe un attacco inesistente.
+    // A note held across the countdown would otherwise stay held for the whole
+    // take, and its note-off would close an attack that no longer exists.
     expect(r.activeNotes.size).toBe(0);
 
     // Still listening: clearing must not detach anything.
@@ -827,7 +879,13 @@ describe('useMidi — task 2.1: bounded event stream, rawAttack, export stabilit
   });
 });
 
-// Regressione 3.1: questi test devono FALLIRE sul useMidi.ts pre-fix.
+// ---------------------------------------------------------------------------
+// Task 3.2 — regression tests for the 3.1 fix (listener lifecycle on remount).
+//
+// Every test below must FAIL against the pre-3.1 useMidi.ts, otherwise it is
+// not a regression test: the 3.1 fix would be unprotected. See the neutralize
+// procedure in the task report for the observed RED runs.
+// ---------------------------------------------------------------------------
 
 describe('useMidi — task 3.2: 3.1 fix regression (effect remount)', () => {
   test('remount re-attaches the live input listeners to the selected input', async () => {
@@ -835,11 +893,14 @@ describe('useMidi — task 3.2: 3.1 fix regression (effect remount)', () => {
     const [input1] = inputs;
     expect(input1).toBeDefined();
 
-// Il fix 3.1 rilancia il setup: i listener tornano sulla porta scelta.
+    // The 3.1 fix re-runs the effect setup on remount, so the selected input
+    // must carry its listeners again with the selection UNCHANGED. No
+    // selectInput() call, no deps change — only the effect re-running.
     remount();
 
     expect(input1.listenerCount('noteon')).toBeGreaterThanOrEqual(1);
-// emit() lancia senza listener: il run pre-fix fallisce rumorosamente.
+    // FakeMidiInput.emit throws when its listener list is empty, so a pre-fix
+    // run fails loudly here instead of silently recording nothing.
     input1.emit('noteon', makeNoteOn({ timestamp: 90, rawAttack: 111 }));
 
     const r = useRenderHook();
@@ -848,11 +909,16 @@ describe('useMidi — task 3.2: 3.1 fix regression (effect remount)', () => {
   });
 
   test('remount re-registers the global hot-plug handlers with fresh identities', async () => {
-// Discrimina su REGISTRAZIONI: removeListener è no-op, globalListener dà la prima.
+    // Discriminate on REGISTRATION evidence, never on firing a stored handler:
+    // webMidiMock.removeListener is a no-op that deregisters nothing and
+    // globalListener() resolves the FIRST-ever addListener("connected") call,
+    // so a handler-firing assertion would stay green before the fix.
     webMidiState.inputs = [];
     const first = useRenderHook();
     await first.enable();
-// Il listener hot-plug vive nell'effetto sotto isEnabled: serve un render in più.
+    // The global hot-plug registration lives in the effect, which is gated on
+    // isEnabled — so the state update from enable() needs one more render to
+    // schedule it (same sequence useCreateHookWithInputs relies on).
     useRenderHook();
 
     const beforeRegs = globalRegistrations('connected');
@@ -869,7 +935,8 @@ describe('useMidi — task 3.2: 3.1 fix regression (effect remount)', () => {
     // (b) the identity registered after the remount differs from the pre-remount one
     const afterRegs = globalRegistrations('connected');
     expect(afterRegs[afterRegs.length - 1]).not.toBe(beforeConnected);
-// (c) rimozione ref-scoped con l'handler esatto pre-remount.
+    // (c) ref-scoped removal passed the EXACT pre-remount handler — the pre-fix
+    //     code registered inside enable() and could not remove by identity
     expect(globalRemovals('connected')).toContain(beforeConnected);
     expect(globalRemovals('disconnected')).toContain(beforeDisconnected);
     // (d) firing the LAST registered "connected" handler still drives state
@@ -889,7 +956,10 @@ describe('useMidi — task 3.2: 3.1 fix regression (effect remount)', () => {
     const before = input1.listenerCount('noteon');
     expect(before).toBeGreaterThanOrEqual(1);
 
-// Id falsy con MIDI attivo: selectInput esce prima di ogni removeListener.
+    // Falsy id, with MIDI enabled: selectInput must early-return BEFORE any
+    // removeListener, so the live input keeps its listeners and the selection
+    // does not change. (With MIDI DISABLED and webmidi validation on,
+    // getInputById throws before reaching this guard — see useMidi.ts.)
     result.selectInput('');
 
     const r = useRenderHook();

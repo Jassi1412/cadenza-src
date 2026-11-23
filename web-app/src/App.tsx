@@ -2,7 +2,9 @@ import { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 
-// Code split: il chunk musicxml-player si carica solo su /score.
+// Route-level code split. ScorePage statically pulls the MusicXML/OSMD stylesheet;
+// the 11 MB @music-i18n/musicxml-player chunk is then only fetched when /score
+// actually mounts, instead of on the landing page.
 const UploadPage = lazy(() => import('./pages/UploadPage'));
 const ScorePage = lazy(() => import('./pages/ScorePage'));
 

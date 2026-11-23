@@ -2,16 +2,18 @@
   min-height: calc(100vh - 80px);
   display: flex;
   flex-direction: column;
-  /* Padding per non finire sotto la barra fixed. */
+  /* La barra dei comandi è position:fixed a 5rem di altezza con 1.5rem dal
+     basso. Senza questo spazio l'ultimo elemento della pagina — il pannello dei
+     verdetti — finisce sotto la barra e non si legge. */
   padding-bottom: 7rem;
 }
 
-/* Header: solo titolo e pulsante indietro */
+/* Header — simplified: just back button + title */
 .score-page .score-header {
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-top: 4rem; /* margin per evitare override del padding di .container */
+  margin-top: 4rem; /* Changed to margin to avoid padding override by .container */
   padding-bottom: 2rem;
 }
 
@@ -36,12 +38,13 @@
   border-color: var(--accent-primary);
 }
 
+/* Score Container */
 .score-container {
   flex: 1;
   position: relative;
   overflow: auto;
   padding: 1rem 0;
-  /* Spazio in fondo per la barra di riproduzione flottante */
+  /* Extra padding at bottom for the floating playback bar */
   padding-bottom: 8rem;
 }
 
@@ -51,70 +54,12 @@
   padding: 0 1rem;
 }
 
-/* Verdetti: calcolati da RML, qui si mostra solo la risposta. */
-
-.verdict-panel {
-  margin: 2rem auto;
-  padding: 1.5rem 2rem;
-  max-width: 46rem;
-  background: var(--surface, #fff);
-  border: 1px solid var(--border, #e5e5e5);
-  border-radius: 12px;
-  /* scroll-margin in fondo alla barra dei comandi per scrollIntoView. */
-  scroll-margin-bottom: 7rem;
-}
-
-.verdict-panel-head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  margin-bottom: 0.5rem;
-}
-
-.verdict-note { color: #6b6b6b; font-size: 0.9rem; margin: 0.25rem 0 1rem; }
-.verdict-error { color: #b3261e; }
-
-.verdict-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 0.35rem;
-}
-
-.verdict-list li {
-  display: grid;
-  grid-template-columns: 1.5rem 1fr auto;
-  align-items: center;
-  gap: 0.6rem;
-  padding: 0.5rem 0.7rem;
-  border-radius: 8px;
-  border: 1px solid transparent;
-  font-size: 0.95rem;
-}
-
-.verdict-ok { background: rgba(76, 175, 80, 0.10); border-color: rgba(76, 175, 80, 0.4); }
-.verdict-bad { background: rgba(179, 38, 30, 0.10); border-color: rgba(179, 38, 30, 0.4); }
-
-.verdict-mark { font-weight: 700; }
-.verdict-ok .verdict-mark { color: #2e7d32; }
-.verdict-bad .verdict-mark { color: #b3261e; }
-
-.verdict-detail { color: #6b6b6b; font-size: 0.85rem; }
-
-/* Forced colors: la distinzione OK/KO la portano segno e testo. */
-@media (forced-colors: active) {
-  .verdict-list li { border-color: CanvasText; background: Canvas; }
-  .verdict-ok .verdict-mark { color: CanvasText; }
-  .verdict-bad .verdict-mark { color: CanvasText; }
-}
-
 /* Override musicxml-player default styles to match our theme */
 .sheet-container .player-sheet {
   background: transparent;
 }
 
+/* Loading */
 .loading-overlay {
   display: flex;
   flex-direction: column;
@@ -143,6 +88,7 @@
   letter-spacing: 0.05em;
 }
 
+/* Error */
 .score-error {
   text-align: center;
   padding: 6rem 2rem;
@@ -162,6 +108,7 @@
   gap: 0.5rem;
 }
 
+/* Practice Mode Status Badge */
 .practice-status {
   display: flex;
   align-items: center;
@@ -179,18 +126,23 @@
   animation: badge-pop 0.3s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
-/* Countdown overlay: il musicista guarda le mani, non la pagina. */
+/* Countdown overlay — sta sopra a QUELLO CHE SI VEDE, non al centro del
+   documento. Era absolute dentro .score-container, che e' alto quanto tutto
+   lo spartito: il numero finiva a meta' dei 250 m di brano e il velo copriva
+   ogni cosa. "fixed" lo planta sul viewport, a qualsiasi scroll si trovi la
+   pagina; trasparente lascia leggere le note sotto, e l'alone bianco intorno
+   ai caratteri fa il resto — senza quinte né sipari. */
 .countdown-overlay {
-  position: absolute;
+  position: fixed;
   inset: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 0.75rem;
-  background: rgba(252, 251, 248, 0.82);
-  backdrop-filter: blur(8px);
-  /* Sopra la barra: nel countdown i pulsanti sono disabilitati. */
+  background: transparent;
+  /* Sopra la barra dei comandi (z-index 1000): durante il countdown i suoi
+     pulsanti sono disabilitati, lasciarla davanti sarebbe solo rumore. */
   z-index: 1100;
   animation: fade-in 0.25s ease both;
 }
@@ -200,20 +152,38 @@
   to { opacity: 1; }
 }
 
-/* key={count} rimonta .countdown-value: l'animazione riparte a ogni numero. */
+/* `key={count}` su .countdown-value rimonta l'elemento a ogni numero, quindi
+   l'animazione riparte da capo invece di interpolare da 3 a 2.
+   La DURATA non è scritta qui: arriva dall'esterno (ScorePage.tsx la passa come
+   inline style dallo stesso COUNTDOWN_STEP_MS che genera i click), così il
+   disegno e il metronomo non possono divergere.
+   L'animazione deve durare quanto WHOLE il numero e non deve mai fermarsi:
+   la versione vecchia finiva a 0,75 s su una finestra da 1 s, e con `both` il
+   numero restava SEMI-TRASPARENTE E CONGELATO per l'ultimo quarto — "appare, si
+   freeza, poi arriva il successivo" — dandogli la fluidità di un lampeggio. */
 .countdown-value {
   font-family: var(--font-heading);
   font-size: clamp(5rem, 18vw, 11rem);
   font-weight: 600;
   line-height: 1;
   color: var(--accent-secondary);
-  animation: countdown-pop 0.75s cubic-bezier(0.16, 1, 0.3, 1) both;
+  /* L'alone e' l'unico mezzo per restare leggibili senza coprire: le note
+     passano sotto, il numero deve poter stare sopra le teste nere dei righi. */
+  text-shadow:
+    0 0 8px rgba(255, 253, 250, 0.95),
+    0 0 28px rgba(255, 253, 250, 0.9),
+    0 0 70px rgba(255, 253, 250, 0.75);
+  /* linear e keyframe fitti: il movimento non si ferma mai, ma il numero resta
+     leggibile (>= 0.9) per più di metà del suo secondo. Esce a 0.08 proprio
+     mentre il successivo entra da 0: lo scambio non si vede. */
+  animation: countdown-pop linear both;
 }
 
 @keyframes countdown-pop {
-  from { opacity: 0; transform: scale(1.6); }
-  60%  { opacity: 1; transform: scale(1); }
-  to   { opacity: 0.35; transform: scale(0.92); }
+  0%   { opacity: 0;    transform: scale(1.28); }
+  24%  { opacity: 1;    transform: scale(1.04); }
+  62%  { opacity: 0.95; transform: scale(1); }
+  100% { opacity: 0.08; transform: scale(0.9); }
 }
 
 .countdown-hint {
@@ -221,6 +191,9 @@
   font-size: 0.95rem;
   color: var(--text-secondary);
   letter-spacing: 0.03em;
+  text-shadow:
+    0 0 6px rgba(255, 253, 250, 0.95),
+    0 0 16px rgba(255, 253, 250, 0.8);
 }
 
 @keyframes badge-pop {
@@ -241,9 +214,57 @@
   50% { opacity: 0.4; }
 }
 
+/* ── Gli stati d'attesa della pratica ──
+ * Ripetono la striscia della barra dei comandi (`.practice-bar`, in
+ * PracticeBar.css, importato da questa pagina) invece di avere un box loro: quando
+ * i passi diventano pronti cambia solo il contenuto della riga, la posizione no.
+ * L'altezza e' libera perche' il testo dell'attesa MIDI e' piu' lungo di una riga
+ * su uno schermo stretto, e un messaggio tagliato a meta' non dice niente. */
+.practice-notice {
+  height: auto;
+  min-height: 2.4rem;
+  padding: 0.45rem 1rem;
+  gap: 1rem;
+}
+
+.practice-notice p {
+  flex: 1;
+  margin: 0;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  line-height: 1.35;
+  font-size: 0.6875rem;
+  color: var(--text-secondary, #6b6357);
+}
+
+.practice-notice-bad p {
+  color: #8b2f2f;
+}
+
+/* Il rigo spento diventa grigio come la sua lettera (richiesta 2026-11-07).
+   Quando L o R e' spento, il gruppo `g.staffline` di quel rigo — id col
+   suffisso -1 (sopra, destra) o -2 (sotto, sinistra, misurato nel DOM) —
+   scolorisce insieme all'interruttore. La richiesta diceva "grigio come il
+   tasto": e' lo stesso effetto morto, ottenuto spegnendo il nero sulla carta.
+   Filtro sul gruppo, non colori sui singoli percorsi: ripristinare significa
+   togliere una classe, e nessun fill/stroke viene toccato — niente collisione
+   con i marchi rossi di fine prova ne' con il loro ripristino. */
+#sheet-container g.staffline.osmd-staff-off {
+  filter: grayscale(1) opacity(0.32);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  /* Lo spegnimento e la riaccensione del rigo accompagnano il clic, perche'
+     anche il grigio del chip non arriva di colpo. */
+  #sheet-container g.staffline {
+    transition: filter 0.25s ease;
+  }
+}
+
+/* ── Mobile Layout Adjustments ── */
 @media (max-width: 768px) {
   .sheet-container {
-    /* Evita che OSMD comprima note e testi su schermi piccoli */
+    /* Prevent OSMD from squishing notes and lyrics into each other on small mobile screens */
     min-width: 800px;
     padding: 0;
   }
@@ -254,4 +275,106 @@
     padding-left: 1rem;
     padding-right: 1rem;
   }
+}
+
+
+/* La spia della take. Non è un badge: è una lampada da registratore, con il
+   vetro, l'alone e il respiro lento. Ottone quando aspetta, rosso fisso quando
+   incide — lo stesso rosso dei tasti premuti e delle note sbagliate, perché il
+   progetto ha una sola lingua di colori e non se ne aggiunge una quinta. */
+.practice-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.62rem;
+  padding: 0.42rem 0.95rem 0.42rem 0.72rem;
+  border: 1px solid rgba(197, 168, 128, 0.5);
+  border-radius: 2rem;
+  background:
+    linear-gradient(180deg, rgba(255, 253, 249, 0.94), rgba(248, 241, 231, 0.94));
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8),
+              0 1px 2px rgba(58, 35, 33, 0.06);
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #6d5a45;
+  font-variant-numeric: tabular-nums;
+  user-select: none;
+}
+
+.practice-status-word { transform: translateY(-0.5px); }
+
+.practice-status-dot {
+  width: 0.58rem;
+  height: 0.58rem;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #eccf74, #b8892a 62%, #8a6218 100%);
+  box-shadow:
+    0 0 0 1px rgba(120, 86, 20, 0.45),
+    0 0 10px 2px rgba(201, 162, 39, 0.5),
+    inset 0 0 2px rgba(255, 255, 255, 0.9);
+  animation: led-breathe 2.6s ease-in-out infinite;
+}
+
+.practice-status-live .practice-status-dot {
+  background: radial-gradient(circle at 35% 30%, #ff8a7a, #c0392b 62%, #7d1f14 100%);
+  box-shadow:
+    0 0 0 1px rgba(120, 30, 20, 0.5),
+    0 0 12px 3px rgba(192, 57, 43, 0.55),
+    inset 0 0 2px rgba(255, 255, 255, 0.85);
+  animation: led-live 1.05s ease-in-out infinite;
+}
+
+@keyframes led-breathe {
+  0%, 100% { opacity: 0.62; }
+  50%      { opacity: 1; }
+}
+
+@keyframes led-live {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.55; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .practice-status-dot { animation: none; }
+}
+
+
+/* La spia è una chiave di violino. Il glifo è SMuFL (U+1D11E), lo stesso che
+   la partitura usa per il rigo: viene da Bravura, che l'app carica già per
+   OSMD, quindi non c'è nessun disegno nuovo da introdurre — solo luce. */
+.practice-status-clef {
+  font-family: "Bravura", "Bravura Text", serif;
+  font-size: 1.15rem;
+  line-height: 1;
+  display: inline-block;
+  color: #b8892a;
+  text-shadow:
+    0 0 1px rgba(255, 236, 170, 0.9),
+    0 0 7px rgba(201, 162, 39, 0.75),
+    0 0 14px rgba(201, 162, 39, 0.35);
+  transform: translateY(0.05em);
+  animation: clef-breathe 2.6s ease-in-out infinite;
+}
+
+.practice-status-live .practice-status-clef {
+  color: #d24b3a;
+  text-shadow:
+    0 0 1px rgba(255, 214, 200, 0.95),
+    0 0 8px rgba(210, 75, 58, 0.8),
+    0 0 16px rgba(210, 75, 58, 0.4);
+  animation: clef-live 1.05s ease-in-out infinite;
+}
+
+@keyframes clef-breathe {
+  0%, 100% { opacity: 0.66; }
+  50%      { opacity: 1; }
+}
+
+@keyframes clef-live {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.5; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .practice-status-clef { animation: none; }
 }

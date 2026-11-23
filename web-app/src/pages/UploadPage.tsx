@@ -104,7 +104,7 @@ const UploadPage: React.FC = () => {
         )}
       </div>
 
-      {/* Pannello MIDI: collega il pianoforte */}
+      {/* MIDI Input Panel — connect your digital piano */}
       <MidiPanel midi={midi} />
     </div>
   );

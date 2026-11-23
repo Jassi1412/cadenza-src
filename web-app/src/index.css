@@ -116,6 +116,7 @@ button {
   background-color: var(--bg-secondary);
 }
 
+/* Layout dispositivi mobili */
 @media (max-width: 768px) {
   .container {
     padding: 0 1rem;

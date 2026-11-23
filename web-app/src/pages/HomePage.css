@@ -47,6 +47,7 @@
   margin-left: 0.5rem;
 }
 
+/* Layout dispositivi mobili */
 @media (max-width: 768px) {
   .hero-title.floating-title {
     font-size: 4.5rem;

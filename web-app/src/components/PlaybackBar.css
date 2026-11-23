@@ -1,3 +1,4 @@
+/* ── Floating Playback Bar — matches code.html design ── */
 .playback-bar {
   position: fixed;
   bottom: 1.5rem;
@@ -12,16 +13,20 @@
   align-items: center;
   padding: 0 1.5rem;
 
-  /* Glassmorphism: compatibilità cross-browser e visibilità */
-  background-color: rgba(252, 251, 248, 0.85); /* Fallback and solid base */
-  backdrop-filter: blur(20px) saturate(1.2);
-  -webkit-backdrop-filter: blur(20px) saturate(1.2);
-  border: 1px solid rgba(197, 168, 128, 0.2);
+  /* Fondo SOLIDO: con il vetro semitrasparente (0.85 + blur) le note e il rigo che
+     stanno sotto la pillola si vedevano attraverso, e i tre pulsanti si leggevano a
+     metà. Chi suona guarda la pillola mentre le dita sono gia' sui tasti: il fondo
+     deve essere una superficie chiusa, non un filtro. `--bg-secondary` perche' la
+     pagina e' `--bg-primary`, e due superfici dello stesso colore renderebbero il
+     bordo l'unica cosa che tiene separati i due oggetti. */
+  background-color: var(--bg-secondary, #F3F0EA);
+  border: 1px solid rgba(197, 168, 128, 0.35);
   box-shadow:
     0 10px 30px rgba(0, 0, 0, 0.08),
     inset 0 0 0 1px rgba(255, 255, 255, 0.4);
   z-index: 1000;
 
+  /* Entrance animation */
   animation: bar-rise 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
@@ -36,6 +41,7 @@
   }
 }
 
+/* ── Bar Buttons ── */
 .bar-btn {
   display: flex;
   flex-direction: column;
@@ -64,16 +70,18 @@
   cursor: not-allowed;
 }
 
+/* Material Symbols icons */
 .bar-icon {
   font-size: 2.5rem;
   line-height: 1;
 }
 
-/* Vintage icon filter */
+/* Vintage icon filter — from code.html */
 .vintage-icon {
   filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.2));
 }
 
+/* Practice stopwatch icon wrapper */
 .bar-btn-icon-wrap {
   width: 2.5rem;
   height: 2.5rem;
@@ -98,7 +106,7 @@
   white-space: nowrap;
 }
 
-/* Active: accento oro come il secondario del tema */
+/* Active / Playing state — golden accent like code.html secondary color */
 .bar-btn.active {
   color: var(--accent-secondary, #735c00);
 }
@@ -108,6 +116,7 @@
   color: var(--accent-secondary, #735c00);
 }
 
+/* Practice mode active glow */
 .bar-btn.practice-active {
   color: var(--accent-primary, #C5A880);
 }
@@ -121,6 +130,7 @@
   color: var(--accent-primary, #C5A880);
 }
 
+/* Progress line inside the bar */
 .bar-progress {
   position: absolute;
   top: 0;
@@ -139,7 +149,9 @@
   border-radius: 1px;
 }
 
-/* Cursore sottile: numero sopra l'etichetta, stile pulsanti. */
+/* ── Tempo ── */
+/* Stesso linguaggio dei pulsanti: numero in alto, etichetta sotto in maiuscolo.
+   Il cursore e' sottile per non rubare spazio ai tre comandi. */
 .bar-tempo {
   display: flex;
   flex-direction: column;
@@ -163,6 +175,7 @@
   cursor: not-allowed;
 }
 
+/* Il binario della traccia */
 .bar-tempo-slider::-webkit-slider-runnable-track {
   height: 3px;
   border-radius: 9999px;
@@ -221,7 +234,8 @@
   color: var(--text-secondary, #6b6b6b);
 }
 
-/* "da 155": visibile solo quando il tempo è stato abbassato. */
+/* "da 155": compare solo quando il tempo è stato abbassato, così si vede
+   subito che il brano suona più piano di come è scritto. */
 .bar-tempo-note {
   font-family: var(--font-body, 'Manrope', sans-serif);
   font-size: 0.5rem;

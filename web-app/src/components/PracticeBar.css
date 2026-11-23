@@ -1,0 +1,240 @@
+/* ── Practice command strip — una riga sopra la pillola del trasporto ──
+ *
+ * Perche' una riga e non un pannello: quello vecchio era alto 207 px chiuso e 471
+ * aperto, e copriva meta' partitura. Qui la striscia sta in 2,4 rem e vive accanto
+ * alla pillola, cioe' dove l'occhio e' gia' quando guarda i comandi. Le due barre
+ * condividono il linguaggio (stesso raggio, stessa larghezza, stesso fondo solido)
+ * per non sembrare due prodotti diversi.
+ *
+ * Il fondo non e' piu' vetro: chi usa l'app ha chiesto superfici chiuse perche' i
+ * comandi si leggessero. Con `rgba(…, 0.85) + blur` le note sotto trapelavano dentro
+ * la pillola, e i pulsanti — che sono la cosa a cui si guarda mentre le dita sono
+ * gia' sui tasti — restavano a meta'. Stesso colore di `--bg-secondary`, che non e'
+ * il colore della pagina: due superfici dello stesso colore sarebbero tenute
+ * separate solo dal bordo.
+ */
+.practice-bar {
+  position: fixed;
+  /* 1,5 rem di stacco della pillola + 5 rem di altezza + un respiro */
+  bottom: calc(1.5rem + 5rem + 0.6rem);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 34rem;
+  height: 2.4rem;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  padding: 0 0.5rem 0 0.5rem;
+
+  background-color: var(--bg-secondary, #F3F0EA);
+  border: 1px solid rgba(197, 168, 128, 0.35);
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.08),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+  z-index: 1000;
+
+  font-family: var(--font-body, 'Manrope', sans-serif);
+  font-size: 0.6875rem; /* 11px */
+  color: var(--text-secondary, #6b6357);
+  white-space: nowrap;
+  animation: bar-rise 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* ── La colonna di sinistra: il pulsante tastiera e la parola del verdetto ──
+ * Il contatore dei passi e quello dei tasti non ci sono piu': la domanda "quale
+ * tasto?" ha una risposta disegnata, non numerica, e il numero stava nel `title`
+ * del pulsante a forma di pianoforte. */
+.pb-left {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-width: 0;
+}
+
+/* ── Il pulsante che apre la tastiera di richiamo ── */
+.pb-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  flex: none;
+  padding: 0;
+  border-radius: 9999px;
+  border: 1px solid #d8d2c4;
+  background: #fffdfb;
+  color: #6b6357;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.pb-icon:hover {
+  border-color: var(--accent-primary, #C5A880);
+  color: #4a4437;
+}
+
+.pb-icon-on,
+.pb-icon-on:hover {
+  background: #f2e3c9;
+  border-color: var(--accent-primary, #C5A880);
+  color: var(--accent-secondary, #735c00);
+}
+
+/* ── Punteggiatura condivisa: un punto colorato prima del testo ── */
+.pb-dot {
+  width: 0.4375rem;
+  height: 0.4375rem;
+  border-radius: 9999px;
+  background: #b8b1a4;
+  flex: none;
+}
+
+/* ── Il verdetto compatto: una parola ──
+ * I tre colori sono gli stessi del pannello che questa riga sostituisce: verde
+ * "correct", rosso "what you played", viola "not your fault" (exit 2 = il monitor
+ * non e' partito). Il viola non deve mai diventare rosso: sarebbe l'errore del
+ * servizio letto come un giudizio su chi suona. */
+.pb-problem {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Verdetto di un passo gia' lasciato: si vede dall'aspetto, non da una scritta.
+   Una "· passo 12" in piu' era un numero tornato dalla finestra appena chiusa. */
+.pb-stale {
+  opacity: 0.45;
+}
+
+.pb-waiting .pb-dot,
+.pb-checking .pb-dot {
+  background: #cfc7b8;
+}
+
+.pb-waiting,
+.pb-checking {
+  color: #9a9284;
+}
+
+/* Nessuna scritta d'attesa: la richiesta in volo si dice da sola, col punto che
+   respira. E' l'unico stato senza parole, e resta distinguibile da "conforme". */
+.pb-checking .pb-dot {
+  background: var(--accent-primary, #C5A880);
+  animation: pb-breath 1.1s ease-in-out infinite;
+}
+
+@keyframes pb-breath {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+}
+
+.pb-ok .pb-dot {
+  background: #3d8a5c;
+}
+
+.pb-ok {
+  color: #2f6b47;
+  font-weight: 600;
+}
+
+.pb-warn .pb-dot {
+  background: #b3453c;
+}
+
+.pb-warn {
+  color: #8b2f2f;
+  font-weight: 600;
+}
+
+.pb-broken .pb-dot {
+  background: #6b5b95;
+}
+
+.pb-broken {
+  color: #6b5b95;
+  font-weight: 700;
+}
+
+/* ── I comandi, a destra: L, R e D ── */
+.pb-controls {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex: none;
+}
+
+/* Un solo contorno per i segmenti della mano: si capisce che sono lo stesso comando
+   senza doverlo spiegare a parole. */
+.pb-seg {
+  display: inline-flex;
+  border: 1px solid #d8d2c4;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.pb-seg .pb-chip {
+  border: none;
+  border-radius: 0;
+}
+
+.pb-chip {
+  font-family: inherit;
+  font-size: 0.625rem; /* 10px: sono lettere singole, non etichette di modo */
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: #6b6357;
+  background: #fffdfb;
+  border: 1px solid #d8d2c4;
+  border-radius: 9999px;
+  padding: 0.3rem 0.45rem;
+  min-width: 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.pb-chip:hover:not(:disabled) {
+  border-color: var(--accent-primary, #C5A880);
+  color: #4a4437;
+}
+
+.pb-chip-on,
+.pb-chip-on:hover:not(:disabled) {
+  background: #f2e3c9;
+  border-color: var(--accent-primary, #C5A880);
+  color: var(--accent-secondary, #735c00);
+}
+
+/* Spento VERO: l'interruttore di una mano che non partecipa. Chi suona deve
+   capire a colpo d'occhio quale mano e' esclusa senza leggere il titolo: il
+   colore della lettera accesa (oro) qui non c'e', la lettera e' grigia su
+   fondo grigio, come una lampadina spenta. Non e' "disabilitato": il tocco
+   funziona, riaccende — e il cursore deve restare di mano. */
+.pb-chip-off,
+.pb-chip-off:hover:not(:disabled) {
+  color: #b3aa9a;
+  background: #eceadf;
+}
+
+/* Pausa voluta, non verdetto: niente punto (non vola nessuna richiesta) e
+   nessun colore dei giudizi. Il grigio delle attese, ma con le parole. */
+.pb-paused {
+  color: #9a9284;
+}
+
+@media (max-width: 30rem) {
+  .practice-bar {
+    gap: 0.4rem;
+  }
+}

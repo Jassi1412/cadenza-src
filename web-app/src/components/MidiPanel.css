@@ -1,3 +1,6 @@
+/* ═══════════════════════════════════════════════════════
+   MIDI Panel — Elegant collapsible panel
+   ═══════════════════════════════════════════════════════ */
 
 .midi-panel {
   width: 100%;
@@ -14,6 +17,7 @@
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
 }
 
+/* ─── Toggle Bar ──────────────────────────────────── */
 
 .midi-toggle {
   width: 100%;
@@ -71,6 +75,7 @@
   to { opacity: 1; transform: scale(1.2); }
 }
 
+/* ─── Panel Body ──────────────────────────────────── */
 
 .midi-body {
   padding: 1.5rem;
@@ -89,6 +94,7 @@
   }
 }
 
+/* ─── Connect Section ─────────────────────────────── */
 
 .midi-connect-section {
   text-align: center;
@@ -117,6 +123,7 @@
   border-radius: 3px;
 }
 
+/* ─── Connected Section ───────────────────────────── */
 
 .midi-connected-section {
   display: flex;
@@ -168,6 +175,7 @@
   border-color: var(--accent-primary);
 }
 
+/* ─── Notes Display ───────────────────────────────── */
 
 .midi-notes-display {
   flex: 1;
@@ -215,6 +223,7 @@
   }
 }
 
+/* ─── Mini Keyboard ───────────────────────────────── */
 
 .midi-keyboard-visual {
   display: flex;
@@ -261,6 +270,7 @@
   box-shadow: 0 0 8px rgba(197, 168, 128, 0.5);
 }
 
+/* ─── Disconnect ──────────────────────────────────── */
 
 .midi-disconnect-btn {
   display: inline-flex;

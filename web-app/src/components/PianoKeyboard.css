@@ -1,0 +1,220 @@
+/* ── PianoKeyboard — il richiamo visivo dei tasti del passo ──
+ *
+ * Sta SOPRA la striscia dei comandi e sopra la pillola, perche' la mano che cerca
+ * i tasti e' gia' in basso: fra la partitura e la tastiera reale non c'e' niente
+ * altro da mettere. Il fondo e' solido come quello delle due barre (l'utente ha
+ * chiesto superfici chiuse, non vetro): un disegno di riferimento semitrasparente
+ * mostra le note del rigo attraverso i tasti e i due disegni si confondono.
+ *
+ * SI DISEGNA LA TASTIERA INTERA (88 tasti), e piu' larga delle due barre. Arriva
+ * dopo una richiesta esplicita dell'utente: la prima versione mostrava solo
+ * l'estensione del brano, e oltre a un bug di calcolo finiva per non disegnare
+ * nemmeno il secondo tasto del passo. Una tastiera tagliata non dice dove sta il
+ * brano rispetto allo strumento, e quello e' l'unico orientamento che un pianista
+ * usa. Il prezzo e' la larghezza: 76 rem, ~23 px per tasto bianco.
+ *
+ * `pointer-events: none` non e' pigrizia: la tastiera vera sta sotto le dita, e una
+ * seconda tastiera che risponde ai click sullo schermo sarebbe un secondo modo di
+ * fare la stessa cosa, con un suono in piu' da gestire e nessun vantaggio.
+ */
+.piano-kbd {
+  position: fixed;
+  /* pillola (1,5 + 5 rem) + striscia (0,6 + 2,4 rem) + un respiro */
+  bottom: calc(1.5rem + 5rem + 0.6rem + 2.4rem + 0.55rem);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 98%;
+  /* il doppio della striscia (34 rem): con 52 tasti bianchi in fila un tasto deve
+     restare largo abbastanza da vederlo come tasto, non come striscia di colore */
+  max-width: 76rem;
+  padding: 0.5rem 0.6rem 0.35rem;
+  border-radius: 1rem;
+  background-color: var(--bg-secondary, #F3F0EA);
+  border: 1px solid rgba(197, 168, 128, 0.35);
+  box-shadow:
+    0 12px 34px rgba(0, 0, 0, 0.12),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+  /* Sotto le due barre (1000): se su uno schermo basso si toccano, chi comanda deve
+     restare la striscia, non il disegno che le sta sopra. */
+  z-index: 999;
+  pointer-events: none;
+  font-family: var(--font-body, 'Manrope', sans-serif);
+  animation: pk-rise 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.pk-row {
+  position: relative;
+  display: flex;
+  height: 5.25rem;
+}
+
+.pk-key {
+  border-radius: 0 0 0.3rem 0.3rem;
+  box-sizing: border-box;
+}
+
+.pk-white {
+  flex: 1 1 0;
+  min-width: 0;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: #fffdfb;
+  border: 1px solid #cfc7b8;
+  border-top: none;
+}
+
+.pk-black {
+  position: absolute;
+  top: 0;
+  height: 62%;
+  z-index: 2;
+  background-color: #3a352c;
+  border: 1px solid #221f1a;
+}
+
+/* I punti di riferimento scritti: i do e i fa, che sono quelli su cui chi suona si
+   appoggia per orientarsi. Su ottantotto tasti scrivere ogni nome significherebbe
+   otto nomi per ottava in righe da 23 pixel: la mappa diventerebbe un elenco. I do
+   restano anche sugli schermi stretti (vedi i media queries in fondo), i fa no. */
+.pk-label {
+  font-size: 0.5rem; /* 8px */
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: #9a9284;
+  margin-bottom: 0.2rem;
+}
+
+.pk-middle .pk-label {
+  color: var(--accent-secondary, #735c00);
+  font-weight: 800;
+}
+
+/* Il nome di un tasto nero CHE STA IN GIOCO (chiedo/premuto/estraneo/altro rigo):
+   su una tastiera piena un diesis acceso senza nome e' una figurina scura, e per
+   saberlo l'allievo dovrebbe contare i semitoni dal do vicino — il lavoro che questo
+   disegno doveva togliergli. Gli altri neri restano muti di proposito. */
+.pk-tag {
+  position: absolute;
+  bottom: 0.28rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.4375rem; /* 7px */
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: #fdf9f0;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.55);
+  white-space: nowrap;
+}
+
+/* Il pallino sul do centrale: l'etichetta da sola si legge solo guardando il
+   dettaglio, il pallino si vede col campo visivo largo. */
+.pk-dot {
+  position: absolute;
+  top: 0.35rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0.3125rem;
+  height: 0.3125rem;
+  border-radius: 9999px;
+  background: var(--accent-secondary, #735c00);
+}
+
+/* ── I quattro stati di un tasto ──
+ * Gli stessi colori della striscia, per non avere due linguaggi: oro = c'e' da
+ * premere, verde = premuto e giusto, rosso = premuto ma non chiesto, viola =
+ * dell'altro rigo (non giudicato). Il viola non diventa mai rosso.
+ */
+.pk-white.pk-expected {
+  background-color: #f2e3c9;
+  border-color: var(--accent-primary, #C5A880);
+}
+
+.pk-black.pk-expected {
+  background-color: #8a6d3b;
+  border-color: #6f5629;
+}
+
+.pk-white.pk-down {
+  background-color: #dff0e4;
+  border-color: #3d8a5c;
+}
+
+.pk-black.pk-down {
+  background-color: #2f6b47;
+  border-color: #245236;
+}
+
+.pk-white.pk-extra {
+  background-color: #f6dedb;
+  border-color: #b3453c;
+}
+
+.pk-black.pk-extra {
+  background-color: #8b2f2f;
+  border-color: #6d2424;
+}
+
+.pk-white.pk-offhand {
+  background-color: #efecf6;
+  border-color: #b9aede;
+}
+
+.pk-black.pk-offhand {
+  background-color: #6b5b95;
+  border-color: #55477a;
+}
+
+.pk-caption {
+  margin: 0.3rem 0 0;
+  text-align: center;
+  font-size: 0.5625rem; /* 9px */
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-secondary, #735c00);
+}
+
+@keyframes pk-rise {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+/* Con la tastiera piena le proporzioni cambiano su ogni schermo: sopra i 76 rem il
+   disegno e' gia' al massimo, piu' giu' i tasti si restringono. Sotto i 68 rem i fa
+   non ci stanno piu' e spariscono (restano i do, che bastano per orientarsi), e a
+   schermi stretti si toglie anche il resto delle etichette: la cosa che serve davvero
+   e' quale tasto e' acceso, e quella resta leggibile col solo colore + il nome sul
+   tasto nero acceso. */
+@media (max-width: 68rem) {
+  .pk-label:not(.pk-ref-c) {
+    display: none;
+  }
+}
+
+@media (max-width: 47rem) {
+  .pk-row {
+    height: 4.25rem;
+  }
+
+  .pk-label {
+    font-size: 0.4375rem;
+  }
+
+  .pk-tag {
+    font-size: 0.375rem;
+  }
+}
+
+@media (max-width: 34rem) {
+  .pk-label {
+    display: none;
+  }
+}

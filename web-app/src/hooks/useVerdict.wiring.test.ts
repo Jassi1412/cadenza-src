@@ -1,4 +1,12 @@
-/** Payload con la forma che server.py valida. */
+/**
+ * Prova di confine: il payload che produce il frontend deve avere esattamente
+ * la forma che server.py valida, e notes -> events -> notes deve tornare
+ * indietro identico.
+ *
+ * Non ripete useVerdict.test.ts: qui si controlla il CONTRATTO col servizio,
+ * su un numero di note che fa emergere gli errori di nome di campo e di unita'
+ * che su due righe non si vedono.
+ */
 import { describe, expect, it } from 'vitest';
 import { toPerformance } from './useVerdict';
 import type { MidiEvent } from './useMidi';
@@ -11,7 +19,7 @@ function buildSource(): { notes: { time_ms: number; dur_ms: number; pitch: numbe
   const notes = [];
   let t = 0;
   for (let i = 0; i < NOTE_COUNT; i += 1) {
-    // Tempo irregolare, come una performance reale
+    // il tempo avanza a salti irregolari, come un演奏 reale
     t += 60 + (i * 37) % MAX_GAP_MS;
     notes.push({
       time_ms: t,
@@ -53,14 +61,18 @@ describe('payload del frontend -> servizio', () => {
   });
 
   it('produce esattamente i campi che server.py valida', () => {
-    // Se un nome campo cambiasse, server.py risponderebbe 400.
+    // Se un nome cambiasse qui, server.py risponderebbe 400 e la pagina
+    // mostrerebbe "nessuna nota registrata", senza dire quale campo manca.
+    // tempo_factor e' l'unico campo che non riguarda le note: e' la scala con
+    // cui il servizio riporta i tempi su quello che l'utente ha scelto.
     expect(Object.keys(out).sort()).toEqual(['control_changes', 'notes', 'tempo_factor']);
     for (const n of out.notes) expect(Object.keys(n).sort()).toEqual(['dur_ms', 'pitch', 'time_ms', 'velocity']);
     for (const c of out.control_changes) expect(Object.keys(c).sort()).toEqual(['controller', 'time_ms', 'value']);
   });
 
   it('il fattore di tempo viaggia al servizio', () => {
-    // 155 -> 80 e' 1,9375: ogni ms scritto vale quasi due ms reali.
+    // 155 -> 80 e' 1,9375: il brano suona a meta' velocita' e ogni millisecondo
+    // scritto nello spartito vale quasi due millisecondi reali.
     expect(toPerformance(toEvents(src.notes)).tempo_factor).toBe(1);
     expect(toPerformance(toEvents(src.notes), 155 / 80).tempo_factor).toBeCloseTo(1.9375, 6);
     expect(toPerformance(toEvents(src.notes), 1).tempo_factor).toBe(1);

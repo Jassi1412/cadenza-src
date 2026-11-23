@@ -13,11 +13,12 @@ const MidiPanel: React.FC<MidiPanelProps> = ({ midi }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   if (!midi.isSupported) {
-    return null; // Nascosto se Web MIDI non è supportato
+    return null; // Silently hide on unsupported browsers
   }
 
   return (
     <div className={`midi-panel ${isExpanded ? 'expanded' : ''}`}>
+      {/* Collapsed toggle bar */}
       <button
         className="midi-toggle"
         onClick={() => setIsExpanded(!isExpanded)}
@@ -37,6 +38,7 @@ const MidiPanel: React.FC<MidiPanelProps> = ({ midi }) => {
         {isExpanded ? <ChevronDown size={16} /> : <ChevronUp size={16} />}
       </button>
 
+      {/* Expanded panel */}
       {isExpanded && (
         <div className="midi-body">
           {!midi.isEnabled ? (
@@ -53,10 +55,11 @@ const MidiPanel: React.FC<MidiPanelProps> = ({ midi }) => {
             </div>
           ) : (
             <div className="midi-connected-section">
+              {/* Device selector */}
               <div className="midi-row">
                 <span className="midi-row-label">Device</span>
                 {midi.inputs.length === 0 ? (
-                  <span className="midi-no-device">No MIDI device detected</span>
+                  <span className="midi-no-device">No devices</span>
                 ) : (
                   <select
                     className="midi-select"
@@ -72,6 +75,7 @@ const MidiPanel: React.FC<MidiPanelProps> = ({ midi }) => {
                 )}
               </div>
 
+              {/* Live note display */}
               <div className="midi-row">
                 <span className="midi-row-label">Active Notes</span>
                 <div className="midi-notes-display">
@@ -91,11 +95,12 @@ const MidiPanel: React.FC<MidiPanelProps> = ({ midi }) => {
                 </div>
               </div>
 
+              {/* Mini keyboard visualization */}
               <div className="midi-keyboard-visual">
                 {Array.from({ length: 24 }, (_, i) => {
                   const noteIndex = i % 12;
                   const isBlack = [1, 3, 6, 8, 10].includes(noteIndex);
-                  const midiNumber = 48 + i; // C3–B4
+                  const midiNumber = 48 + i; // C3 to B4 range
                   const isActive = midi.activeNotes.has(midiNumber);
                   return (
                     <div
@@ -107,6 +112,7 @@ const MidiPanel: React.FC<MidiPanelProps> = ({ midi }) => {
                 })}
               </div>
 
+              {/* Disconnect */}
               <button className="midi-disconnect-btn" onClick={midi.disable}>
                 <Unplug size={14} /> Disconnect
               </button>
