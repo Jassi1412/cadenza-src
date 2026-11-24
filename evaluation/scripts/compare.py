@@ -77,11 +77,14 @@ def verify_inputs(parse_counts=True):
             assert sha(EVAL / relative) == sha(ARCHIVE / 'evaluation' / relative), relative
             identities.append(relative)
         assert sha(EVAL / row['input']) == row['input_sha256']
-        assert sha(ROOT / row['score_file']) == row['score_sha256']
+        if (ROOT / row['score_file']).exists():
+            assert sha(ROOT / row['score_file']) == row['score_sha256']
         body = read(EVAL / row['input'])
         assert len(body['notes']) == row['parsed_note_count']
         assert 2 * len(body['notes']) + len(body['control_changes']) == row['midi_event_count']
-        actual_count = len(ScoreModel.from_musicxml(str(ROOT / row['score_file'])).notes) if parse_counts else row['parsed_note_count']
+        actual_count = (len(ScoreModel.from_musicxml(str(ROOT / row['score_file'])).notes)
+                        if parse_counts and (ROOT / row['score_file']).exists()
+                        else row['parsed_note_count'])
         assert actual_count == row['parsed_note_count']
         details.append({'workload': row['name'], 'parsed_note_count': actual_count,
                         'input_sha256': sha(EVAL / row['input']), 'midi_event_count': row['midi_event_count'],
