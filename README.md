@@ -25,38 +25,25 @@ Prolog monitor that reads the annotated trace of a take.
 
 ## Demonstrations
 
-Five recordings cover the seven criteria, each judging two takes of a real piece: one
-take that follows the score and one that breaks a single policy. The score
-beside each account is the frame the application drew while the take was played. Every
-take runs through the same chain the deployed application uses, and all seven monitors
-judge both, so the target criterion rejects while the other six accept.
+### Pitch Agreement
 
-[![Pitch agreement: the Gymnopédie, six keys disagree with the score](evaluation/videos/pitch-agreement.jpg)](https://cdn.jsdelivr.net/gh/Jassi1412/cadenza-src@main/evaluation/videos/pitch-agreement.mp4)
+https://github.com/user-attachments/assets/ff5823fc-22fd-4ff6-b9f1-91547bfaad96
 
-**Pitch agreement** — Satie, *Gymnopédie* no. 1. Six keys shifted up two semitones; six
-attacks rejected, thirty-five accepted. [play with audio](https://cdn.jsdelivr.net/gh/Jassi1412/cadenza-src@main/evaluation/videos/pitch-agreement.mp4)
+### Dynamics
 
-[![Dynamics: the Sonatina played with one touch whatever the score asks](evaluation/videos/dynamics.jpg)](https://cdn.jsdelivr.net/gh/Jassi1412/cadenza-src@main/evaluation/videos/dynamics.mp4)
+https://github.com/user-attachments/assets/0bcfc296-80b2-46d9-9056-9c6b7a004bdc
 
-**Dynamics** — Clementi, Sonatina op. 36 no. 1. One touch at 83–93 whatever the score
-asks; twenty-six notes rejected. [play with audio](https://cdn.jsdelivr.net/gh/Jassi1412/cadenza-src@main/evaluation/videos/dynamics.mp4)
+### Articulation
 
-[![Articulation: every release cut short](evaluation/videos/articulation.jpg)](https://cdn.jsdelivr.net/gh/Jassi1412/cadenza-src@main/evaluation/videos/articulation.mp4)
+https://github.com/user-attachments/assets/cb590e82-82ba-49f2-bd9d-4fb4c196307c
 
-**Articulation** — Lemoine, *Étude enfantine* op. 37 no. 6. Every release cut to a third
-of the gap to the next attack; three notes rejected, all of them legato or tenuto.
-[play with audio](https://cdn.jsdelivr.net/gh/Jassi1412/cadenza-src@main/evaluation/videos/articulation.mp4)
+### Chord Coordination
 
-[![Chord coordination: three chords rolled](evaluation/videos/chord-coordination.jpg)](https://cdn.jsdelivr.net/gh/Jassi1412/cadenza-src@main/evaluation/videos/chord-coordination.mp4)
+https://github.com/user-attachments/assets/2bf5216a-f728-4181-a9b5-1d64218456b2
 
-**Chord coordination** — Chopin, Prelude op. 28 no. 20. Three chords rolled by 170, 90 and
-90 ms; four attacks rejected. [play with audio](https://cdn.jsdelivr.net/gh/Jassi1412/cadenza-src@main/evaluation/videos/chord-coordination.mp4)
+### Pedal
 
-[![Pedal: two spans released late, then two pressed early](evaluation/videos/pedal.jpg)](https://cdn.jsdelivr.net/gh/Jassi1412/cadenza-src@main/evaluation/videos/pedal.mp4)
-
-**Pedal pairing and ordering** — Chopin, Prelude op. 28 no. 7, the page where six spans
-apply. Two releases 580 ms late are rejected by pairing alone; two presses 140 ms early
-are rejected by ordering alone. [play with audio](https://cdn.jsdelivr.net/gh/Jassi1412/cadenza-src@main/evaluation/videos/pedal.mp4)
+https://github.com/user-attachments/assets/6f957a84-61ef-4f2b-9846-d53088912dda
 
 ## Repository layout
 
