@@ -13,15 +13,15 @@ departs from the instructions.
 Each criterion is one specification in [`rml/metrics/`](rml/metrics/), compiled to a
 Prolog monitor that reads the annotated trace of a take.
 
-| Specification | Criterion | What it reads |
+| Specification | Criterion, as the application names it | What it reads |
 | --- | --- | --- |
-| [`pitch-agreement.rml`](rml/metrics/pitch-agreement.rml) | key identifiers | the pressed key against the written note, within an octave-equivalent distance |
-| [`pitch-range.rml`](rml/metrics/pitch-range.rml) | range | that every attack uses a key the instrument has (21–108) |
-| [`dynamics-adherence.rml`](rml/metrics/dynamics-adherence.rml) | touch | the attack velocity against the written level, in a band of eight units |
-| [`articulation.rml`](rml/metrics/articulation.rml) | holds | the hold against the gap to the next attack, split at a ratio of 0.75 |
-| [`chord-jitter.rml`](rml/metrics/chord-jitter.rml) | grouping | the spread among the members of one chord, against the window the rule sets |
-| [`pedal-toggle.rml`](rml/metrics/pedal-toggle.rml) | pedal pairing | the press and release against the marked span, within a quarter of a beat |
-| [`syncopated-pedal.rml`](rml/metrics/syncopated-pedal.rml) | pedal ordering | that the press follows the keys it applies to, with no numeric tolerance |
+| [`pitch-range.rml`](rml/metrics/pitch-range.rml) | **Key range** | that every attack uses a key the instrument has (21–108) |
+| [`pitch-agreement.rml`](rml/metrics/pitch-agreement.rml) | **Key agreement** | the pressed key against the written note, within an octave-equivalent distance |
+| [`dynamics-adherence.rml`](rml/metrics/dynamics-adherence.rml) | **Strength** | the attack velocity against the written level, in a band of eight units |
+| [`articulation.rml`](rml/metrics/articulation.rml) | **Hold** | the hold against the gap to the next attack, split at a ratio of 0.75 |
+| [`chord-jitter.rml`](rml/metrics/chord-jitter.rml) | **Coordination** | the spread among the members of one chord, against the window the rule sets |
+| [`pedal-toggle.rml`](rml/metrics/pedal-toggle.rml) | **Pedal pairing** | the press and release against the marked span, within a quarter of a beat |
+| [`syncopated-pedal.rml`](rml/metrics/syncopated-pedal.rml) | **Pedal ordering** | that the press follows the keys it applies to, with no numeric tolerance |
 
 ## Demonstrations
 
@@ -30,39 +30,39 @@ take that follows the score and one that breaks a single policy. Every take runs
 the same chain the deployed application uses, and all seven monitors judge both, so the
 target criterion rejects while the other six accept.
 
-### Pitch Agreement
+### Key agreement
 
 https://github.com/user-attachments/assets/ff5823fc-22fd-4ff6-b9f1-91547bfaad96
 
-**Pitch agreement** — Satie, *Gymnopédie* no. 1. Six keys shifted up two semitones; six
+**Key agreement** — Satie, *Gymnopédie* no. 1. Six keys shifted up two semitones; six
 attacks rejected, thirty-five accepted.
 
-### Dynamics
+### Strength
 
 https://github.com/user-attachments/assets/0bcfc296-80b2-46d9-9056-9c6b7a004bdc
 
-**Dynamics** — Clementi, Sonatina op. 36 no. 1. One touch at 83–93 whatever the score
+**Strength** — Clementi, Sonatina op. 36 no. 1. One touch at 83–93 whatever the score
 asks; twenty-six notes rejected.
 
-### Articulation
+### Hold
 
 https://github.com/user-attachments/assets/cb590e82-82ba-49f2-bd9d-4fb4c196307c
 
-**Articulation** — Lemoine, *Étude enfantine* op. 37 no. 6. Every release cut to a third
+**Hold** — Lemoine, *Étude enfantine* op. 37 no. 6. Every release cut to a third
 of the gap to the next attack; three notes rejected, all of them legato or tenuto.
 
-### Chord Coordination
+### Coordination
 
 https://github.com/user-attachments/assets/2bf5216a-f728-4181-a9b5-1d64218456b2
 
-**Chord coordination** — Chopin, Prelude op. 28 no. 20. Three chords rolled by 170, 90 and
+**Coordination** — Chopin, Prelude op. 28 no. 20. Three chords rolled by 170, 90 and
 90 ms; four attacks rejected.
 
-### Pedal
+### Pedal pairing and ordering
 
 https://github.com/user-attachments/assets/6f957a84-61ef-4f2b-9846-d53088912dda
 
-**Pedal pairing and ordering** — Chopin, Prelude op. 28 no. 7, the page where six spans
+**Pedal pairing** and **pedal ordering** — Chopin, Prelude op. 28 no. 7, the page where six spans
 apply. Two releases 580 ms late are rejected by pairing alone; two presses 140 ms early
 are rejected by ordering alone.
 
