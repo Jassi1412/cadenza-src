@@ -73,7 +73,7 @@ are rejected by ordering alone.
 | [`web-app/`](web-app/) | the browser application: capture, score rendering, verdict display |
 | [`server/`](server/) | the analysis service that joins a take with the score and writes the annotated trace |
 | [`rml/`](rml/) | the seven specifications and the Prolog monitors compiled from them |
-| [`scores/`](scores/) | the scores the application parses, as MusicXML |
+| [`scores/`](scores/) | the free scores the application parses, as MusicXML |
 | [`evaluation/`](evaluation/) | the measurements, their frozen expectations and the videos above |
 | `render.yaml`, `vendor/` | deployment to Render and the Prolog runtime it carries |
 
@@ -106,3 +106,18 @@ sampling is out of reach, and a marking the score does not encode cannot constra
 verdict. The numeric policies are calibrated on a handful of performances, not on a corpus
 of student attempts, and should be re-tuned as traces accumulate. Cadenza reports objective
 parameters of an attempt; it is not a substitute for a teacher.
+
+## Licence
+
+Cadenza is released under the GNU General Public License, version 3. The full text is in
+[`LICENSE`](LICENSE). The application bundles
+[`@music-i18n/musicxml-player`](https://github.com/infojunkie/musicxml-player), which is
+GPL-3.0, and that is why the combined work carries the same licence. The other
+dependencies keep their own terms, all of them compatible with the GPL: React (MIT),
+OpenSheetMusicDisplay (BSD-3-Clause), webmidi.js (Apache-2.0), lucide-react (ISC),
+Partitura (Apache-2.0) and SWI-Prolog (BSD-2-Clause).
+
+The scores in `scores/` and `evaluation/fixtures/` are public-domain works or files the
+authors of this repository encoded themselves. Two arrangements used in an earlier round of
+measurements have been removed from the repository because their composers hold the
+copyright, and they were never part of the demonstration takes.

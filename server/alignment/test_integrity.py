@@ -32,7 +32,7 @@ from join import ScoreModel, join, to_jsonl
 
 SCORE_DEFAULT = os.path.join(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-    "The Legend of Zelda_ Great Fairy Fountain (Piano Cover) - con dinamiche.musicxml")
+    "evaluation", "fixtures", "exercise.musicxml")
 
 MS_PER_BEAT = 600.0          # 100 bpm: ogni battuta dura 600 ms
 ROUNDING = 0.005             # round(x, 2) sposta al massimo di mezzo centesimo
