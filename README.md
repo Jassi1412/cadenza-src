@@ -73,8 +73,8 @@ are rejected by ordering alone.
 | [`web-app/`](web-app/) | the browser application: capture, score rendering, verdict display |
 | [`server/`](server/) | the analysis service that joins a take with the score and writes the annotated trace |
 | [`rml/`](rml/) | the seven specifications and the Prolog monitors compiled from them |
-| [`scores/`](scores/) | the free scores the application parses, as MusicXML |
 | [`evaluation/`](evaluation/) | the measurements, their frozen expectations and the videos above |
+| [`evaluation/fixtures/`](evaluation/fixtures/) | a small score the harness runs on; a take played against it |
 | `render.yaml`, `vendor/` | deployment to Render and the Prolog runtime it carries |
 
 ## Running it locally
